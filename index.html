@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Régis · Goals 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+:root {
+  --bg: #efe9df;
+  --bg-soft: #f7f2ea;
+  --ink: #1f2a38;
+  --muted: #687385;
+  --navy: #21314f;
+  --teal: #1f8f8a;
+  --sky: #5b8def;
+  --sand: #f2e6cf;
+  --coral: #f5d8cf;
+  --mint: #dcebe3;
+  --paper: rgba(255,255,255,0.7);
+  --paper-strong: rgba(255,255,255,0.86);
+  --line: rgba(31,42,56,0.08);
+  --shadow: 0 18px 44px rgba(33,49,79,0.10);
+}
+body {
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Arial, sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(229,123,97,0.16), transparent 30%),
+    radial-gradient(circle at top right, rgba(31,143,138,0.14), transparent 32%),
+    linear-gradient(180deg, #f8f4ec 0%, #efe9df 60%, #e9e3d9 100%);
+  color: var(--ink);
+  overscroll-behavior: none;
+}
+::-webkit-scrollbar { display: none; }
+button { font-family: inherit; }
+input { font-family: inherit; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+@keyframes slideUp { from{transform:translateY(20px);opacity:0} to{transform:translateY(0);opacity:1} }
+@keyframes spin { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+@keyframes fadeIn { from{opacity:0;transform:translateY(20px)} to{opacity:1;transform:translateY(0)} }
+@keyframes strikeThrough { from{width:0} to{width:100%} }
+.slide-up { animation: slideUp 0.3s ease forwards; }
+.fade-in  { animation: fadeIn 0.25s ease forwards; }
+.serif { font-family: 'Fraunces', Georgia, serif; letter-spacing: -0.04em; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel">
+const { useState, useEffect, useRef, useCallback } = React;
+
+// ═══════════════════════════════════════════════════════
+// DATA
+// ═══════════════════════════════════════════════════════
+const CATS = {
+  Trading:     { emoji:'📈', color:'#1ABC9C', bg:'#0d2a24' },
+  Santé:       { emoji:'💊', color:'#E74C3C', bg:'#2a0d0d' },
+  Sport:       { emoji:'🏃', color:'#3498DB', bg:'#0d1f2e' },
+  Patrimoine:  { emoji:'🏠', color:'#9B59B6', bg:'#1e0d2a' },
+  'Good Life': { emoji:'✨', color:'#F39C12', bg:'#2a1e0d' },
+  Skills:      { emoji:'🧠', color:'#2ECC71', bg:'#0d2a18' },
+  Famille:     { emoji:'👨‍👧', color:'#E67E22', bg:'#2a1a0d' },
+  Culture:     { emoji:'📚', color:'#58a6ff', bg:'#0d1a2e' },
+  Projet:      { emoji:'🚀', color:'#8E44AD', bg:'#1a0d2e' },
+  Réseau:      { emoji:'🌐', color:'#2980B9', bg:'#0d1a28' },
+  Style:       { emoji:'👔', color:'#BDC3C7', bg:'#1a1e21' },
+};
+
+const HABITS_INIT = [
+  { id:1, name:'Étirements matin',      cat:'Santé',   icon:'🧘', done:false, streak:4,  goalId:4    }, // → Étirements quotidiens
+  { id:3, name:'Suivi trading (10 min)', cat:'Trading', icon:'📊', done:false, streak:12, goalId:null },
+  { id:4, name:'Sport du jour',          cat:'Sport',   icon:'💪', done:false, streak:3,  goalId:null },
+];
+
+const GOALS_INIT = [
+  { id:1,  cat:'Trading',     name:'Capital X Plan',                   cur:21543, tgt:50718, unit:'CHF',        pond:10, trim:'Q3',      inv:false },
+  { id:2,  cat:'Trading',     name:'10 stratégies backtestées',         cur:0,     tgt:10,    unit:'strat.',     pond:5,  trim:'Q2',      inv:false },
+  { id:3,  cat:'Trading',     name:'Analyse mensuelle',                 cur:2,     tgt:12,    unit:'mois',       pond:1.5,trim:'continu', inv:false },
+  { id:4,  cat:'Santé',       name:'Étirements quotidiens',             cur:4,     tgt:365,   unit:'jours',      pond:2.5,trim:'Q4',      inv:false },
+  { id:5,  cat:'Santé',       name:'Médecin bilan annuel',              cur:0,     tgt:1,     unit:'RDV',        pond:5,  trim:'Q1',      inv:false },
+  { id:6,  cat:'Sport',       name:'Sport 4×/semaine',                  cur:3,     tgt:4,     unit:'séances/sem',pond:5,  trim:'continu', inv:false },
+  { id:7,  cat:'Sport',       name:'TOP 50 squash',                     cur:78,    tgt:50,    unit:'rang',       pond:4,  trim:'Q4',      inv:true  },
+  { id:8,  cat:'Sport',       name:'Kitesurf – autonomie',              cur:0,     tgt:1,     unit:'validé',     pond:1,  trim:'Q3',      inv:false },
+  { id:9,  cat:'Sport',       name:'Poids cible 74 kg',                 cur:74,    tgt:74,    unit:'kg',         pond:2.5,trim:'✅',      inv:false },
+  { id:10, cat:'Patrimoine',  name:'Capital 400K all-in',               cur:351.2, tgt:400,   unit:'K CHF',      pond:4,  trim:'Q4',      inv:false },
+  { id:11, cat:'Patrimoine',  name:'0 dettes (11 500 CHF)',             cur:500,   tgt:11500, unit:'CHF remb.',  pond:4,  trim:'Q2',      inv:false },
+  { id:12, cat:'Patrimoine',  name:'Achat immobilier locatif',          cur:0,     tgt:1,     unit:'signé',      pond:25, trim:'Q3',      inv:false },
+  { id:13, cat:'Famille',     name:'6 weekends Paris',                  cur:0,     tgt:6,     unit:'WE',         pond:4,  trim:'étalé',   inv:false },
+  { id:14, cat:'Famille',     name:'Vacances 5 semaines programmées',   cur:0,     tgt:5,     unit:'semaines',   pond:10, trim:'Q2',      inv:false },
+  { id:15, cat:'Famille',     name:'Coparenting fonctionnel',           cur:0.02,  tgt:1,     unit:'score',      pond:10, trim:'Q1',      inv:false },
+  { id:16, cat:'Culture',     name:'20 livres lus',                     cur:1,     tgt:20,    unit:'livres',     pond:5,  trim:'Q4',      inv:false },
+  { id:18, cat:'Culture',     name:'24 mangas',                         cur:1,     tgt:24,    unit:'mangas',     pond:1,  trim:'Q4',      inv:false },
+  { id:19, cat:'Culture',     name:'12 sorties culturelles',            cur:0,     tgt:12,    unit:'sorties',    pond:1.5,trim:'Q4',      inv:false },
+  { id:20, cat:'Skills',      name:'Permis bateau',                     cur:0.02,  tgt:1,     unit:'complété',   pond:3,  trim:'Q2',      inv:false },
+  { id:21, cat:'Skills',      name:'Python – maîtrise trading',         cur:0.02,  tgt:1,     unit:'niveau',     pond:1.5,trim:'Q1',      inv:false },
+  { id:22, cat:'Projet',      name:'Bar débat – 1re soirée',            cur:0,     tgt:1,     unit:'lancé',      pond:5,  trim:'Q3',      inv:false },
+  { id:23, cat:'Projet',      name:'Café philo Pictet – créé',          cur:0,     tgt:1,     unit:'lancé',      pond:5,  trim:'Q2',      inv:false },
+  { id:24, cat:'Réseau',      name:'12 nouvelles personnes réseau',     cur:0,     tgt:12,    unit:'contacts',   pond:2,  trim:'Q4',      inv:false },
+  { id:25, cat:'Patrimoine', name:'Impôts 2025 — déclaration',        cur:0,     tgt:1,     unit:'déclaré',    pond:3,  trim:'Q2',      inv:false },
+];
+
+const INTERESTS_INIT = [
+  { id:'music',   name:'Musique & Concerts', icon:'🎵', active:true  },
+  { id:'philo',   name:'Philosophie',        icon:'🏛️', active:true  },
+  { id:'socio',   name:'Sociologie',         icon:'👥', active:true  },
+  { id:'squash',  name:'Squash & Sport',     icon:'🎾', active:true  },
+  { id:'famille', name:'Activités enfants',  icon:'👧', active:true  },
+  { id:'theatre', name:'Théâtre & Expo',     icon:'🎭', active:true  },
+  { id:'kite',    name:'Kitesurf',           icon:'🪁', active:false },
+  { id:'philo_p', name:'Philo Paris',        icon:'🗼', active:true  },
+];
+
+// ✅ ÉVÉNEMENTS VÉRIFIÉS — Fallback local si events.json n'est pas chargé
+const EVENTS_FALLBACK = [
+  { id:1,  int:'philo',   title:'Groupe vaudois de philosophie',    sub:'"Productivisme et aliénation" – S. Aumercier', date:'2026-04-01', loc:'Maison de Quartier Sous-Gare, Av. Dapples 50, Lausanne', type:'🏛️', dur:'~2h',  price:'Gratuit', hot:true,  url:'https://philo-vaud.ch/' },
+  { id:2,  int:'philo',   title:'Groupe vaudois de philosophie',    sub:'Rencontre avec J.-F. Aenishanslin',            date:'2026-04-22', loc:'Maison de Quartier Sous-Gare, Av. Dapples 50, Lausanne', type:'🏛️', dur:'~2h',  price:'Gratuit', hot:false, url:'https://philo-vaud.ch/' },
+  { id:3,  int:'philo',   title:'Café Philo – Benjamin Bar',        sub:'Discussion philosophique bilingue, dim. 19h',  date:'2026-04-05', loc:'Hôtel de la Paix, Av. Benjamin Constant 5, Lausanne',   type:'☕', dur:'~2h',  price:'Conso.',  hot:false, url:'https://www.cafe-philo.ch/' },
+  { id:4,  int:'music',   title:'Namir + Proxima – Les Docks',      sub:'Concert – billetterie ouverte',                date:'2026-04-16', loc:'Les Docks, Av. de Sévelin 34, Lausanne',               type:'🎤', dur:'~2h',  price:'~30 CHF', hot:false, url:'https://www.docks.ch/en/programme/' },
+  { id:5,  int:'music',   title:'Monkeys on Mars – Café des Docks', sub:'Concert intime – entrée libre',                date:'2026-04-17', loc:'Les Docks, Av. de Sévelin 34, Lausanne',               type:'🎧', dur:'~1h30', price:'Gratuit', hot:false, url:'https://www.docks.ch/en/programme/' },
+  { id:6,  int:'music',   title:'Black Sea Dahu – Les Docks',       sub:'Everything Tour – derniers billets !',         date:'2026-04-30', loc:'Les Docks, Av. de Sévelin 34, Lausanne',               type:'🎤', dur:'~2h',  price:'39–42 CHF', hot:false, url:'https://www.songkick.com/concerts/42618595-black-sea-dahu-at-les-docks' },
+  { id:7,  int:'squash',  title:'Tournoi Vendredi soir – Genève',   sub:'Squash Romandie – ranking officiel',           date:'2026-04-17', loc:'Genève (45min de Lausanne)',                            type:'🎾', dur:'~3h',  price:'~25 CHF', hot:false, url:'https://squashromandie.ch/' },
+  { id:8,  int:'squash',  title:'Tournoi de Puidoux',               sub:'Spécial fête des Mères – ranking cantonal',    date:'2026-04-30', loc:'Puidoux (20min de Lausanne)',                           type:'🎾', dur:'1 jour', price:'~30 CHF', hot:false, url:'https://squashromandie.ch/' },
+  { id:9,  int:'squash',  title:'Fun Tour Finale #4 – LAUSANNE',    sub:'Dernière manche – à ne pas rater pour le ranking !', date:'2026-05-09', loc:'Lausanne',                                 type:'🎾', dur:'1 jour', price:'~30 CHF', hot:false, url:'https://squashromandie.ch/' },
+  { id:10, int:'famille', title:'PâKOMUZé – 41 musées vaudois',     sub:'100+ animations gratuites pour enfants & familles', date:'2026-04-03', loc:'41 musées du canton de Vaud dont Lausanne',      type:'🏛️', dur:'vacances', price:'Gratuit / réduit', hot:true, url:'https://www.loisirs.ch/agendas/30062/pakomuze-vos-vacances-de-paques-dans-41-musees-vaudois' },
+  { id:11, int:'famille', title:'Grande Chasse aux Œufs – Moudon',  sub:'2 parcours selon âge (0-6 ans / 7-12 ans)',    date:'2026-03-29', loc:'Moudon (35min de Lausanne)',                            type:'🥚', dur:'~2h',  price:'Gratuit', hot:true,  url:'https://lausanne.evous.ch/en-famille/chasses-aux-oeufs-de-paques/' },
+  { id:12, int:'famille', title:'Brunch de Pâques – Lausanne Palace', sub:'Ferme pédagogique & atelier céramique enfants', date:'2026-04-05', loc:'Lausanne Palace, Lausanne',                        type:'🍳', dur:'~3h',  price:'À confirmer', hot:false, url:'https://www.loisirs.ch/' },
+  { id:13, int:'famille', title:'Stage Pâques SportUnity',          sub:'Camp de jour 3–8 ans, activités ludiques',     date:'2026-04-13', loc:'Lausanne',                                              type:'⚽', dur:'5 jours', price:'475 CHF/sem', hot:false, url:'https://leman.events/camps-de-paques-2026-autour-de-geneve-et-lausanne-notre-selection-pour-les-enfants/' },
+  { id:14, int:'famille', title:'Fête de la Tulipe – Morges',       sub:'140 000 tulipes – animations WE en famille',   date:'2026-03-27', loc:'Parc de l\'Indépendance, Morges (20min)',               type:'🌸', dur:'libre', price:'Entrée libre', hot:true, url:'https://lausanne.evous.ch/en-famille/chasses-aux-oeufs-de-paques/' },
+  { id:15, int:'music',   title:'Mosimann – Les Docks',             sub:'DJ Set – electronic',                          date:'2026-03-26', loc:'Les Docks, Av. de Sévelin 34, Lausanne',               type:'🎧', dur:'~3h',  price:'~25 CHF', hot:true,  url:'https://www.docks.ch/en/evenement/concerts-en/20260326/mosimann/' },
+];
+const EVENTS_JSON_URL = './events.json';
+
+const AGENDA_INIT = [
+  { id:1, day:1, time:'09:00', dur:30,  cat:'Trading',  title:'Review trading',       emoji:'📊' },
+  { id:2, day:1, time:'12:30', dur:60,  cat:'Sport',    title:'Squash – cours',       emoji:'🎾' },
+  { id:3, day:2, time:'08:30', dur:90,  cat:'Skills',   title:'Réunion IRIS',         emoji:'🧠' },
+  { id:4, day:3, time:'20:00', dur:120, cat:'Culture',  title:'Café philo Picpic',    emoji:'🏛️' },
+  { id:5, day:4, time:'12:00', dur:90,  cat:'Famille',  title:'Déjeuner Cléo',        emoji:'👧' },
+  { id:6, day:5, time:'18:00', dur:60,  cat:'Sport',    title:'Fitness',              emoji:'💪' },
+  { id:7, day:6, time:'09:00', dur:480, cat:'Famille',  title:'Weekend Paris',        emoji:'🗼' },
+];
+
+// ── Tâches urgentes liées aux objectifs (goalId → id dans GOALS_INIT)
+const URGENT_TASKS = [
+  { id:1, icon:'🏥', text:'RDV Médecin — bilan annuel',          color:'#e74c3c', cat:'Santé',      goalId:5    },
+  { id:2, icon:'🔬', text:'Cancer check — alerte 2027',          color:'#e74c3c', cat:'Santé',      goalId:null },
+  { id:3, icon:'🏫', text:'Scolarité enfants — confirmer Lutry', color:'#f39c12', cat:'Famille',    goalId:null },
+  { id:4, icon:'📄', text:'Papier Parrain appart 20e',           color:'#f39c12', cat:'Patrimoine', goalId:null },
+  { id:5, icon:'💰', text:'Impôts 2024 — dossier remboursement', color:'#f39c12', cat:'Patrimoine', goalId:null },
+  { id:6, icon:'📋', text:'Impôts 2025 — déclaration à faire',   color:'#f39c12', cat:'Patrimoine', goalId:25   },
+];
+
+const WEEK_DAYS  = ['Lun','Mar','Mer','Jeu','Ven','Sam','Dim'];
+const MONTHS_FR  = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+const DAYS_FR    = ['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
+
+// Calcul dynamique de la semaine courante (lundi → dimanche)
+const getCurrentWeek = () => {
+  const today = new Date();
+  const dow   = today.getDay();
+  const diff  = (dow === 0) ? -6 : 1 - dow;
+  const monday = new Date(today);
+  monday.setDate(today.getDate() + diff);
+  return Array.from({ length: 7 }, (_, i) => {
+    const d = new Date(monday);
+    d.setDate(monday.getDate() + i);
+    return d;
+  });
+};
+
+const WEEK_DATES_OBJ = getCurrentWeek();
+const WEEK_DATES     = WEEK_DATES_OBJ.map(d => d.getDate());
+const WEEK_MONTH     = MONTHS_FR[WEEK_DATES_OBJ[0].getMonth()];
+const WEEK_LABEL     = `Semaine du ${WEEK_DATES_OBJ[0].getDate()} ${MONTHS_FR[WEEK_DATES_OBJ[0].getMonth()]} ${WEEK_DATES_OBJ[0].getFullYear()}`;
+
+// Aujourd'hui
+const TODAY_OBJ   = new Date();
+const TODAY_DOW   = TODAY_OBJ.getDay();
+const TODAY_LABEL = `${DAYS_FR[TODAY_DOW].charAt(0).toUpperCase()+DAYS_FR[TODAY_DOW].slice(1)} ${TODAY_OBJ.getDate()} ${MONTHS_FR[TODAY_OBJ.getMonth()]} ${TODAY_OBJ.getFullYear()}`;
+const TODAY_IDX   = TODAY_DOW === 0 ? 6 : TODAY_DOW - 1;
+
+// ═══════════════════════════════════════════════════════
+// UTILS
+// ═══════════════════════════════════════════════════════
+const getPct = (g) => {
+  if (g.tgt === 0) return 100;
+  if (g.inv) return Math.min(100, Math.max(0, ((78 - g.cur) / (78 - g.tgt)) * 100));
+  return Math.min(100, (g.cur / g.tgt) * 100);
+};
+const pctColor = (p) => p >= 80 ? '#2ecc71' : p >= 40 ? '#f39c12' : p > 0 ? '#e67e22' : '#636e72';
+const fmtDate  = (s) => new Date(s).toLocaleDateString('fr-FR', { weekday:'short', day:'numeric', month:'short' });
+const isSameDay = (a, b) => a.toDateString() === b.toDateString();
+
+// Score global pondéré — calculé depuis les 24 objectifs
+const calcScore = (goals) => {
+  const totalPond  = goals.reduce((s, g) => s + g.pond, 0);
+  if (totalPond === 0) return 0;
+  const weightedSum = goals.reduce((s, g) => s + getPct(g) * g.pond, 0);
+  return Math.round(weightedSum / totalPond);
+};
+
+// Couleur du score global
+const scoreColor = (s) => s >= 70 ? '#2ecc71' : s >= 40 ? '#f39c12' : '#e74c3c';
+
+// ═══════════════════════════════════════════════════════
+// BASE COMPONENTS
+// ═══════════════════════════════════════════════════════
+const Bar = ({ pct, color, h=6 }) => (
+  <div style={{ background:'rgba(31,42,56,0.08)', borderRadius:999, height:h, overflow:'hidden' }}>
+    <div style={{ background:`linear-gradient(90deg,${color},${color}bb)`, width:`${pct}%`, height:'100%', borderRadius:999, transition:'width 0.5s ease' }} />
+  </div>
+);
+
+const Card = ({ children, style={}, onClick }) => (
+  <div onClick={onClick} style={{
+    background:'var(--paper)',
+    borderRadius:22,
+    border:'1px solid rgba(255,255,255,0.8)',
+    boxShadow:'var(--shadow)',
+    backdropFilter:'blur(14px)',
+    ...style
+  }}>
+    {children}
+  </div>
+);
+
+const TabHeader = ({ title, sub, extra }) => (
+  <div style={{
+    background:'radial-gradient(circle at top right, rgba(255,255,255,0.18), transparent 28%), linear-gradient(135deg,#21314f,#30476f)',
+    padding:'32px 20px 18px',
+    color:'#fff'
+  }}>
+    <div className="serif" style={{ fontSize:30, fontWeight:700, marginBottom:4 }}>{title}</div>
+    <div style={{ fontSize:13, color:'rgba(255,255,255,0.74)' }}>{sub}</div>
+    {extra}
+  </div>
+);
+
+const Chip = ({ label, active, onClick, color='#58a6ff' }) => (
+  <button onClick={onClick} style={{
+    whiteSpace:'nowrap', padding:'8px 14px', borderRadius:999, border:`1px solid ${active ? 'transparent' : 'rgba(31,42,56,0.08)'}`,
+    background: active ? color : 'rgba(255,255,255,0.7)', color: active ? '#fff' : 'var(--muted)',
+    fontSize:12, fontWeight:700, cursor:'pointer', transition:'all 0.2s'
+  }}>{label}</button>
+);
+
+const SectionTitle = ({ children, color='#8b949e' }) => (
+  <div style={{ fontSize:11, fontWeight:800, color, letterSpacing:'0.14em', textTransform:'uppercase', marginBottom:10 }}>{children}</div>
+);
+
+// ═══════════════════════════════════════════════════════
+// TODAY TAB — avec logique de complétion des urgences
+// ═══════════════════════════════════════════════════════
+const TodayTab = ({ habits, goals, toggleHabit }) => {
+  const done        = habits.filter(h=>h.done).length;
+  const pct         = Math.round(done/habits.length*100);
+  const globalScore = calcScore(goals);
+  const gColor      = scoreColor(globalScore);
+
+  // Métriques dynamiques depuis les goals
+  const tradingG  = goals.find(g => g.id === 1);
+  const patrimoG  = goals.find(g => g.id === 10);
+  const squashG   = goals.find(g => g.id === 7);
+  const tradingVal = tradingG ? Math.round(tradingG.cur).toLocaleString('fr-CH') : '—';
+  const patriVal   = patrimoG ? `${patrimoG.cur}K` : '—';
+  const squashVal  = squashG  ? `#${squashG.cur}`  : '#78';
+  const tradingPct = tradingG ? getPct(tradingG) : 0;
+  const patriPct   = patrimoG ? getPct(patrimoG) : 0;
+
+  // État local : IDs des tâches urgentes cochées manuellement
+  const [urgentDone, setUrgentDone] = useState(new Set());
+
+  const toggleUrgent = (id) => {
+    setUrgentDone(prev => {
+      const s = new Set(prev);
+      s.has(id) ? s.delete(id) : s.add(id);
+      return s;
+    });
+  };
+
+  // Filtre : disparaît si coché manuellement OU si l'objectif lié est à 100%
+  const visibleUrgent = URGENT_TASKS.filter(u => {
+    if (urgentDone.has(u.id)) return false;
+    if (u.goalId !== null) {
+      const g = goals.find(g => g.id === u.goalId);
+      if (g && getPct(g) >= 100) return false;
+    }
+    return true;
+  });
+
+  const topGoals = goals.filter(g => g.pond >= 4).slice(0, 4);
+
+  return (
+    <div className="slide-up">
+      <div style={{ background:'radial-gradient(circle at top right, rgba(217,172,83,0.22), transparent 28%), linear-gradient(135deg,#1d314c,#2d4f63)', padding:'32px 20px 20px' }}>
+        <div style={{ display:'inline-flex', alignItems:'center', gap:8, padding:'8px 12px', borderRadius:999, background:'rgba(255,255,255,0.12)', color:'rgba(255,255,255,0.78)', fontSize:11, fontWeight:800, letterSpacing:'0.08em', textTransform:'uppercase', marginBottom:12 }}>
+          <span>Life OS</span>
+          <span>{TODAY_LABEL}</span>
+        </div>
+        <div className="serif" style={{ fontSize:34, lineHeight:0.96, color:'#fff', marginBottom:10 }}>Bonjour Régis.<br />Vue d'ensemble du jour.</div>
+        <div style={{ fontSize:14, color:'rgba(255,255,255,0.74)', lineHeight:1.5, marginBottom:16 }}>
+          Une home plus visuelle, plus propre et plus orientée priorités que la version initiale.
+        </div>
+        <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:10, marginBottom:12 }}>
+          <Card style={{ padding:16, gridColumn:'span 2', background:'var(--paper-strong)' }}>
+            <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:8 }}>
+              <span style={{ fontSize:12, fontWeight:800, color:'var(--muted)', letterSpacing:'0.12em', textTransform:'uppercase' }}>Score annuel</span>
+              <span style={{ fontSize:28, fontWeight:800, color: gColor }}>{globalScore}%</span>
+            </div>
+            <Bar pct={globalScore} color={gColor} h={8} />
+            <div style={{ fontSize:12, color:'var(--muted)', marginTop:8 }}>
+              Trajectoire globale 2026 avec routines, patrimoine et objectifs structurants.
+            </div>
+          </Card>
+          <Card style={{ padding:16, background:'var(--coral)' }}>
+            <div style={{ fontSize:11, color:'#8f5b4c', fontWeight:800, letterSpacing:'0.12em', textTransform:'uppercase' }}>Routines</div>
+            <div style={{ fontSize:28, fontWeight:800, color:'#8a4338', margin:'4px 0' }}>{done}/{habits.length}</div>
+            <div style={{ fontSize:12, color:'#8f5b4c' }}>{pct}% complété</div>
+          </Card>
+          <Card style={{ padding:16, background:'var(--mint)' }}>
+            <div style={{ fontSize:11, color:'#3b6a62', fontWeight:800, letterSpacing:'0.12em', textTransform:'uppercase' }}>Focus</div>
+            <div style={{ fontSize:28, fontWeight:800, color:'var(--teal)', margin:'4px 0' }}>{topGoals.length}</div>
+            <div style={{ fontSize:12, color:'#3b6a62' }}>objectifs majeurs suivis</div>
+          </Card>
+        </div>
+        <Card style={{ padding:16, border:'1px solid rgba(255,255,255,0.72)', background:'rgba(255,255,255,0.76)' }}>
+          <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:8 }}>
+            <span style={{ fontSize:14, fontWeight:700, color:'var(--ink)' }}>Routines du jour</span>
+            <span style={{ fontSize:22, fontWeight:800, color: pct===100?'#2ecc71':'var(--sky)' }}>{done}/{habits.length}</span>
+          </div>
+          <Bar pct={pct} color={pct===100?'#2ecc71':'#58a6ff'} h={8} />
+          <div style={{ fontSize:12, color:'var(--muted)', marginTop:6 }}>
+            {pct}% complété — Score annuel actuel : <b style={{color: gColor}}>{globalScore}%</b>
+          </div>
+        </Card>
+      </div>
+
+      <div style={{ padding:'16px 20px' }}>
+        {/* Habitudes */}
+        <SectionTitle>🌅 Habitudes quotidiennes</SectionTitle>
+        {habits.map(h => (
+          <div key={h.id} onClick={()=>toggleHabit(h.id)} style={{
+            display:'flex', alignItems:'center', gap:12,
+            background: h.done?'#0d2a1e':'#161b22',
+            border:`1px solid ${h.done?'#2ea043':'#30363d'}`,
+            borderRadius:12, padding:'13px 14px', marginBottom:8, cursor:'pointer', transition:'all 0.2s'
+          }}>
+            <div style={{
+              width:26, height:26, borderRadius:'50%',
+              background: h.done?'#2ea043':'#21262d',
+              border:`2px solid ${h.done?'#2ea043':'#30363d'}`,
+              display:'flex', alignItems:'center', justifyContent:'center',
+              fontSize:13, color:'#fff', flexShrink:0, transition:'all 0.2s'
+            }}>{h.done?'✓':''}</div>
+            <span style={{ fontSize:22 }}>{h.icon}</span>
+            <div style={{ flex:1 }}>
+              <div style={{ fontSize:14, fontWeight:600, color: h.done?'#2ecc71':'#f0f0f0', textDecoration: h.done?'line-through':'none' }}>{h.name}</div>
+              <div style={{ fontSize:11, color:'#8b949e' }}>{h.cat} · 🔥 Streak : {h.streak} jours</div>
+            </div>
+          </div>
+        ))}
+
+        {/* Urgences */}
+        <div style={{ marginTop:20 }}>
+          <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:10 }}>
+            <SectionTitle color='#e74c3c'>⚠️ Urgences Q1</SectionTitle>
+            {visibleUrgent.length < URGENT_TASKS.length && (
+              <span style={{ fontSize:11, color:'#2ecc71', fontWeight:600 }}>
+                ✓ {URGENT_TASKS.length - visibleUrgent.length} réglée(s)
+              </span>
+            )}
+          </div>
+
+          {visibleUrgent.length === 0 ? (
+            <div style={{
+              textAlign:'center', padding:'20px', background:'#0d2a1e',
+              border:'1px solid #2ea043', borderRadius:12,
+            }}>
+              <div style={{ fontSize:28, marginBottom:6 }}>🎉</div>
+              <div style={{ fontSize:14, color:'#2ecc71', fontWeight:600 }}>Toutes les urgences sont réglées !</div>
+            </div>
+          ) : (
+            visibleUrgent.map(u => {
+              const linkedGoal = u.goalId ? goals.find(g => g.id === u.goalId) : null;
+              const linkedPct  = linkedGoal ? getPct(linkedGoal) : null;
+              return (
+                <div key={u.id} style={{
+                  display:'flex', alignItems:'center', gap:10,
+                  background:'#161b22', borderLeft:`3px solid ${u.color}`,
+                  borderRadius:'0 10px 10px 0', padding:'10px 14px', marginBottom:6,
+                  cursor:'pointer', transition:'all 0.2s',
+                  opacity: urgentDone.has(u.id) ? 0.4 : 1
+                }}>
+                  {/* Checkbox manuel */}
+                  <button onClick={()=>toggleUrgent(u.id)} style={{
+                    width:22, height:22, borderRadius:6, flexShrink:0,
+                    background: urgentDone.has(u.id)?'#2ea043':'#21262d',
+                    border:`2px solid ${urgentDone.has(u.id)?'#2ea043':'#30363d'}`,
+                    cursor:'pointer', color:'#fff', fontSize:12,
+                    display:'flex', alignItems:'center', justifyContent:'center'
+                  }}>{urgentDone.has(u.id)?'✓':''}</button>
+
+                  <span style={{ fontSize:18 }}>{u.icon}</span>
+                  <div style={{ flex:1 }}>
+                    <div style={{ fontSize:13, color:'#d0d0d0' }}>{u.text}</div>
+                    <div style={{ display:'flex', gap:8, alignItems:'center', marginTop:3 }}>
+                      <span style={{ fontSize:10, color:CATS[u.cat]?.color||'#888' }}>{u.cat}</span>
+                      {linkedGoal && (
+                        <span style={{ fontSize:10, color:'#8b949e' }}>
+                          · Objectif lié : {linkedPct.toFixed(0)}%
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                  <div style={{ fontSize:11, color:'#8b949e' }}>Tap ✓</div>
+                </div>
+              );
+            })
+          )}
+        </div>
+
+        {/* Métriques clés */}
+        <div style={{ marginTop:20 }}>
+          <SectionTitle>📊 Métriques clés</SectionTitle>
+          <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:10 }}>
+            {[
+              { label:'Capital Trading', val: tradingVal,        sub:'→ 50 718 CHF',  pct: tradingPct, color:'#1abc9c' },
+              { label:'Patrimoine',      val: patriVal,          sub:'→ 400K CHF',    pct: patriPct,   color:'#9b59b6' },
+              { label:'Squash rang',     val: squashVal,         sub:'→ TOP 50',      pct:0,           color:'#3498db', bar:false },
+              { label:'Score annuel',    val:`${globalScore}%`,  sub:'objectif 95%',  pct:globalScore, color: gColor   },
+            ].map((m,i)=>(
+              <Card key={i} style={{ padding:14 }}>
+                <div style={{ fontSize:11, color:'#8b949e', marginBottom:4 }}>{m.label}</div>
+                <div style={{ fontSize:24, fontWeight:700, color:m.color, marginBottom:2 }}>{m.val}</div>
+                <div style={{ fontSize:11, color:'#666', marginBottom:8 }}>{m.sub}</div>
+                {m.bar!==false && <Bar pct={m.pct} color={m.color} h={4} />}
+              </Card>
+            ))}
+          </div>
+        </div>
+
+        {/* Top priorités */}
+        <div style={{ marginTop:20 }}>
+          <SectionTitle>🔥 Top priorités 2026</SectionTitle>
+          {topGoals.map(g => {
+            const p = getPct(g), c = pctColor(p);
+            return (
+              <Card key={g.id} style={{ padding:'12px 14px', marginBottom:8 }}>
+                <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:8 }}>
+                  <div>
+                    <span style={{ fontSize:11, color:CATS[g.cat]?.color||'#aaa', fontWeight:600 }}>{CATS[g.cat]?.emoji} {g.cat}</span>
+                    <div style={{ fontSize:13, fontWeight:600, color:'#f0f0f0' }}>{g.name}</div>
+                  </div>
+                  <span style={{ fontSize:18, fontWeight:700, color:c }}>{p.toFixed(0)}%</span>
+                </div>
+                <Bar pct={p} color={c} h={5} />
+              </Card>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// ═══════════════════════════════════════════════════════
+// GOALS TAB
+// ═══════════════════════════════════════════════════════
+const GoalsTab = ({ goals, setGoals }) => {
+  const [catFilter, setCatFilter] = useState('Tous');
+  const [editing,   setEditing]   = useState(null);
+  const [editVal,   setEditVal]   = useState('');
+  const [voiceActive, setVoice]   = useState(false);
+  const [note,      setNote]      = useState('');
+  const globalScore = calcScore(goals);
+  const gColor      = scoreColor(globalScore);
+
+  const cats     = ['Tous', ...Object.keys(CATS).filter(c => goals.some(g=>g.cat===c))];
+  const filtered = catFilter==='Tous' ? goals : goals.filter(g=>g.cat===catFilter);
+
+  const save = (id) => {
+    const v = parseFloat(editVal);
+    if (!isNaN(v)) setGoals(prev=>prev.map(g=>g.id===id?{...g,cur:v}:g));
+    setEditing(null);
+  };
+
+  const startVoice = () => {
+    if (!('webkitSpeechRecognition' in window || 'SpeechRecognition' in window)) {
+      alert('La reconnaissance vocale n\'est pas disponible sur ce navigateur. Utilisez Chrome ou Safari.');
+      return;
+    }
+    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const r = new SR();
+    r.lang = 'fr-FR'; r.interimResults = false;
+    setVoice(true);
+    r.onresult = (e) => {
+      const t = e.results[0][0].transcript;
+      setNote(t);
+      setVoice(false);
+      const nums = t.match(/\d+(?:[.,]\d+)?/g);
+      if (nums && editing) setEditVal(nums[0].replace(',','.'));
+    };
+    r.onerror = () => setVoice(false);
+    r.onend   = () => setVoice(false);
+    r.start();
+  };
+
+  return (
+    <div className="slide-up">
+      <TabHeader title="🎯 Objectifs 2026" sub={`${goals.length} objectifs · Score global`} extra={
+        <div style={{ marginTop:10, display:'flex', alignItems:'center', gap:10 }}>
+          <div style={{ flex:1 }}>
+            <div style={{ background:'#21262d', borderRadius:999, height:8, overflow:'hidden' }}>
+              <div style={{ background:`linear-gradient(90deg,${gColor},${gColor}bb)`, width:`${globalScore}%`, height:'100%', borderRadius:999, transition:'width 0.8s ease' }} />
+            </div>
+          </div>
+          <span style={{ fontSize:22, fontWeight:800, color: gColor, minWidth:48, textAlign:'right' }}>{globalScore}%</span>
+        </div>
+      } />
+      <div style={{ overflowX:'auto', padding:'12px 20px 8px', display:'flex', gap:8 }}>
+        {cats.map(c=><Chip key={c} label={c} active={catFilter===c} onClick={()=>setCatFilter(c)} />)}
+      </div>
+      {voiceActive && (
+        <div style={{ margin:'0 20px 10px', background:'#0d2a3e', border:'1px solid #58a6ff', borderRadius:12, padding:'12px 16px', display:'flex', alignItems:'center', gap:10 }}>
+          <div style={{ width:10, height:10, borderRadius:'50%', background:'#e74c3c', animation:'pulse 1s infinite' }} />
+          <span style={{ fontSize:13, color:'#58a6ff' }}>🎤 Écoute en cours… Dites le nouveau chiffre</span>
+        </div>
+      )}
+      {note && <div style={{ margin:'0 20px 10px', background:'#0d2a1e', borderRadius:10, padding:'10px 14px', fontSize:12, color:'#2ecc71' }}>📝 Reconnu : "{note}"</div>}
+      <div style={{ padding:'0 20px 20px' }}>
+        {filtered.sort((a,b)=>b.pond-a.pond).map(g=>{
+          const p=getPct(g), c=pctColor(p), isE=editing===g.id;
+          return (
+            <Card key={g.id} style={{ padding:16, marginBottom:10, border:`1px solid ${isE?'#58a6ff':'#30363d'}` }}>
+              <div style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-start', marginBottom:10 }}>
+                <div style={{ flex:1 }}>
+                  <div style={{ fontSize:11, color:CATS[g.cat]?.color||'#aaa', fontWeight:600, marginBottom:2 }}>{CATS[g.cat]?.emoji} {g.cat}</div>
+                  <div style={{ fontSize:15, fontWeight:600 }}>{g.name}</div>
+                </div>
+                <div style={{ display:'flex', gap:6, flexShrink:0 }}>
+                  <span style={{ fontSize:10, background:'#21262d', color:'#8b949e', padding:'3px 8px', borderRadius:6 }}>{g.trim}</span>
+                  <span style={{ fontSize:10, background:`${CATS[g.cat]?.bg||'#21262d'}`, color:CATS[g.cat]?.color||'#f39c12', padding:'3px 8px', borderRadius:6 }}>★{g.pond}</span>
+                </div>
+              </div>
+              <Bar pct={p} color={c} h={6} />
+              <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginTop:8 }}>
+                <div>
+                  <span style={{ fontSize:18, fontWeight:700, color:c }}>{p.toFixed(0)}%</span>
+                  <span style={{ fontSize:11, color:'#8b949e', marginLeft:8 }}>{g.cur} / {g.tgt} {g.unit}</span>
+                </div>
+                {isE ? (
+                  <div style={{ display:'flex', gap:6, alignItems:'center' }}>
+                    <button onClick={startVoice} title="Mise à jour vocale" style={{ background:'#1a3a5c', border:'1px solid #58a6ff', color:'#58a6ff', borderRadius:8, padding:'5px 8px', cursor:'pointer', fontSize:14 }}>🎤</button>
+                    <input type="number" value={editVal} onChange={e=>setEditVal(e.target.value)}
+                      onKeyDown={e=>e.key==='Enter'&&save(g.id)}
+                      style={{ width:80, background:'#0d1117', border:'1px solid #58a6ff', borderRadius:8, padding:'5px 8px', color:'#f0f0f0', fontSize:13 }} autoFocus />
+                    <button onClick={()=>save(g.id)} style={{ background:'#2ea043', color:'#fff', border:'none', borderRadius:8, padding:'5px 10px', cursor:'pointer', fontSize:13 }}>✓</button>
+                    <button onClick={()=>setEditing(null)} style={{ background:'#21262d', color:'#8b949e', border:'none', borderRadius:8, padding:'5px 10px', cursor:'pointer', fontSize:13 }}>✕</button>
+                  </div>
+                ) : (
+                  <button onClick={()=>{setEditing(g.id);setEditVal(String(g.cur));setNote('');}} style={{
+                    background:'#21262d', color:'#8b949e', border:'1px solid #30363d',
+                    borderRadius:8, padding:'5px 12px', cursor:'pointer', fontSize:12,
+                    display:'flex', alignItems:'center', gap:4
+                  }}>✏️ Mettre à jour</button>
+                )}
+              </div>
+            </Card>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+
+// ═══════════════════════════════════════════════════════
+// SENTINELLE TAB
+// ═══════════════════════════════════════════════════════
+const SentinelTab = ({ interests, setInterests, onAddToAgenda, eventsDb, eventsSource }) => {
+  const [scanning,    setScanning]    = useState(false);
+  const [lastScan,    setLastScan]    = useState("Aujourd'hui à 06:00");
+  const [newInterest, setNewInterest] = useState('');
+  const [showAdd,     setShowAdd]     = useState(false);
+
+  // Filtrer les événements passés + calcul dynamique "hot" (≤ 7 jours)
+  const todayStart = (() => { const d = new Date(); d.setHours(0,0,0,0); return d; })();
+  const daysFromNow = (dateStr) => Math.round((new Date(dateStr).setHours(0,0,0,0) - todayStart.getTime()) / 86400000);
+  const active   = interests.filter(i=>i.active).map(i=>i.id);
+  const filtered = eventsDb.filter(e => active.includes(e.int) && daysFromNow(e.date) >= 0);
+  const hot      = filtered.filter(e => daysFromNow(e.date) <= 7);
+  const rest     = filtered.filter(e => daysFromNow(e.date) > 7);
+
+  const toggleInt = (id) => setInterests(prev=>prev.map(i=>i.id===id?{...i,active:!i.active}:i));
+  const scan = () => { setScanning(true); setTimeout(()=>{ setScanning(false); setLastScan('À l\'instant'); }, 2200); };
+
+  const addCustomInterest = () => {
+    if (newInterest.trim()) {
+      setInterests(prev=>[...prev,{id:`custom_${Date.now()}`,name:newInterest.trim(),icon:'⭐',active:true}]);
+      setNewInterest(''); setShowAdd(false);
+    }
+  };
+
+  return (
+    <div className="slide-up">
+      <div style={{ background:'linear-gradient(135deg,#0d1b2a,#1a1a2e)', padding:'28px 20px 16px' }}>
+        <div style={{ fontSize:28, fontWeight:700, marginBottom:4 }}>🔭 Sentinelle</div>
+        <div style={{ fontSize:13, color:'#8b949e', marginBottom:12 }}>
+          Dernier scan : {lastScan} · {filtered.length} événements trouvés
+        </div>
+        <div style={{ display:'flex', gap:10, alignItems:'center', flexWrap:'wrap' }}>
+          <div style={{ display:'inline-flex', alignItems:'center', gap:8, background:'#0d2a1e', border:'1px solid #2ea043', borderRadius:999, padding:'6px 14px' }}>
+            <div style={{ width:8, height:8, borderRadius:'50%', background:'#2ecc71', animation:'pulse 2s infinite' }} />
+            <span style={{ fontSize:12, color:'#2ecc71', fontWeight:600 }}>Active — Scan quotidien 06h00</span>
+          </div>
+          <button onClick={scan} style={{
+            background: scanning?'#21262d':'#0d2a3e', border:'1px solid #58a6ff', color:'#58a6ff',
+            borderRadius:999, padding:'6px 16px', cursor:'pointer', fontSize:12, fontWeight:600,
+            display:'flex', alignItems:'center', gap:6
+          }}>
+            <span style={{ display:'inline-block', animation: scanning?'spin 1s linear infinite':'none' }}>🔄</span>
+            {scanning?'Scan en cours…':'Scanner maintenant'}
+          </button>
+          <div style={{
+            display:'inline-flex', alignItems:'center', gap:6, padding:'6px 12px', borderRadius:999,
+            background:'rgba(255,255,255,0.12)', border:'1px solid rgba(255,255,255,0.14)',
+            color:'rgba(255,255,255,0.78)', fontSize:11, fontWeight:700
+          }}>
+            Source: {eventsSource}
+          </div>
+        </div>
+      </div>
+
+      <div style={{ padding:'16px 20px' }}>
+        <SectionTitle>Mes centres d'intérêt</SectionTitle>
+        <div style={{ display:'flex', flexWrap:'wrap', gap:8, marginBottom:16 }}>
+          {interests.map(i=>(
+            <button key={i.id} onClick={()=>toggleInt(i.id)} style={{
+              display:'flex', alignItems:'center', gap:6, padding:'7px 13px',
+              borderRadius:999, border:`1px solid ${i.active?'#2ea043':'#30363d'}`,
+              background: i.active?'#0d2a1e':'#21262d', color: i.active?'#2ecc71':'#8b949e',
+              fontSize:12, fontWeight:600, cursor:'pointer', transition:'all 0.2s'
+            }}>
+              <span>{i.icon}</span><span>{i.name}</span>
+            </button>
+          ))}
+          <button onClick={()=>setShowAdd(v=>!v)} style={{
+            display:'flex', alignItems:'center', gap:4, padding:'7px 13px',
+            borderRadius:999, border:'1px dashed #30363d', background:'transparent',
+            color:'#8b949e', fontSize:12, cursor:'pointer'
+          }}>+ Ajouter</button>
+        </div>
+        {showAdd && (
+          <div style={{ display:'flex', gap:8, marginBottom:16 }}>
+            <input value={newInterest} onChange={e=>setNewInterest(e.target.value)}
+              onKeyDown={e=>e.key==='Enter'&&addCustomInterest()}
+              placeholder="Ex : Jazz, Peinture, Tennis…"
+              style={{ flex:1, background:'#161b22', border:'1px solid #58a6ff', borderRadius:10, padding:'8px 12px', color:'#f0f0f0', fontSize:13 }} />
+            <button onClick={addCustomInterest} style={{ background:'#58a6ff', color:'#000', border:'none', borderRadius:10, padding:'8px 16px', cursor:'pointer', fontSize:13, fontWeight:600 }}>+</button>
+          </div>
+        )}
+        {hot.length>0 && (
+          <div style={{ marginBottom:8 }}>
+            <SectionTitle color='#e74c3c'>⚡ Imminent — Cette semaine (≤ 7 jours)</SectionTitle>
+            {hot.map(e=><EventCard key={e.id} e={e} onAdd={onAddToAgenda} />)}
+          </div>
+        )}
+        {rest.length>0 && (
+          <div>
+            <SectionTitle>📅 Prochainement</SectionTitle>
+            {rest.map(e=><EventCard key={e.id} e={e} onAdd={onAddToAgenda} />)}
+          </div>
+        )}
+        {filtered.length===0 && (
+          <div style={{ textAlign:'center', padding:'40px 20px', color:'#8b949e' }}>
+            <div style={{ fontSize:40, marginBottom:10 }}>🔍</div>
+            <div>Activez des centres d'intérêt pour voir les événements</div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
+
+const EventCard = ({ e, onAdd }) => {
+  const [added, setAdded] = useState(false);
+  const handleAdd = () => { onAdd(e); setAdded(true); };
+  const openSource = () => { if (e.url) window.open(e.url, '_blank', 'noopener,noreferrer'); };
+  return (
+    <div style={{
+      background:'#161b22', border:`1px solid ${e.hot?'#e74c3c':'#30363d'}`,
+      borderLeft:`4px solid ${e.hot?'#e74c3c':'#58a6ff'}`,
+      borderRadius:'0 12px 12px 0', padding:14, marginBottom:10
+    }}>
+      <div style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-start', marginBottom:6 }}>
+        <div style={{ flex:1, cursor: e.url?'pointer':'default' }} onClick={e.url ? openSource : undefined}>
+          <div style={{ fontSize:12, color:'#8b949e', marginBottom:2 }}>{e.type} {e.title}</div>
+          <div style={{ fontSize:13, color: e.url?'#58a6ff':'#8b949e', fontStyle:'italic', textDecoration: e.url?'underline':'none' }}>{e.sub}</div>
+        </div>
+        <div style={{ display:'flex', flexDirection:'column', alignItems:'flex-end', gap:4, flexShrink:0 }}>
+          {e.hot && <span style={{ background:'#3d1a1a', color:'#e74c3c', fontSize:10, fontWeight:700, padding:'3px 8px', borderRadius:6 }}>URGENT</span>}
+          {e.url && (
+            <button onClick={openSource} style={{
+              background:'#0d2a3e', border:'1px solid #30363d', color:'#58a6ff',
+              borderRadius:6, padding:'3px 8px', cursor:'pointer', fontSize:11, fontWeight:600,
+              display:'flex', alignItems:'center', gap:3
+            }}>🔗 Source</button>
+          )}
+        </div>
+      </div>
+      <div style={{ display:'flex', gap:12, marginBottom:10, flexWrap:'wrap' }}>
+        {[['📅',fmtDate(e.date)],['📍',e.loc.split(',')[0]],['⏱️',e.dur],['💰',e.price]].map(([icon,val],i)=>(
+          <span key={i} style={{ fontSize:11, color:'#8b949e', display:'flex', alignItems:'center', gap:3 }}>{icon} {val}</span>
+        ))}
+      </div>
+      <div style={{ display:'flex', gap:8 }}>
+        <button onClick={handleAdd} disabled={added} style={{
+          flex:1, background: added?'#0d2a1e':'#0d2a3e',
+          border:`1px solid ${added?'#2ea043':'#30363d'}`, color: added?'#2ecc71':'#58a6ff',
+          borderRadius:8, padding:8, cursor: added?'default':'pointer', fontSize:12, fontWeight:600, transition:'all 0.2s'
+        }}>
+          {added ? '✅ Ajouté à l\'agenda' : '📅 Ajouter à mon agenda'}
+        </button>
+        {e.url && (
+          <button onClick={openSource} style={{
+            background:'#0d2a3e', border:'1px solid #58a6ff', color:'#58a6ff',
+            borderRadius:8, padding:'8px 12px', cursor:'pointer', fontSize:16, flexShrink:0
+          }} title="Ouvrir la source">🔗</button>
+        )}
+      </div>
+    </div>
+  );
+};
+
+// ═══════════════════════════════════════════════════════
+// AGENDA TAB — 15 jours, swipe, calendrier
+// ═══════════════════════════════════════════════════════
+const AgendaTab = ({ agendaItems, eventsDb }) => {
+  // "Aujourd'hui" normalisé à minuit
+  const todayNorm = (() => { const d = new Date(); d.setHours(0,0,0,0); return d; })();
+
+  const [selDate,  setSelDate]  = useState(new Date(todayNorm));
+  const [showCal,  setShowCal]  = useState(false);
+  const [calMonth, setCalMonth] = useState(new Date(todayNorm));
+
+  const touchX    = useRef(null);
+  const stripRef  = useRef(null);
+  const selBtnRef = useRef(null);
+
+  // Générer 15 jours à partir d'aujourd'hui
+  const days15 = Array.from({ length:15 }, (_,i) => {
+    const d = new Date(todayNorm);
+    d.setDate(todayNorm.getDate() + i);
+    return d;
+  });
+
+  // Auto-scroll la bande de jours vers le jour sélectionné
+  useEffect(() => {
+    if (selBtnRef.current && stripRef.current) {
+      selBtnRef.current.scrollIntoView({ behavior:'smooth', block:'nearest', inline:'center' });
+    }
+  }, [selDate.toDateString()]);
+
+  // ── Résolution date d'un item agenda
+  const getItemDate = (item) => {
+    if (item.dateStr) return new Date(item.dateStr);
+    // day 1=Lun … 7=Dim de la semaine courante
+    const d = WEEK_DATES_OBJ[item.day - 1];
+    return d || null;
+  };
+
+  const itemsForDate = (date) => agendaItems.filter(item => {
+    const d = getItemDate(item);
+    return d && isSameDay(d, date);
+  });
+
+  const dayItems = itemsForDate(selDate);
+
+  // ── Swipe gauche/droite sur le contenu
+  const onTouchStart = (e) => { touchX.current = e.touches[0].clientX; };
+  const onTouchEnd   = (e) => {
+    if (touchX.current === null) return;
+    const dx = e.changedTouches[0].clientX - touchX.current;
+    if (Math.abs(dx) > 45) {
+      const next = new Date(selDate);
+      next.setDate(selDate.getDate() + (dx < 0 ? 1 : -1));
+      // Ne pas aller avant aujourd'hui
+      if (next.getTime() >= todayNorm.getTime()) setSelDate(next);
+      else setSelDate(new Date(todayNorm));
+    }
+    touchX.current = null;
+  };
+
+  // ── Flèches gauche/droite dans l'en-tête
+  const prevDay = () => {
+    const d = new Date(selDate);
+    d.setDate(d.getDate() - 1);
+    if (d.getTime() >= todayNorm.getTime()) setSelDate(d);
+  };
+  const nextDay = () => {
+    const d = new Date(selDate);
+    d.setDate(d.getDate() + 1);
+    setSelDate(d);
+  };
+
+  // ── Suggestions du jour
+  const suggestions = [
+    { time:'08:00', icon:'📊', text:'Backtesting Python 30min',       cat:'Trading' },
+    { time:'10:00', icon:'📚', text:'Lire 30min (Épicure / Deleuze)', cat:'Culture' },
+    { time:'12:00', icon:'🥗', text:'Déjeuner sain — objectif poids', cat:'Santé'   },
+    { time:'14:30', icon:'🧘', text:'Étirements 10min',                cat:'Santé'   },
+    { time:'16:00', icon:'📞', text:'Appel / SMS enfants',             cat:'Famille' },
+    { time:'20:30', icon:'📖', text:'1 manga ou lecture',              cat:'Culture' },
+  ];
+  const occupiedTimes  = dayItems.map(i => i.time);
+  const freeSuggestions = suggestions.filter(s => !occupiedTimes.includes(s.time));
+
+  // ── Label du jour sélectionné
+  const selDow   = selDate.getDay();
+  const selLabel = `${DAYS_FR[selDow].charAt(0).toUpperCase()+DAYS_FR[selDow].slice(1)} ${selDate.getDate()} ${MONTHS_FR[selDate.getMonth()]} ${selDate.getFullYear()}`;
+  const isSelToday = isSameDay(selDate, todayNorm);
+
+  // ════════════════════════
+  // Calendrier mensuel modal
+  // ════════════════════════
+  const CalendarModal = () => {
+    const [localMonth, setLocalMonth] = useState(new Date(calMonth));
+    const yr  = localMonth.getFullYear();
+    const mo  = localMonth.getMonth();
+    const firstDow = (() => { let d = new Date(yr,mo,1).getDay(); return d===0?6:d-1; })();
+    const lastDate = new Date(yr, mo+1, 0).getDate();
+
+    const cells = [];
+    for (let i=0; i<firstDow; i++) cells.push(null);
+    for (let d=1; d<=lastDate; d++) cells.push(new Date(yr,mo,d));
+
+    const selectDate = (d) => {
+      setSelDate(new Date(d));
+      setCalMonth(new Date(d));
+      setShowCal(false);
+    };
+
+    return (
+      <div style={{
+        position:'fixed', inset:0, background:'rgba(0,0,0,0.75)',
+        zIndex:300, display:'flex', alignItems:'flex-end', justifyContent:'center'
+      }} onClick={(e)=>{ if(e.target===e.currentTarget) setShowCal(false); }}>
+        <div className="fade-in" style={{
+          width:'100%', maxWidth:430, background:'#161b22',
+          borderRadius:'20px 20px 0 0', padding:'20px 16px 28px',
+          border:'1px solid #30363d', borderBottom:'none'
+        }}>
+          {/* Titre mois */}
+          <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:14 }}>
+            <button onClick={()=>setLocalMonth(m=>{const n=new Date(m);n.setMonth(m.getMonth()-1);return n;})}
+              style={{ background:'#21262d', border:'none', color:'#f0f0f0', borderRadius:8, padding:'6px 14px', cursor:'pointer', fontSize:18, lineHeight:1 }}>‹</button>
+            <span style={{ fontWeight:700, fontSize:16 }}>
+              {MONTHS_FR[mo].charAt(0).toUpperCase()+MONTHS_FR[mo].slice(1)} {yr}
+            </span>
+            <button onClick={()=>setLocalMonth(m=>{const n=new Date(m);n.setMonth(m.getMonth()+1);return n;})}
+              style={{ background:'#21262d', border:'none', color:'#f0f0f0', borderRadius:8, padding:'6px 14px', cursor:'pointer', fontSize:18, lineHeight:1 }}>›</button>
+          </div>
+
+          {/* Jours de la semaine */}
+          <div style={{ display:'grid', gridTemplateColumns:'repeat(7,1fr)', gap:2, marginBottom:6 }}>
+            {['L','M','M','J','V','S','D'].map((d,i)=>(
+              <div key={i} style={{ textAlign:'center', fontSize:11, color:'#8b949e', padding:'3px 0' }}>{d}</div>
+            ))}
+          </div>
+
+          {/* Grille jours */}
+          <div style={{ display:'grid', gridTemplateColumns:'repeat(7,1fr)', gap:3 }}>
+            {cells.map((d,i) => {
+              if (!d) return <div key={i} />;
+              const isT   = isSameDay(d, todayNorm);
+              const isSel = isSameDay(d, selDate);
+              const hasIt = agendaItems.some(item => { const id=getItemDate(item); return id&&isSameDay(id,d); });
+              const isPast = d.getTime() < todayNorm.getTime();
+              return (
+                <button key={i} onClick={()=>selectDate(d)} style={{
+                  aspectRatio:'1', borderRadius:8, border:'none', cursor:'pointer',
+                  background: isSel?'#58a6ff': isT?'#1a3a5c':'transparent',
+                  color: isSel?'#fff': isT?'#58a6ff': isPast?'#555':'#f0f0f0',
+                  fontSize:13, fontWeight: isT||isSel?700:400,
+                  position:'relative', display:'flex', flexDirection:'column',
+                  alignItems:'center', justifyContent:'center', gap:1
+                }}>
+                  {d.getDate()}
+                  {hasIt && (
+                    <div style={{ width:4, height:4, borderRadius:'50%',
+                      background: isSel?'#fff':'#58a6ff', flexShrink:0 }} />
+                  )}
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Bouton fermer */}
+          <button onClick={()=>setShowCal(false)} style={{
+            width:'100%', marginTop:18, background:'#21262d', border:'1px solid #30363d',
+            color:'#f0f0f0', borderRadius:10, padding:12, cursor:'pointer', fontSize:14, fontWeight:600
+          }}>Fermer</button>
+        </div>
+      </div>
+    );
+  };
+
+  // ════════════ RENDER ════════════
+  return (
+    <div className="slide-up">
+      {/* En-tête */}
+      <div style={{ background:'linear-gradient(135deg,#1a1a2e,#16213e)', padding:'24px 20px 14px' }}>
+        <div style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-start' }}>
+          <div>
+            <div style={{ fontSize:28, fontWeight:700, marginBottom:2 }}>📅 Agenda</div>
+            <div style={{ fontSize:13, color:'#8b949e' }}>15 prochains jours</div>
+          </div>
+          {/* Icône calendrier complet */}
+          <button onClick={()=>setShowCal(true)} style={{
+            background:'#21262d', border:'1px solid #30363d', color:'#58a6ff',
+            borderRadius:10, padding:'8px 12px', cursor:'pointer', fontSize:13,
+            display:'flex', alignItems:'center', gap:6, fontWeight:600
+          }}>
+            🗓️ <span style={{ fontSize:11 }}>Calendrier</span>
+          </button>
+        </div>
+      </div>
+
+      {/* Bande 15 jours scrollable */}
+      <div ref={stripRef} style={{
+        display:'flex', padding:'10px 14px 8px', gap:6,
+        overflowX:'auto', WebkitOverflowScrolling:'touch'
+      }}>
+        {days15.map((d,i) => {
+          const isT   = isSameDay(d, todayNorm);
+          const isSel = isSameDay(d, selDate);
+          const hasIt = agendaItems.some(item => { const id=getItemDate(item); return id&&isSameDay(id,d); });
+          const dow   = d.getDay() === 0 ? 6 : d.getDay() - 1; // 0=Lun
+          return (
+            <button
+              key={i}
+              ref={isSel ? selBtnRef : null}
+              onClick={()=>setSelDate(new Date(d))}
+              style={{
+                flex:'0 0 auto', display:'flex', flexDirection:'column', alignItems:'center',
+                padding:'8px 10px', borderRadius:12, border:'none', cursor:'pointer', minWidth:50,
+                background: isSel?'#58a6ff': isT?'#1a3a5c':'#161b22',
+                color: isSel?'#fff': isT?'#58a6ff':'#8b949e', transition:'all 0.2s'
+              }}>
+              <div style={{ fontSize:10, marginBottom:2 }}>{WEEK_DAYS[dow]}</div>
+              <div style={{ fontSize:18, fontWeight:700 }}>{d.getDate()}</div>
+              <div style={{ fontSize:9, color: isSel?'rgba(255,255,255,0.7)': '#8b949e', marginBottom:2 }}>
+                {MONTHS_FR[d.getMonth()].slice(0,3)}
+              </div>
+              {hasIt
+                ? <div style={{ width:5, height:5, borderRadius:'50%', background: isSel?'#fff':'#58a6ff' }} />
+                : <div style={{ width:5, height:5 }} />
+              }
+            </button>
+          );
+        })}
+        {/* Bouton "…plus" pour aller au-delà des 15 jours */}
+        <button onClick={()=>setShowCal(true)} style={{
+          flex:'0 0 auto', display:'flex', flexDirection:'column', alignItems:'center',
+          justifyContent:'center', padding:'8px 12px', borderRadius:12, minWidth:44,
+          background:'#161b22', border:'1px dashed #30363d', color:'#8b949e', cursor:'pointer'
+        }}>
+          <span style={{ fontSize:18 }}>›</span>
+          <span style={{ fontSize:9 }}>plus</span>
+        </button>
+      </div>
+
+      {/* Contenu du jour — swipeable */}
+      <div
+        onTouchStart={onTouchStart}
+        onTouchEnd={onTouchEnd}
+        style={{ padding:'8px 20px 20px', userSelect:'none' }}
+      >
+        {/* Titre + flèches de navigation */}
+        <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:14 }}>
+          <button onClick={prevDay} disabled={isSelToday} style={{
+            background:'#21262d', border:'1px solid #30363d', color: isSelToday?'#444':'#8b949e',
+            borderRadius:8, padding:'5px 10px', cursor: isSelToday?'default':'pointer', fontSize:16
+          }}>‹</button>
+          <div style={{ textAlign:'center' }}>
+            <div style={{ fontSize:15, fontWeight:700, color: isSelToday?'#58a6ff':'#f0f0f0' }}>
+              {isSelToday ? '⭐ Aujourd\'hui' : selLabel}
+            </div>
+            {!isSelToday && (
+              <div style={{ fontSize:11, color:'#8b949e' }}>
+                ← swipe pour naviguer →
+              </div>
+            )}
+          </div>
+          <button onClick={nextDay} style={{
+            background:'#21262d', border:'1px solid #30363d', color:'#8b949e',
+            borderRadius:8, padding:'5px 10px', cursor:'pointer', fontSize:16
+          }}>›</button>
+        </div>
+
+        {/* Événements planifiés */}
+        {dayItems.length > 0 && (
+          <>
+            <SectionTitle>Planifié</SectionTitle>
+            {dayItems.map((item,i) => (
+              <div key={i} style={{
+                display:'flex', gap:12, alignItems:'center',
+                background:'#161b22', borderLeft:`3px solid ${CATS[item.cat]?.color||'#888'}`,
+                borderRadius:'0 10px 10px 0', padding:'11px 14px', marginBottom:8
+              }}>
+                <div style={{ fontSize:12, color:'#8b949e', fontWeight:700, minWidth:40 }}>{item.time}</div>
+                <span style={{ fontSize:20 }}>{item.emoji}</span>
+                <div style={{ flex:1 }}>
+                  <div style={{ fontSize:14, fontWeight:600 }}>{item.title}</div>
+                  <div style={{ fontSize:11, color:CATS[item.cat]?.color||'#aaa' }}>{item.cat} · {item.dur} min</div>
+                </div>
+                {item.fromSentinel && (
+                  <span style={{ fontSize:10, background:'#0d2a1e', color:'#2ecc71', padding:'2px 6px', borderRadius:6 }}>🔭</span>
+                )}
+              </div>
+            ))}
+          </>
+        )}
+
+        {dayItems.length === 0 && (
+          <div style={{ textAlign:'center', padding:'20px 0', color:'#8b949e', fontSize:13 }}>
+            Journée libre — idéale pour avancer sur vos objectifs !
+          </div>
+        )}
+
+        {/* Suggestions */}
+        <div style={{ marginTop:16 }}>
+          <SectionTitle color='#2ecc71'>💡 Créneaux libres — Suggestions Goals</SectionTitle>
+          {freeSuggestions.map((s,i) => (
+            <div key={i} style={{
+              display:'flex', gap:12, alignItems:'center',
+              background:'#0d2a1e', border:'1px dashed #2ea043',
+              borderRadius:10, padding:'10px 14px', marginBottom:7
+            }}>
+              <div style={{ fontSize:12, color:'#2ecc71', fontWeight:700, minWidth:40 }}>{s.time}</div>
+              <span style={{ fontSize:20 }}>{s.icon}</span>
+              <div style={{ flex:1 }}>
+                <div style={{ fontSize:13, fontWeight:600, color:'#d0d0d0' }}>{s.text}</div>
+                <div style={{ fontSize:11, color:CATS[s.cat]?.color||'#aaa' }}>{s.cat}</div>
+              </div>
+              <button style={{
+                background:'#2ea043', color:'#fff', border:'none',
+                borderRadius:7, padding:'5px 10px', cursor:'pointer', fontSize:11, fontWeight:600
+              }}>+ Ajouter</button>
+            </div>
+          ))}
+        </div>
+
+        {/* Prochains événements Sentinelle */}
+        <div style={{ marginTop:20 }}>
+          <SectionTitle>🔭 Événements Sentinelle proches</SectionTitle>
+          {eventsDb.filter(e=>{ const t=new Date(); t.setHours(0,0,0,0); return new Date(e.date)>=t; }).sort((a,b)=>new Date(a.date)-new Date(b.date)).slice(0,2).map(e => (
+            <div key={e.id} style={{
+              display:'flex', gap:12, alignItems:'center',
+              background:'#161b22', borderRadius:10, padding:'10px 14px', marginBottom:8,
+              border:'1px solid #30363d'
+            }}>
+              <span style={{ fontSize:24 }}>{e.type}</span>
+              <div style={{ flex:1 }}>
+                <div style={{ fontSize:13, fontWeight:600 }}>{e.title}</div>
+                <div style={{ fontSize:11, color:'#8b949e' }}>{fmtDate(e.date)} · {e.loc.split(',')[0]}</div>
+              </div>
+              <span style={{ fontSize:11, color:'#e74c3c', fontWeight:700 }}>BIENTÔT</span>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Modal calendrier */}
+      {showCal && <CalendarModal />}
+    </div>
+  );
+};
+
+// ═══════════════════════════════════════════════════════
+// PERSISTANCE — localStorage
+// Les données survivent aux rechargements de page et aux
+// changements d'onglet. Les habitudes se remettent à zéro
+// chaque nouveau jour (streak conservé).
+// ═══════════════════════════════════════════════════════
+const LS = {
+  GOALS:      'regis_goals_2026',
+  HABITS:     'regis_habits_2026',
+  HAB_DATE:   'regis_habits_date_2026',
+  INTERESTS:  'regis_interests_2026',
+};
+
+const lsGet = (key, fallback) => {
+  try { const s = localStorage.getItem(key); return s ? JSON.parse(s) : fallback; }
+  catch { return fallback; }
+};
+const lsSet = (key, val) => { try { localStorage.setItem(key, JSON.stringify(val)); } catch {} };
+
+// Charge les habitudes : reset si nouveau jour, merge intelligent (gère les ajouts/suppressions)
+const initHabits = () => {
+  const today = new Date().toDateString();
+  const savedDate = localStorage.getItem(LS.HAB_DATE) || '';
+  const saved = lsGet(LS.HABITS, null);
+  if (!saved || savedDate !== today) {
+    // Nouveau jour OU première fois : base HABITS_INIT, done=false
+    return HABITS_INIT.map(h => ({ ...h, done: false }));
+  }
+  // Merge : ne garder que les habits existant dans HABITS_INIT (gère les suppressions)
+  return HABITS_INIT.map(h => {
+    const s = saved.find(sh => sh.id === h.id);
+    return s ? { ...h, done: s.done, streak: s.streak } : h;
+  });
+};
+
+// Charge les goals : merge intelligent (préserve cur, gère les ajouts/suppressions)
+const initGoals = () => {
+  const saved = lsGet(LS.GOALS, null);
+  if (!saved) return GOALS_INIT;
+  return GOALS_INIT.map(g => {
+    const s = saved.find(sg => sg.id === g.id);
+    return s ? { ...g, cur: s.cur } : g; // nouveau goal → cur par défaut
+  });
+};
+
+// ═══════════════════════════════════════════════════════
+// APP ROOT
+// ═══════════════════════════════════════════════════════
+// ── Mapping Sentinelle → Objectif lié (auto-incrément)
+// int = catégorie d'intérêt Sentinelle → goalId dans GOALS_INIT
+const SENTINEL_GOAL_MAP = {
+  philo:   19,  // → 12 sorties culturelles
+  music:   19,  // → 12 sorties culturelles
+  theatre: 19,  // → 12 sorties culturelles
+  socio:   19,  // → 12 sorties culturelles
+  squash:  null,
+  famille: null,
+  kite:    null,
+};
+
+const App = () => {
+  const [tab,       setTab]       = useState('today');
+  const [habits,    setHabits]    = useState(initHabits);
+  const [goals,     setGoals]     = useState(initGoals);
+  const [interests, setInterests] = useState(() => lsGet(LS.INTERESTS, INTERESTS_INIT));
+  const [agenda,    setAgenda]    = useState(AGENDA_INIT);
+  const [toast,     setToast]     = useState(null); // { msg, goalName }
+  const [eventsDb,  setEventsDb]  = useState(EVENTS_FALLBACK);
+  const [eventsSource, setEventsSource] = useState('fallback local');
+
+  // ── Auto-save à chaque changement d'état ──
+  useEffect(() => { lsSet(LS.GOALS, goals); }, [goals]);
+  useEffect(() => {
+    lsSet(LS.HABITS, habits);
+    localStorage.setItem(LS.HAB_DATE, new Date().toDateString());
+  }, [habits]);
+  useEffect(() => { lsSet(LS.INTERESTS, interests); }, [interests]);
+
+  // ── Toast auto-disparaît après 3s ──
+  useEffect(() => {
+    if (!toast) return;
+    const t = setTimeout(() => setToast(null), 3500);
+    return () => clearTimeout(t);
+  }, [toast]);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetch(`${EVENTS_JSON_URL}?ts=${Date.now()}`, { cache:'no-store' })
+      .then(r => r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`)))
+      .then(data => {
+        if (cancelled) return;
+        if (Array.isArray(data) && data.length) {
+          setEventsDb(data);
+          setEventsSource('events.json');
+        }
+      })
+      .catch(() => {
+        if (!cancelled) setEventsSource('fallback local');
+      });
+    return () => { cancelled = true; };
+  }, []);
+
+  const toggleHabit = (id) => {
+    const habit = habits.find(h => h.id === id);
+    if (!habit) return;
+    const checking = !habit.done; // true = on coche, false = on décoche
+    setHabits(h => h.map(x => x.id===id ? {...x, done:!x.done} : x));
+    // Si l'habitude est liée à un objectif, incrémenter / décrémenter
+    if (habit.goalId) {
+      setGoals(prev => prev.map(g => {
+        if (g.id !== habit.goalId) return g;
+        const delta = checking ? 1 : -1;
+        return { ...g, cur: Math.max(0, Math.min(g.tgt, g.cur + delta)) };
+      }));
+    }
+  };
+
+  const addEventToAgenda = (ev) => {
+    // 1. Ajouter à l'agenda
+    setAgenda(prev => [...prev, {
+      id: Date.now(), time: '19:00', dur: 120,
+      cat: 'Culture', title: ev.title, emoji: ev.type,
+      fromSentinel: true, dateStr: ev.date
+    }]);
+
+    // 2. Auto-incrémenter l'objectif lié si applicable
+    const linkedId = SENTINEL_GOAL_MAP[ev.int];
+    if (linkedId) {
+      // Lire l'objectif depuis l'état courant AVANT la mise à jour
+      const linkedGoal = goals.find(g => g.id === linkedId);
+      if (linkedGoal) {
+        const newCur = Math.min(linkedGoal.cur + 1, linkedGoal.tgt);
+        setGoals(prev => prev.map(g => g.id === linkedId ? {...g, cur: newCur} : g));
+        // Toast séparé du setGoals pour éviter les effets de bord React
+        setToast({ goalName: linkedGoal.name, cur: newCur, tgt: linkedGoal.tgt });
+      }
+    }
+
+    setTab('agenda');
+  };
+
+  const TABS = [
+    { id:'today',    icon:'🌅', label:"Aujourd'hui" },
+    { id:'goals',    icon:'🎯', label:'Objectifs'   },
+    { id:'sentinel', icon:'🔭', label:'Sentinelle'  },
+    { id:'agenda',   icon:'📅', label:'Agenda'      },
+  ];
+
+  return (
+    <div style={{
+      minHeight:'100vh', maxWidth:440,
+      margin:'0 auto', position:'relative', padding:'12px 12px 96px'
+    }}>
+      <div style={{
+        minHeight:'calc(100vh - 24px)',
+        background:'linear-gradient(180deg, rgba(255,255,255,0.76), rgba(255,255,255,0.46))',
+        border:'1px solid rgba(255,255,255,0.88)',
+        borderRadius:34,
+        overflow:'hidden',
+        boxShadow:'0 28px 80px rgba(23,32,49,0.14)',
+        backdropFilter:'blur(18px)',
+        position:'relative'
+      }}>
+        <div style={{
+          position:'absolute', top:12, left:'50%', transform:'translateX(-50%)',
+          width:110, height:24, borderRadius:999, background:'rgba(17,24,39,0.88)', zIndex:20
+        }} />
+        <div style={{
+          minHeight:'calc(100vh - 24px)',
+          background:'linear-gradient(180deg, var(--bg-soft) 0%, var(--bg) 100%)'
+        }}>
+          {tab==='today'    && <TodayTab    habits={habits} goals={goals} toggleHabit={toggleHabit} />}
+          {tab==='goals'    && <GoalsTab    goals={goals} setGoals={setGoals} />}
+          {tab==='sentinel' && <SentinelTab interests={interests} setInterests={setInterests} onAddToAgenda={addEventToAgenda} eventsDb={eventsDb} eventsSource={eventsSource} />}
+          {tab==='agenda'   && <AgendaTab   agendaItems={agenda} setAgenda={setAgenda} eventsDb={eventsDb} />}
+        </div>
+      </div>
+
+      {/* Toast — notification Sentinelle → Objectif */}
+      {toast && (
+        <div className="slide-up" style={{
+          position:'fixed', bottom:96, left:'50%', transform:'translateX(-50%)',
+          background:'rgba(255,255,255,0.88)', border:'1px solid rgba(255,255,255,0.94)', borderRadius:18,
+          padding:'12px 16px', zIndex:200,
+          display:'flex', alignItems:'center', gap:10,
+          boxShadow:'0 18px 42px rgba(23,32,49,0.18)',
+          maxWidth:360, width:'calc(100% - 40px)'
+        }}>
+          <span style={{ fontSize:24 }}>🎯</span>
+          <div style={{ flex:1 }}>
+            <div style={{ fontSize:13, fontWeight:800, color:'#2ecc71' }}>
+              +1 sortie culturelle enregistrée !
+            </div>
+            <div style={{ fontSize:11, color:'var(--muted)', marginTop:2 }}>
+              {toast.goalName} → {toast.cur}/{toast.tgt}
+            </div>
+          </div>
+          <button onClick={()=>setToast(null)} style={{
+            background:'none', border:'none', color:'var(--muted)', fontSize:18, cursor:'pointer'
+          }}>✕</button>
+        </div>
+      )}
+
+      {/* Navigation bas */}
+      <nav style={{
+        position:'fixed', bottom:12, left:'50%', transform:'translateX(-50%)',
+        width:'min(416px, calc(100vw - 24px))',
+        background:'rgba(255,255,255,0.76)', backdropFilter:'blur(18px)',
+        border:'1px solid rgba(255,255,255,0.84)', borderRadius:24,
+        display:'flex', padding:'8px', zIndex:100, boxShadow:'0 18px 40px rgba(23,32,49,0.14)'
+      }}>
+        {TABS.map(t => (
+          <button key={t.id} onClick={()=>setTab(t.id)} style={{
+            flex:1, background: tab===t.id ? 'var(--navy)' : 'transparent', border:'none', cursor:'pointer',
+            display:'flex', flexDirection:'column', alignItems:'center', gap:3,
+            color: tab===t.id ? '#fff' : 'var(--muted)', transition:'all 0.2s',
+            borderRadius:18, padding:'8px 0'
+          }}>
+            <span style={{ fontSize:22, transform: tab===t.id?'scale(1.06)':'scale(1)', transition:'transform 0.2s' }}>{t.icon}</span>
+            <span style={{ fontSize:10, fontWeight: tab===t.id?800:700 }}>{t.label}</span>
+          </button>
+        ))}
+      </nav>
+    </div>
+  );
+};
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>
