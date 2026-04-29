@@ -254,7 +254,24 @@ const SectionTitle = ({ children, color='#8b949e' }) => (
 // ═══════════════════════════════════════════════════════
 // TODAY TAB — avec logique de complétion des urgences
 // ═══════════════════════════════════════════════════════
-const TodayTab = ({ habits, goals, toggleHabit }) => {
+const downloadFile = (filename, content, type='text/plain;charset=utf-8') => {
+  const blob = new Blob([content], { type });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+};
+
+const escapeCsv = (value) => {
+  const s = String(value ?? '');
+  return /[",\n;]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+};
+
+const TodayTab = ({ habits, goals, toggleHabit, urgentDone, toggleUrgent, onExport }) => {
   const done        = habits.filter(h=>h.done).length;
   const pct         = Math.round(done/habits.length*100);
   const globalScore = calcScore(goals);
@@ -269,17 +286,6 @@ const TodayTab = ({ habits, goals, toggleHabit }) => {
   const squashVal  = squashG  ? `#${squashG.cur}`  : '#78';
   const tradingPct = tradingG ? getPct(tradingG) : 0;
   const patriPct   = patrimoG ? getPct(patrimoG) : 0;
-
-  // État local : IDs des tâches urgentes cochées manuellement
-  const [urgentDone, setUrgentDone] = useState(new Set());
-
-  const toggleUrgent = (id) => {
-    setUrgentDone(prev => {
-      const s = new Set(prev);
-      s.has(id) ? s.delete(id) : s.add(id);
-      return s;
-    });
-  };
 
   // Filtre : disparaît si coché manuellement OU si l'objectif lié est à 100%
   const visibleUrgent = URGENT_TASKS.filter(u => {
@@ -336,6 +342,11 @@ const TodayTab = ({ habits, goals, toggleHabit }) => {
             {pct}% complété — Score annuel actuel : <b style={{color: gColor}}>{globalScore}%</b>
           </div>
         </Card>
+        <div style={{ display:'flex', gap:8, marginTop:12, flexWrap:'wrap' }}>
+          <button onClick={()=>onExport('json')} style={{ background:'rgba(255,255,255,0.16)', color:'#fff', border:'1px solid rgba(255,255,255,0.16)', borderRadius:999, padding:'8px 12px', cursor:'pointer', fontSize:12, fontWeight:700 }}>Export JSON</button>
+          <button onClick={()=>onExport('csv')} style={{ background:'rgba(255,255,255,0.16)', color:'#fff', border:'1px solid rgba(255,255,255,0.16)', borderRadius:999, padding:'8px 12px', cursor:'pointer', fontSize:12, fontWeight:700 }}>Export CSV</button>
+          <button onClick={()=>onExport('xls')} style={{ background:'rgba(255,255,255,0.16)', color:'#fff', border:'1px solid rgba(255,255,255,0.16)', borderRadius:999, padding:'8px 12px', cursor:'pointer', fontSize:12, fontWeight:700 }}>Export Excel</button>
+        </div>
       </div>
 
       <div style={{ padding:'16px 20px' }}>
@@ -469,12 +480,13 @@ const TodayTab = ({ habits, goals, toggleHabit }) => {
 // ═══════════════════════════════════════════════════════
 // GOALS TAB
 // ═══════════════════════════════════════════════════════
-const GoalsTab = ({ goals, setGoals }) => {
+const GoalsTab = ({ goals, setGoals, goalNotes, setGoalNotes }) => {
   const [catFilter, setCatFilter] = useState('Tous');
   const [editing,   setEditing]   = useState(null);
   const [editVal,   setEditVal]   = useState('');
   const [voiceActive, setVoice]   = useState(false);
   const [note,      setNote]      = useState('');
+  const [editingNote, setEditingNote] = useState(null);
   const globalScore = calcScore(goals);
   const gColor      = scoreColor(globalScore);
 
@@ -533,6 +545,8 @@ const GoalsTab = ({ goals, setGoals }) => {
       <div style={{ padding:'0 20px 20px' }}>
         {filtered.sort((a,b)=>b.pond-a.pond).map(g=>{
           const p=getPct(g), c=pctColor(p), isE=editing===g.id;
+          const noteValue = goalNotes[g.id] || '';
+          const isEditingNote = editingNote === g.id;
           return (
             <Card key={g.id} style={{ padding:16, marginBottom:10, border:`1px solid ${isE?'#58a6ff':'#30363d'}` }}>
               <div style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-start', marginBottom:10 }}>
@@ -566,6 +580,32 @@ const GoalsTab = ({ goals, setGoals }) => {
                     borderRadius:8, padding:'5px 12px', cursor:'pointer', fontSize:12,
                     display:'flex', alignItems:'center', gap:4
                   }}>✏️ Mettre à jour</button>
+                )}
+              </div>
+              <div style={{ marginTop:12, paddingTop:12, borderTop:'1px solid rgba(31,42,56,0.08)' }}>
+                <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:8 }}>
+                  <span style={{ fontSize:11, color:'#8b949e', fontWeight:700, letterSpacing:'0.08em', textTransform:'uppercase' }}>Notes</span>
+                  <button onClick={()=>setEditingNote(isEditingNote ? null : g.id)} style={{
+                    background:'rgba(31,42,56,0.06)', color:'#687385', border:'1px solid rgba(31,42,56,0.08)',
+                    borderRadius:999, padding:'5px 10px', cursor:'pointer', fontSize:11, fontWeight:700
+                  }}>{isEditingNote ? 'Fermer' : (noteValue ? 'Modifier' : 'Ajouter')}</button>
+                </div>
+                {noteValue && !isEditingNote && (
+                  <div style={{ whiteSpace:'pre-wrap', fontSize:12, lineHeight:1.5, color:'#334155', background:'rgba(255,255,255,0.65)', border:'1px solid rgba(31,42,56,0.08)', borderRadius:10, padding:'10px 12px' }}>
+                    {noteValue}
+                  </div>
+                )}
+                {isEditingNote && (
+                  <textarea
+                    value={noteValue}
+                    onChange={(e)=>setGoalNotes(prev => ({ ...prev, [g.id]: e.target.value }))}
+                    placeholder="Ex : liste des livres lus, idées, détails, prochaines étapes..."
+                    style={{
+                      width:'100%', minHeight:110, resize:'vertical', background:'rgba(255,255,255,0.88)',
+                      border:'1px solid rgba(31,42,56,0.12)', borderRadius:10, padding:'10px 12px',
+                      color:'#1f2a38', fontSize:13, lineHeight:1.5
+                    }}
+                  />
                 )}
               </div>
             </Card>
@@ -1090,6 +1130,8 @@ const LS = {
   HABITS:     'regis_habits_2026',
   HAB_DATE:   'regis_habits_date_2026',
   INTERESTS:  'regis_interests_2026',
+  URGENT:     'regis_urgent_done_2026',
+  GOAL_NOTES: 'regis_goal_notes_2026',
 };
 
 const lsGet = (key, fallback) => {
@@ -1124,6 +1166,9 @@ const initGoals = () => {
   });
 };
 
+const initUrgentDone = () => new Set(lsGet(LS.URGENT, []));
+const initGoalNotes = () => lsGet(LS.GOAL_NOTES, {});
+
 // ═══════════════════════════════════════════════════════
 // APP ROOT
 // ═══════════════════════════════════════════════════════
@@ -1145,6 +1190,8 @@ const App = () => {
   const [goals,     setGoals]     = useState(initGoals);
   const [interests, setInterests] = useState(() => lsGet(LS.INTERESTS, INTERESTS_INIT));
   const [agenda,    setAgenda]    = useState(AGENDA_INIT);
+  const [urgentDone, setUrgentDone] = useState(initUrgentDone);
+  const [goalNotes, setGoalNotes] = useState(initGoalNotes);
   const [toast,     setToast]     = useState(null); // { msg, goalName }
   const [eventsDb]  = useState(EVENTS_FALLBACK);
   const [eventsSource] = useState('sync HTML Claude');
@@ -1156,6 +1203,8 @@ const App = () => {
     localStorage.setItem(LS.HAB_DATE, new Date().toDateString());
   }, [habits]);
   useEffect(() => { lsSet(LS.INTERESTS, interests); }, [interests]);
+  useEffect(() => { lsSet(LS.URGENT, [...urgentDone]); }, [urgentDone]);
+  useEffect(() => { lsSet(LS.GOAL_NOTES, goalNotes); }, [goalNotes]);
 
   // ── Toast auto-disparaît après 3s ──
   useEffect(() => {
@@ -1176,6 +1225,94 @@ const App = () => {
         const delta = checking ? 1 : -1;
         return { ...g, cur: Math.max(0, Math.min(g.tgt, g.cur + delta)) };
       }));
+    }
+  };
+
+  const toggleUrgent = (id) => {
+    setUrgentDone(prev => {
+      const next = new Set(prev);
+      next.has(id) ? next.delete(id) : next.add(id);
+      return next;
+    });
+  };
+
+  const getExportSnapshot = () => ({
+    exportedAt: new Date().toISOString(),
+    goals,
+    goalNotes,
+    habits,
+    interests,
+    agenda,
+    urgentDone: [...urgentDone],
+    events: eventsDb,
+  });
+
+  const exportAppData = (format) => {
+    const stamp = new Date().toISOString().slice(0, 10);
+    const snapshot = getExportSnapshot();
+
+    if (format === 'json') {
+      downloadFile(`regis-goals-${stamp}.json`, JSON.stringify(snapshot, null, 2), 'application/json;charset=utf-8');
+      return;
+    }
+
+    if (format === 'csv') {
+      const rows = [
+        ['id', 'categorie', 'objectif', 'progression', 'cible', 'unite', 'priorite', 'trim', 'note'],
+        ...goals.map(g => [
+          g.id,
+          g.cat,
+          g.name,
+          g.cur,
+          g.tgt,
+          g.unit,
+          g.pond,
+          g.trim,
+          goalNotes[g.id] || '',
+        ]),
+      ];
+      const csv = rows.map(row => row.map(escapeCsv).join(';')).join('\n');
+      downloadFile(`regis-goals-${stamp}.csv`, csv, 'text/csv;charset=utf-8');
+      return;
+    }
+
+    if (format === 'xls') {
+      const goalsRows = goals.map(g => `
+        <tr>
+          <td>${g.id}</td>
+          <td>${g.cat}</td>
+          <td>${g.name}</td>
+          <td>${g.cur}</td>
+          <td>${g.tgt}</td>
+          <td>${g.unit}</td>
+          <td>${g.pond}</td>
+          <td>${g.trim}</td>
+          <td>${(goalNotes[g.id] || '').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br>')}</td>
+        </tr>`).join('');
+      const habitsRows = habits.map(h => `
+        <tr><td>${h.id}</td><td>${h.name}</td><td>${h.cat}</td><td>${h.done ? 'oui' : 'non'}</td><td>${h.streak}</td></tr>`).join('');
+      const agendaRows = agenda.map(a => `
+        <tr><td>${a.title}</td><td>${a.cat}</td><td>${a.time}</td><td>${a.dur}</td><td>${a.dateStr || a.day || ''}</td></tr>`).join('');
+      const html = `<!DOCTYPE html><html><head><meta charset="utf-8"></head><body>
+        <table border="1">
+          <tr><th colspan="9">Objectifs</th></tr>
+          <tr><th>ID</th><th>Catégorie</th><th>Objectif</th><th>Progression</th><th>Cible</th><th>Unité</th><th>Priorité</th><th>Trim</th><th>Note</th></tr>
+          ${goalsRows}
+        </table>
+        <br>
+        <table border="1">
+          <tr><th colspan="5">Habitudes</th></tr>
+          <tr><th>ID</th><th>Nom</th><th>Catégorie</th><th>Fait</th><th>Streak</th></tr>
+          ${habitsRows}
+        </table>
+        <br>
+        <table border="1">
+          <tr><th colspan="5">Agenda</th></tr>
+          <tr><th>Titre</th><th>Catégorie</th><th>Heure</th><th>Durée</th><th>Date/Jour</th></tr>
+          ${agendaRows}
+        </table>
+      </body></html>`;
+      downloadFile(`regis-goals-${stamp}.xls`, html, 'application/vnd.ms-excel;charset=utf-8');
     }
   };
 
@@ -1233,8 +1370,8 @@ const App = () => {
           minHeight:'calc(100vh - 24px)',
           background:'linear-gradient(180deg, var(--bg-soft) 0%, var(--bg) 100%)'
         }}>
-          {tab==='today'    && <TodayTab    habits={habits} goals={goals} toggleHabit={toggleHabit} />}
-          {tab==='goals'    && <GoalsTab    goals={goals} setGoals={setGoals} />}
+          {tab==='today'    && <TodayTab    habits={habits} goals={goals} toggleHabit={toggleHabit} urgentDone={urgentDone} toggleUrgent={toggleUrgent} onExport={exportAppData} />}
+          {tab==='goals'    && <GoalsTab    goals={goals} setGoals={setGoals} goalNotes={goalNotes} setGoalNotes={setGoalNotes} />}
           {tab==='sentinel' && <SentinelTab interests={interests} setInterests={setInterests} onAddToAgenda={addEventToAgenda} eventsDb={eventsDb} eventsSource={eventsSource} />}
           {tab==='agenda'   && <AgendaTab   agendaItems={agenda} setAgenda={setAgenda} eventsDb={eventsDb} />}
         </div>
