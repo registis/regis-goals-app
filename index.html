@@ -117,25 +117,21 @@ const INTERESTS_INIT = [
   { id:'philo_p', name:'Philo Paris',        icon:'🗼', active:true  },
 ];
 
-// ✅ ÉVÉNEMENTS VÉRIFIÉS — Fallback local si events.json n'est pas chargé
+// ✅ ÉVÉNEMENTS VÉRIFIÉS — Bloc synchronisé depuis le HTML source Sentinelle
 const EVENTS_FALLBACK = [
-  { id:1,  int:'philo',   title:'Groupe vaudois de philosophie',    sub:'"Productivisme et aliénation" – S. Aumercier', date:'2026-04-01', loc:'Maison de Quartier Sous-Gare, Av. Dapples 50, Lausanne', type:'🏛️', dur:'~2h',  price:'Gratuit', hot:true,  url:'https://philo-vaud.ch/' },
-  { id:2,  int:'philo',   title:'Groupe vaudois de philosophie',    sub:'Rencontre avec J.-F. Aenishanslin',            date:'2026-04-22', loc:'Maison de Quartier Sous-Gare, Av. Dapples 50, Lausanne', type:'🏛️', dur:'~2h',  price:'Gratuit', hot:false, url:'https://philo-vaud.ch/' },
-  { id:3,  int:'philo',   title:'Café Philo – Benjamin Bar',        sub:'Discussion philosophique bilingue, dim. 19h',  date:'2026-04-05', loc:'Hôtel de la Paix, Av. Benjamin Constant 5, Lausanne',   type:'☕', dur:'~2h',  price:'Conso.',  hot:false, url:'https://www.cafe-philo.ch/' },
-  { id:4,  int:'music',   title:'Namir + Proxima – Les Docks',      sub:'Concert – billetterie ouverte',                date:'2026-04-16', loc:'Les Docks, Av. de Sévelin 34, Lausanne',               type:'🎤', dur:'~2h',  price:'~30 CHF', hot:false, url:'https://www.docks.ch/en/programme/' },
-  { id:5,  int:'music',   title:'Monkeys on Mars – Café des Docks', sub:'Concert intime – entrée libre',                date:'2026-04-17', loc:'Les Docks, Av. de Sévelin 34, Lausanne',               type:'🎧', dur:'~1h30', price:'Gratuit', hot:false, url:'https://www.docks.ch/en/programme/' },
-  { id:6,  int:'music',   title:'Black Sea Dahu – Les Docks',       sub:'Everything Tour – derniers billets !',         date:'2026-04-30', loc:'Les Docks, Av. de Sévelin 34, Lausanne',               type:'🎤', dur:'~2h',  price:'39–42 CHF', hot:false, url:'https://www.songkick.com/concerts/42618595-black-sea-dahu-at-les-docks' },
-  { id:7,  int:'squash',  title:'Tournoi Vendredi soir – Genève',   sub:'Squash Romandie – ranking officiel',           date:'2026-04-17', loc:'Genève (45min de Lausanne)',                            type:'🎾', dur:'~3h',  price:'~25 CHF', hot:false, url:'https://squashromandie.ch/' },
-  { id:8,  int:'squash',  title:'Tournoi de Puidoux',               sub:'Spécial fête des Mères – ranking cantonal',    date:'2026-04-30', loc:'Puidoux (20min de Lausanne)',                           type:'🎾', dur:'1 jour', price:'~30 CHF', hot:false, url:'https://squashromandie.ch/' },
-  { id:9,  int:'squash',  title:'Fun Tour Finale #4 – LAUSANNE',    sub:'Dernière manche – à ne pas rater pour le ranking !', date:'2026-05-09', loc:'Lausanne',                                 type:'🎾', dur:'1 jour', price:'~30 CHF', hot:false, url:'https://squashromandie.ch/' },
-  { id:10, int:'famille', title:'PâKOMUZé – 41 musées vaudois',     sub:'100+ animations gratuites pour enfants & familles', date:'2026-04-03', loc:'41 musées du canton de Vaud dont Lausanne',      type:'🏛️', dur:'vacances', price:'Gratuit / réduit', hot:true, url:'https://www.loisirs.ch/agendas/30062/pakomuze-vos-vacances-de-paques-dans-41-musees-vaudois' },
-  { id:11, int:'famille', title:'Grande Chasse aux Œufs – Moudon',  sub:'2 parcours selon âge (0-6 ans / 7-12 ans)',    date:'2026-03-29', loc:'Moudon (35min de Lausanne)',                            type:'🥚', dur:'~2h',  price:'Gratuit', hot:true,  url:'https://lausanne.evous.ch/en-famille/chasses-aux-oeufs-de-paques/' },
-  { id:12, int:'famille', title:'Brunch de Pâques – Lausanne Palace', sub:'Ferme pédagogique & atelier céramique enfants', date:'2026-04-05', loc:'Lausanne Palace, Lausanne',                        type:'🍳', dur:'~3h',  price:'À confirmer', hot:false, url:'https://www.loisirs.ch/' },
-  { id:13, int:'famille', title:'Stage Pâques SportUnity',          sub:'Camp de jour 3–8 ans, activités ludiques',     date:'2026-04-13', loc:'Lausanne',                                              type:'⚽', dur:'5 jours', price:'475 CHF/sem', hot:false, url:'https://leman.events/camps-de-paques-2026-autour-de-geneve-et-lausanne-notre-selection-pour-les-enfants/' },
-  { id:14, int:'famille', title:'Fête de la Tulipe – Morges',       sub:'140 000 tulipes – animations WE en famille',   date:'2026-03-27', loc:'Parc de l\'Indépendance, Morges (20min)',               type:'🌸', dur:'libre', price:'Entrée libre', hot:true, url:'https://lausanne.evous.ch/en-famille/chasses-aux-oeufs-de-paques/' },
-  { id:15, int:'music',   title:'Mosimann – Les Docks',             sub:'DJ Set – electronic',                          date:'2026-03-26', loc:'Les Docks, Av. de Sévelin 34, Lausanne',               type:'🎧', dur:'~3h',  price:'~25 CHF', hot:true,  url:'https://www.docks.ch/en/evenement/concerts-en/20260326/mosimann/' },
+  { id:1,  int:'theatre', title:'Le Tartuffe – TKM',                  sub:'Molière, mise en scène Jean Liermier – dernières représentations', date:'2026-04-28', loc:'Théâtre Kléber-Méleau, Ch. de l\'Usine-à-Gaz 9, Renens', type:'🎭', dur:'~2h30',  price:'~35 CHF',  hot:true,  url:'https://www.tkm.ch/representation/le-tartuffe/' },
+  { id:2,  int:'music',   title:'Black Sea Dahu + Malummí – Docks',   sub:'Folk-rock zurichois – album Everything',                          date:'2026-04-30', loc:'Les Docks, Av. de Sévelin 34, Lausanne',                   type:'🎤', dur:'~2h',    price:'~39 CHF',  hot:true,  url:'https://www.docks.ch/evenement/concerts/20260430/black-sea-dahu-2/' },
+  { id:3,  int:'music',   title:'Festival Balélec – EPFL',            sub:'Plus grand festival estudiantin d\'Europe – 15 000 personnes, 5 scènes', date:'2026-05-01', loc:'Campus EPFL, Lausanne–Ecublens',              type:'🎪', dur:'19h–04h', price:'dès 35 CHF', hot:true,  url:'https://www.balelec.ch/fr/balelec' },
+  { id:4,  int:'music',   title:'Stabat Mater (Dvořák) – Cathédrale', sub:'Choeur de la Cathédrale & Orchestre Nexus – concert 20h',         date:'2026-05-01', loc:'Cathédrale de Lausanne, Pl. de la Cathédrale',             type:'🎼', dur:'~1h30',  price:'~30 CHF',  hot:true,  url:'https://choeurcathedrale-lausanne.ch/representation/concert-stabat-mater-de-antonin-dvorak/' },
+  { id:5,  int:'music',   title:'Lujipeka + Samybrasco – Les Docks',  sub:'Rap français – Only Swiss Show – tournée 2026',                   date:'2026-05-02', loc:'Les Docks, Av. de Sévelin 34, Lausanne',                   type:'🎤', dur:'~2h',    price:'~40 CHF',  hot:true,  url:'https://www.docks.ch/en/programme/' },
+  { id:6,  int:'philo',   title:'Café-Philo OrPhi – UNIL',            sub:'Premier mardi du mois – question ouverte débattue en groupe',     date:'2026-05-05', loc:'Bar Tabac, Lausanne (après l\'UNIL)',                       type:'🏛️', dur:'~2h',    price:'Gratuit',  hot:false, url:'https://www.asso-unil.ch/orphi/mardi-5-mai-cafe-philo/' },
+  { id:7,  int:'theatre', title:'Fête de la Danse – Lausanne',        sub:'Spectacles, performances & ateliers dans toute la ville',         date:'2026-05-06', loc:'Lieux multiples, Lausanne',                                 type:'💃', dur:'5 jours',price:'Gratuit',  hot:false, url:'https://fetedeladanse.ch/lausanne/' },
+  { id:8,  int:'philo',   title:'Soirée philo – Vincent Fornerod',    sub:'Groupe vaudois de philosophie – soirée hors-cycle',               date:'2026-05-06', loc:'Librairie de la Louve, Pl. de la Louve 3, Lausanne',        type:'🏛️', dur:'~2h',    price:'Gratuit',  hot:false, url:'https://philo-vaud.ch/' },
+  { id:9,  int:'music',   title:'Imany – Les Docks',                  sub:'Soul / world – Voodoo Cello Tour',                                date:'2026-05-07', loc:'Les Docks, Av. de Sévelin 34, Lausanne',                   type:'🎤', dur:'~2h',    price:'~55 CHF',  hot:false, url:'https://www.docks.ch/en/programme/' },
+  { id:10, int:'theatre', title:'Lausanne Art Fair – Beaulieu',       sub:'8e édition – 80 galeries, 2 500 œuvres, peinture, sculpture, photo', date:'2026-05-07', loc:'Beaulieu ExpoLausanne, Av. des Bergières 10, Lausanne', type:'🎨', dur:'4 jours', price:'dès 15 CHF', hot:false, url:'https://beaulieu-lausanne.com/en/calendar/lausanne-art-fair-2026/' },
+  { id:11, int:'music',   title:'Silvana Estrada – Les Docks',        sub:'Pop folk mexicaine – voix envoûtante',                            date:'2026-05-13', loc:'Les Docks, Av. de Sévelin 34, Lausanne',                   type:'🎤', dur:'~2h',    price:'~40 CHF',  hot:false, url:'https://www.docks.ch/en/programme/' },
+  { id:12, int:'music',   title:'Ultra Vomit – Les Docks',            sub:'Metal parodique français – show déjanté',                         date:'2026-05-15', loc:'Les Docks, Av. de Sévelin 34, Lausanne',                   type:'🎸', dur:'~2h',    price:'~35 CHF',  hot:false, url:'https://www.docks.ch/en/programme/' },
 ];
-const EVENTS_JSON_URL = './events.json';
 
 const AGENDA_INIT = [
   { id:1, day:1, time:'09:00', dur:30,  cat:'Trading',  title:'Review trading',       emoji:'📊' },
@@ -1150,8 +1146,8 @@ const App = () => {
   const [interests, setInterests] = useState(() => lsGet(LS.INTERESTS, INTERESTS_INIT));
   const [agenda,    setAgenda]    = useState(AGENDA_INIT);
   const [toast,     setToast]     = useState(null); // { msg, goalName }
-  const [eventsDb,  setEventsDb]  = useState(EVENTS_FALLBACK);
-  const [eventsSource, setEventsSource] = useState('fallback local');
+  const [eventsDb]  = useState(EVENTS_FALLBACK);
+  const [eventsSource] = useState('sync HTML Claude');
 
   // ── Auto-save à chaque changement d'état ──
   useEffect(() => { lsSet(LS.GOALS, goals); }, [goals]);
@@ -1167,23 +1163,6 @@ const App = () => {
     const t = setTimeout(() => setToast(null), 3500);
     return () => clearTimeout(t);
   }, [toast]);
-
-  useEffect(() => {
-    let cancelled = false;
-    fetch(`${EVENTS_JSON_URL}?ts=${Date.now()}`, { cache:'no-store' })
-      .then(r => r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`)))
-      .then(data => {
-        if (cancelled) return;
-        if (Array.isArray(data) && data.length) {
-          setEventsDb(data);
-          setEventsSource('events.json');
-        }
-      })
-      .catch(() => {
-        if (!cancelled) setEventsSource('fallback local');
-      });
-    return () => { cancelled = true; };
-  }, []);
 
   const toggleHabit = (id) => {
     const habit = habits.find(h => h.id === id);
