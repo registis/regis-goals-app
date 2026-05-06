@@ -1,122 +1,93 @@
-# 🔭 Sentinelle Lausanne — Semaine du 27 avril 2026
+# 🔭 Sentinelle Lausanne — Semaine du 6 mai 2026
 
-**Déploiement Netlify :** ⚠️ Erreur réseau — curl exit code 56 (accès réseau sortant bloqué dans le sandbox bash)
-**Fichier HTML :** ✅ Mis à jour localement — `REGIS_GOALS_APP_2026.html`
-**ZIP préparé :** ✅ Prêt à déployer — glisse `deploy.zip` sur https://app.netlify.com/sites/gilded-sunburst-623e60/deploys
-**URL cible :** https://gilded-sunburst-623e60.netlify.app
-**Événements trouvés :** 12 événements vérifiés avec URL source
+**Déploiement Netlify :** ⚠️ **Échec auto** — réseau sandbox bloqué (HTTP 403 `blocked-by-allowlist` sur `api.netlify.com`)
+**Action requise :** déploiement manuel via drag & drop du ZIP sur https://app.netlify.com/sites/gilded-sunburst-623e60/deploys
+**ZIP prêt :** [deploy.zip](computer:///sessions/zen-exciting-mccarthy/mnt/Downloads/deploy.zip) (17 kB, contient `index.html` à la racine)
+**HTML source mis à jour :** [REGIS_GOALS_APP_2026.html](computer:///sessions/zen-exciting-mccarthy/mnt/Downloads/REGIS_GOALS_APP_2026.html)
+**URL publique (après déploiement) :** https://gilded-sunburst-623e60.netlify.app
 
----
-
-## ⚡ Cette semaine (27 avril – 3 mai)
-
-### 🎭 Le Tartuffe – Théâtre Kléber-Méleau (Renens)
-- **Date :** Dernières représentations jusqu'au 3 mai 2026
-- **Lieu :** Ch. de l'Usine-à-Gaz 9, Renens
-- **Prix :** ~35 CHF
-- **Source :** https://www.tkm.ch/representation/le-tartuffe/
-- Molière mis en scène par Jean Liermier — avant la fin de saison.
-
-### 🎤 Black Sea Dahu + Malummí – Les Docks
-- **Date :** Jeudi 30 avril 2026
-- **Lieu :** Les Docks, Av. de Sévelin 34, Lausanne
-- **Prix :** ~39 CHF
-- **Source :** https://www.docks.ch/evenement/concerts/20260430/black-sea-dahu-2/
-- Folk-rock zurichois, ambiance intimiste — album *Everything*.
-
-### 🎪 Festival Balélec – Campus EPFL
-- **Date :** Vendredi 1er mai 2026, 19h00–04h00
-- **Lieu :** Campus EPFL, Lausanne–Ecublens (M1 gratuit toute la nuit)
-- **Prix :** dès 35 CHF
-- **Source :** https://www.balelec.ch/fr/balelec
-- Plus grand festival estudiantin d'Europe en une soirée : 5 scènes, 15 000 personnes, artiste principale Adèle Castillon.
-
-### 🎼 Stabat Mater (Dvořák) – Cathédrale de Lausanne
-- **Date :** Vendredi 1er mai 2026, 20h00
-- **Lieu :** Cathédrale de Lausanne, Pl. de la Cathédrale
-- **Prix :** ~30 CHF
-- **Source :** https://choeurcathedrale-lausanne.ch/representation/concert-stabat-mater-de-antonin-dvorak/
-- Choeur de la Cathédrale & Orchestre Nexus — soirée classique en cadre exceptionnel.
-
-### 🎤 Lujipeka + Samybrasco – Les Docks
-- **Date :** Samedi 2 mai 2026
-- **Lieu :** Les Docks, Av. de Sévelin 34, Lausanne
-- **Prix :** ~40 CHF
-- **Source :** https://www.docks.ch/en/programme/
-- Only Swiss Show de la tournée 2026 — rap français incontournable.
+**Événements vérifiés :** 13 événements avec URL source confirmée
+**Catégories couvertes :** philo · theatre · music · famille · socio
+**Fenêtre `hot:true` :** 6 → 12 mai 2026 (9 événements)
 
 ---
 
-## 📅 Prochainement (4–15 mai)
+## ⚡ Cette semaine (hot — 6 → 13 mai)
 
-### 🏛️ Café-Philo OrPhi – UNIL
-- **Date :** Mardi 5 mai 2026
-- **Lieu :** Bar Tabac, Lausanne
-- **Prix :** Gratuit
-- **Source :** https://www.asso-unil.ch/orphi/mardi-5-mai-cafe-philo/
-- Débat philosophique ouvert, format ludique — une question soumise au groupe et débattue.
+### 🏛️ Mer 6 mai · Soirée philo Vincent Fornerod
+Groupe vaudois de philosophie · soirée hors-cycle · gratuit
+→ https://philo-vaud.ch/
 
-### 💃 Fête de la Danse – Lausanne
-- **Date :** 6–10 mai 2026
-- **Lieu :** Lieux multiples à Lausanne
-- **Prix :** Gratuit (nombreux événements)
-- **Source :** https://fetedeladanse.ch/lausanne/
-- Spectacles, performances et ateliers dans toute la ville — danse contemporaine, hip-hop, classique.
+### 💃 Mer 6 → Dim 10 mai · Fête de la Danse Lausanne
+Spectacles, performances, ateliers (AVDC, Arsenic, Théâtre Sévelin 36) · gratuit
+→ https://fetedeladanse.ch/lausanne/
 
-### 🏛️ Soirée philo – Vincent Fornerod (Groupe vaudois)
-- **Date :** Mercredi 6 mai 2026
-- **Lieu :** Librairie de la Louve, Pl. de la Louve 3, Lausanne
-- **Prix :** Gratuit
-- **Source :** https://philo-vaud.ch/
-- Soirée hors-cycle du Groupe vaudois de philosophie.
+### 🎤 Jeu 7 mai · Imany + Bleu Satellite — Les Docks
+Voodoo Cello Tour · **sold out** (à surveiller en cas de retour billet)
+→ https://www.docks.ch/en/programme/
 
-### 🎤 Imany – Les Docks
-- **Date :** Jeudi 7 mai 2026
-- **Lieu :** Les Docks, Av. de Sévelin 34, Lausanne
-- **Prix :** ~55 CHF
-- **Source :** https://www.docks.ch/en/programme/
-- Soul / world — Voodoo Cello Tour.
+### 🎨 Jeu 7 → Dim 10 mai · Lausanne Art Fair (8e éd.)
+Beaulieu · 80 galeries · 2 500 œuvres · billets dès 15 CHF en ligne
+→ https://beaulieu-lausanne.com/en/calendar/lausanne-art-fair-2026/
 
-### 🎨 Lausanne Art Fair – Beaulieu
-- **Date :** 7–10 mai 2026
-- **Lieu :** Beaulieu ExpoLausanne, Av. des Bergières 10, Lausanne
-- **Prix :** dès 15 CHF
-- **Source :** https://beaulieu-lausanne.com/en/calendar/lausanne-art-fair-2026/
-- 8e édition — 80 galeries internationales, 2 500 œuvres, peintures / sculptures / photos.
+### 🎤 Ven 8 mai · Damso — BĒYĀH Tour
+Vaudoise Aréna, Prilly · 20h · tournée internationale
+→ https://vaudoisearena.ch/en/events/damso-beyah-tour-1
 
-### 🎤 Silvana Estrada – Les Docks
-- **Date :** Mercredi 13 mai 2026
-- **Lieu :** Les Docks, Av. de Sévelin 34, Lausanne
-- **Prix :** ~40 CHF
-- **Source :** https://www.docks.ch/en/programme/
-- Pop folk mexicaine, voix envoûtante — artiste en pleine ascension.
+### 🎤 Sam 9 mai · Puma Blue + Salpa — Les Docks
+Indie / jazz / dream-pop · **only Swiss show** · ~40 CHF
+→ https://www.docks.ch/en/programme/
 
-### 🎸 Ultra Vomit – Les Docks
-- **Date :** Vendredi 15 mai 2026
-- **Lieu :** Les Docks, Av. de Sévelin 34, Lausanne
-- **Prix :** ~35 CHF
-- **Source :** https://www.docks.ch/en/programme/
-- Metal parodique français — show déjanté, salle enthousiaste garantie.
+### 🎭 Sam 9 mai · Récital autour de Rigoletto — TKM
+Foyer du TKM · collaboration Opéra de Lausanne · ~50 min · 20h
+→ https://www.tkm.ch/
+
+### 🎼 Mar 12 mai · Chœur universitaire & Sinfonietta — Cathédrale
+Concert 20h · Cathédrale de Lausanne
+→ https://www.cathedrale-lausanne.ch/accueil/agenda/
+
+### 🎼 Mar 12 mai · Vevey Spring Classic — Final
+Strauss / Beethoven / Mozart · Cameristi della Scala · Salle del Castillo, Vevey
+→ https://vd.leprogramme.ch/
+
+---
+
+## 📅 Prochainement (14 → 31 mai)
+
+### 🎸 Ven 15 mai · Ultra Vomit — Les Docks
+Metal parodique français · ~35 CHF
+→ https://www.docks.ch/en/programme/
+
+### 🌱 Mer 20 mai · Fête de la Nature — Parc Louis-Bourget
+14h–20h · animations flore & faune, castors, oiseaux, ateliers durabilité · gratuit
+→ https://www.lausanne.ch/vie-pratique/nature/evenements-sorties/fete-de-la-nature-en-ville.html
+
+### 🎤 Ven 22 mai · Calogero — Concert acoustique
+Salle Métropole, Lausanne · tournée acoustique 150+ dates · billets dès 75 CHF
+→ https://sallemetropole.ch/evenements/calogero/
+
+### 🍷 Sam 23 → Dim 24 mai · Caves Ouvertes Vaudoises
+200 caves, 8 AOC, 79 cépages · pass 20 CHF (incl. bon 20 CHF + Mobilis)
+→ https://www.mescavesouvertes.ch/
 
 ---
 
 ## 💡 Suggestions personnalisées pour Régis
 
-**1. 🏛️ Philo → Objectif "Café philo Pictet" (Goal #23)**
-Le Café-Philo OrPhi du 5 mai et la soirée Fornerod du 6 mai sont idéaux pour observer le format et affiner ta propre soirée philo. Ces deux événements consécutifs permettent aussi de repérer des participants potentiels pour ton projet "Bar débat" (Goal #22).
+**1. 🏛️ Café philo Picpic — modèle à observer mercredi 6 mai**
+La soirée Vincent Fornerod (philo-vaud.ch) tombe pile sur ton créneau Café philo Picpic du mercredi 20h. Y aller comme observateur permet de calibrer ton format avant le lancement Q2 (Goal #23). Si la date ne marche pas, le Café Philo Lausanne tourne tous les 15 jours au Benjamin Bar (Hotel de la Paix, dimanche 19h) — un autre format à étudier.
 
-**2. 🎨 Culture → Objectif "12 sorties culturelles" (Goal #19)**
-La Lausanne Art Fair (7–10 mai) + Imany aux Docks (7 mai) = 2 sorties culturelles en un seul week-end. Parfait pour accélérer sur cet objectif actuellement à 0/12.
+**2. 👧 Cléo — week-end famille à coût zéro**
+La **Fête de la Danse** (6–10 mai, gratuit, lieux multiples) coche les cases sortie famille + culture + budget. Activité bonifiante côté coparenting et activable spontanément le samedi 9 ou dimanche 10. Plan B : Lausanne Art Fair (espace ouvert au public, billets enfants -12 ans souvent gratuits).
 
-**3. 💃 Famille → Activités avec Cléo + Goal coparenting (#15)**
-La Fête de la Danse (6–10 mai) propose des ateliers gratuits pour tous âges — une belle sortie à partager avec Cléo. Gratuit, festif, pas de logistique compliquée.
+**3. 🍷 Réseau (Goal #21 : 12 nouvelles personnes) — Caves Ouvertes 23-24 mai**
+Format idéal pour rencontrer du monde sans la pression d'un networking event. Pass Mobilis inclus dans le billet 20 CHF, donc déplacement vignoble vaudois sans logistique. Cibler 2-3 nouveaux contacts dans la journée et marquer le compteur du Goal #21.
 
 ---
 
-## 🔧 Note déploiement Netlify
+## 🛠️ Notes techniques
 
-Le ZIP a été préparé et contient le fichier HTML mis à jour (EVENTS_DB du 27 avril 2026).
-**Erreur :** accès réseau sortant bloqué dans le sandbox bash (curl exit 56 — pas de connexion à api.netlify.com).
-
-**Action manuelle requise :** glisse le fichier `deploy.zip` sur :
-https://app.netlify.com/sites/gilded-sunburst-623e60/deploys
+- **EVENTS_DB** : 13 événements (anciens événements ≤ 5 mai supprimés, fenêtre roulante 6 → 31 mai).
+- **Catégories** : `philo` (1), `theatre` (2), `music` (7), `famille` (1), `socio` (2). Aucun `squash` ce mois-ci (calendrier squashromandie.ch ne renvoie pas de tournoi confirmé pour mai 2026 — à recontrôler la semaine prochaine).
+- **URLs** : toutes vérifiées via web search. Les liens Docks pointent vers la page programme générale (la page événement individuelle change après chaque concert).
+- **Déploiement** : ZIP `deploy.zip` dans Downloads + copie dans `~/Documents/.goals_config/deploy/`. Le sandbox bash bloque `api.netlify.com` (proxy allowlist) → drag & drop manuel requis sur app.netlify.com.
