@@ -1,93 +1,56 @@
-# 🔭 Sentinelle Lausanne — Semaine du 6 mai 2026
+# 🔭 Sentinelle Lausanne — Semaine du 11 mai 2026
 
-**Déploiement Netlify :** ⚠️ **Échec auto** — réseau sandbox bloqué (HTTP 403 `blocked-by-allowlist` sur `api.netlify.com`)
-**Action requise :** déploiement manuel via drag & drop du ZIP sur https://app.netlify.com/sites/gilded-sunburst-623e60/deploys
-**ZIP prêt :** [deploy.zip](computer:///sessions/zen-exciting-mccarthy/mnt/Downloads/deploy.zip) (17 kB, contient `index.html` à la racine)
-**HTML source mis à jour :** [REGIS_GOALS_APP_2026.html](computer:///sessions/zen-exciting-mccarthy/mnt/Downloads/REGIS_GOALS_APP_2026.html)
-**URL publique (après déploiement) :** https://gilded-sunburst-623e60.netlify.app
-
-**Événements vérifiés :** 13 événements avec URL source confirmée
-**Catégories couvertes :** philo · theatre · music · famille · socio
-**Fenêtre `hot:true` :** 6 → 12 mai 2026 (9 événements)
+**Déploiement Netlify :** ⚠️ Échec réseau sandbox — drag & drop manuel requis sur https://app.netlify.com/sites/gilded-sunburst-623e60/deploys
+**ZIP prêt :** `~/Downloads/deploy.zip` (glisser-déposer dans l'interface Netlify)
+**Fichier HTML mis à jour :** `~/Downloads/REGIS_GOALS_APP_2026.html`
+**Événements trouvés :** 12 événements vérifiés (mai–juin 2026)
 
 ---
 
-## ⚡ Cette semaine (hot — 6 → 13 mai)
+## ⚡ Cette semaine (hot — 11 au 17 mai)
 
-### 🏛️ Mer 6 mai · Soirée philo Vincent Fornerod
-Groupe vaudois de philosophie · soirée hors-cycle · gratuit
-→ https://philo-vaud.ch/
-
-### 💃 Mer 6 → Dim 10 mai · Fête de la Danse Lausanne
-Spectacles, performances, ateliers (AVDC, Arsenic, Théâtre Sévelin 36) · gratuit
-→ https://fetedeladanse.ch/lausanne/
-
-### 🎤 Jeu 7 mai · Imany + Bleu Satellite — Les Docks
-Voodoo Cello Tour · **sold out** (à surveiller en cas de retour billet)
-→ https://www.docks.ch/en/programme/
-
-### 🎨 Jeu 7 → Dim 10 mai · Lausanne Art Fair (8e éd.)
-Beaulieu · 80 galeries · 2 500 œuvres · billets dès 15 CHF en ligne
-→ https://beaulieu-lausanne.com/en/calendar/lausanne-art-fair-2026/
-
-### 🎤 Ven 8 mai · Damso — BĒYĀH Tour
-Vaudoise Aréna, Prilly · 20h · tournée internationale
-→ https://vaudoisearena.ch/en/events/damso-beyah-tour-1
-
-### 🎤 Sam 9 mai · Puma Blue + Salpa — Les Docks
-Indie / jazz / dream-pop · **only Swiss show** · ~40 CHF
-→ https://www.docks.ch/en/programme/
-
-### 🎭 Sam 9 mai · Récital autour de Rigoletto — TKM
-Foyer du TKM · collaboration Opéra de Lausanne · ~50 min · 20h
-→ https://www.tkm.ch/
-
-### 🎼 Mar 12 mai · Chœur universitaire & Sinfonietta — Cathédrale
-Concert 20h · Cathédrale de Lausanne
-→ https://www.cathedrale-lausanne.ch/accueil/agenda/
-
-### 🎼 Mar 12 mai · Vevey Spring Classic — Final
-Strauss / Beethoven / Mozart · Cameristi della Scala · Salle del Castillo, Vevey
-→ https://vd.leprogramme.ch/
+| Date | Événement | Lieu | Prix | Lien |
+|------|-----------|------|------|------|
+| Mar 12 mai | 🎤 **Roxane** – Les Docks | Les Docks, Av. de Sévelin 34 | ~35 CHF | [docks.ch](https://www.docks.ch/en/programme/) |
+| Mar 12 mai | 🎼 **Vevey Spring Classic – Concert final** (Strauss, Beethoven, Mozart / Cameristi della Scala) | Salle del Castillo, Vevey | dès 30 CHF | [leprogramme.ch](https://vd.leprogramme.ch/) |
+| Mer 13 mai | 🎤 **Silvana Estrada** – Les Docks (Only Swiss Show) | Les Docks, Lausanne | ~40 CHF | [docks.ch](https://www.docks.ch/en/programme/) |
+| Mer 13 mai | 🎵 **Fiona Daniel – Résidence** (album «transitions») | Vevey | Gratuit | [culturevevey.ch](https://www.culturevevey.ch/agenda/) |
+| Ven 15 mai | 🎸 **Ultra Vomit** – Les Docks (metal parodique FR) | Les Docks, Lausanne | ~35 CHF | [docks.ch](https://www.docks.ch/en/programme/) |
+| Dim 17 mai | 🏛️ **Café Philo** – Benjamin Bar (bi-mensuel, 19h00) | Hôtel de la Paix, Av. Benjamin Constant 5 | Gratuit | [cafesphilo.org](https://www.cafesphilo.org/places/cafe-philo-lausanne/) |
 
 ---
 
-## 📅 Prochainement (14 → 31 mai)
+## 📅 Prochainement (18 mai – 10 juin)
 
-### 🎸 Ven 15 mai · Ultra Vomit — Les Docks
-Metal parodique français · ~35 CHF
-→ https://www.docks.ch/en/programme/
-
-### 🌱 Mer 20 mai · Fête de la Nature — Parc Louis-Bourget
-14h–20h · animations flore & faune, castors, oiseaux, ateliers durabilité · gratuit
-→ https://www.lausanne.ch/vie-pratique/nature/evenements-sorties/fete-de-la-nature-en-ville.html
-
-### 🎤 Ven 22 mai · Calogero — Concert acoustique
-Salle Métropole, Lausanne · tournée acoustique 150+ dates · billets dès 75 CHF
-→ https://sallemetropole.ch/evenements/calogero/
-
-### 🍷 Sam 23 → Dim 24 mai · Caves Ouvertes Vaudoises
-200 caves, 8 AOC, 79 cépages · pass 20 CHF (incl. bon 20 CHF + Mobilis)
-→ https://www.mescavesouvertes.ch/
+| Date | Événement | Lieu | Prix | Lien |
+|------|-----------|------|------|------|
+| Mer 20 mai | 🌱 **Fête de la Nature** – animations flore & faune | Parc Louis-Bourget, Lausanne | Gratuit | [lausanne.ch](https://www.lausanne.ch/agenda-et-actualites/agenda) |
+| Ven 22 mai | 🎤 **Calogero – Concert acoustique** | Salle Métropole, Lausanne | dès 75 CHF | [tempslibre.ch](https://www.tempslibre.ch/ou-sortir/lausanne-104) |
+| Sam 23 mai | 🍷 **Caves Ouvertes Vaudoises** – 200 caves, Mobilis inclus | Canton de Vaud | 20 CHF | [mescavesouvertes.ch](https://www.mescavesouvertes.ch/) |
+| Mer 27 mai | 🎭 **Journées du Théâtre Suisse** – 13e éd., 7 spectacles | Théâtre Vidy (Lausanne) + Benno Besson (Yverdon) | var. | [swissinfo.ch](https://www.swissinfo.ch/fre/yverdon-et-lausanne-accueillent-les-journ%C3%A9es-du-th%C3%A9%C3%A2tre-suisse-2026/91163650) |
+| Sam 30 mai | 🎧 **360° fever × DOCKS** – soirée électro/club (+18) | Les Docks, Lausanne | var. | [docks.ch](https://www.docks.ch/en/programme/) |
+| Mer 10 juin | 🏛️ **Kiosque à Philosophes** – Groupe Vaudois de Philo | Maison de Quartier Sous-Gare, Lausanne | Gratuit | [philo-vaud.ch](https://philo-vaud.ch/) |
 
 ---
 
 ## 💡 Suggestions personnalisées pour Régis
 
-**1. 🏛️ Café philo Picpic — modèle à observer mercredi 6 mai**
-La soirée Vincent Fornerod (philo-vaud.ch) tombe pile sur ton créneau Café philo Picpic du mercredi 20h. Y aller comme observateur permet de calibrer ton format avant le lancement Q2 (Goal #23). Si la date ne marche pas, le Café Philo Lausanne tourne tous les 15 jours au Benjamin Bar (Hotel de la Paix, dimanche 19h) — un autre format à étudier.
+**1. Silvana Estrada mercredi 13 mai (🎤 music + 🎯 sorties)**
+Only Swiss Show aux Docks — folk/soul mexicain, ambiance intimiste. Parfait pour cocher une sortie culturelle (objectif 12 sorties/an, 0/12 pour l'instant). Soir de semaine, accessible après le travail.
 
-**2. 👧 Cléo — week-end famille à coût zéro**
-La **Fête de la Danse** (6–10 mai, gratuit, lieux multiples) coche les cases sortie famille + culture + budget. Activité bonifiante côté coparenting et activable spontanément le samedi 9 ou dimanche 10. Plan B : Lausanne Art Fair (espace ouvert au public, billets enfants -12 ans souvent gratuits).
+**2. Café Philo dimanche 17 mai (🏛️ philo + 🎯 projet Café Philo Pictet)**
+Le Café Philo bi-mensuel au Benjamin Bar est une mine d'inspiration pour ton propre projet "Café Philo Pictet" (Goal #23, cible Q2). Observer le format et le public peut t'aider à structurer ta propre soirée — déjà prévue le mercredi soir dans ton agenda.
 
-**3. 🍷 Réseau (Goal #21 : 12 nouvelles personnes) — Caves Ouvertes 23-24 mai**
-Format idéal pour rencontrer du monde sans la pression d'un networking event. Pass Mobilis inclus dans le billet 20 CHF, donc déplacement vignoble vaudois sans logistique. Cibler 2-3 nouveaux contacts dans la journée et marquer le compteur du Goal #21.
+**3. Fête de la Nature mercredi 20 mai (🌱 famille + 🎯 Cléo)**
+Entrée gratuite, Parc Louis-Bourget au bord du lac. Format parfait pour une sortie avec Cléo — proximité, nature, ateliers interactifs. Peut se combiner avec le déjeuner Cléo habituel du jeudi ou anticiper une sortie Lausanne en famille.
 
 ---
 
-## 🛠️ Notes techniques
+## 🛠️ Notes d'exécution
 
-- **EVENTS_DB** : 13 événements (anciens événements ≤ 5 mai supprimés, fenêtre roulante 6 → 31 mai).
-- **Catégories** : `philo` (1), `theatre` (2), `music` (7), `famille` (1), `socio` (2). Aucun `squash` ce mois-ci (calendrier squashromandie.ch ne renvoie pas de tournoi confirmé pour mai 2026 — à recontrôler la semaine prochaine).
-- **URLs** : toutes vérifiées via web search. Les liens Docks pointent vers la page programme générale (la page événement individuelle change après chaque concert).
-- **Déploiement** : ZIP `deploy.zip` dans Downloads + copie dans `~/Documents/.goals_config/deploy/`. Le sandbox bash bloque `api.netlify.com` (proxy allowlist) → drag & drop manuel requis sur app.netlify.com.
+- **Credentials Netlify** : lus depuis `~/Documents/.goals_config/netlify.env` ✅
+- **Recherches web** : 7 requêtes exécutées (agenda Lausanne, philo, concerts Docks, squash, famille, théâtre, Vevey/Morges) ✅
+- **Squash romandie** : aucun tournoi confirmé pour mai 2026 — Swiss Masters 2026 s'est tenu en mars à Lausanne. Aucun événement squash ajouté cette semaine.
+- **EVENTS_DB** : 13 anciens événements (passés) remplacés par 12 nouveaux vérifiés (mai–juin 2026) ✅
+- **ZIP** : créé dans `/sessions/` et copié dans `~/Downloads/deploy.zip` ✅
+- **Déploiement Netlify** : ⚠️ Réseau sandbox bloqué (HTTP 000). Déploiement manuel requis — glisser `deploy.zip` sur https://app.netlify.com/sites/gilded-sunburst-623e60/deploys
