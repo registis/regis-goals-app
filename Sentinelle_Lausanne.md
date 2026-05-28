@@ -1,69 +1,121 @@
-# 🔭 Sentinelle Lausanne — Semaine du 25 mai 2026
+# 🔭 Sentinelle Lausanne — Semaine du 28 mai 2026
 
-**Déploiement Netlify :** ⚠️ Échec réseau sandbox (HTTP 000) — drag & drop manuel requis sur https://app.netlify.com/sites/gilded-sunburst-623e60/deploys
-**ZIP prêt :** `~/Downloads/deploy.zip` (17 Ko — index.html à la racine ✅)
-**Événements trouvés :** 13 événements vérifiés (sources officielles)
+**Déploiement Netlify :** ⚠️ Échec réseau sandbox (HTTP 000 — connexion bloquée)
+→ Drag & drop manuel requis sur https://app.netlify.com/sites/gilded-sunburst-623e60/deploys
+→ ZIP prêt : `~/Downloads/deploy.zip`
+→ HTML à jour : `~/Downloads/REGIS_GOALS_APP_2026.html`
 
----
-
-## ⚡ Cette semaine (hot — dans les 7 prochains jours)
-
-### 🎭 Journées du Théâtre Suisse — 27–31 mai 2026
-**Lieu :** Théâtre Vidy-Lausanne + Théâtre Benno Besson, Yverdon
-**Détail :** 13e édition — 7 spectacles venus de tout le pays. Vendredi 29 mai : journée entière à Vidy-Lausanne.
-**URL :** https://journees-theatre-suisse.ch/
-
-### 🎨 Dessin en plein air – Musée romain Lausanne-Vidy — 27 mai 2026
-**Lieu :** Musée romain de Lausanne-Vidy, Chemin du Bois-de-Vaux
-**Détail :** Atelier dessin avec l'artiste Isabelle Schiper dans le jardin du musée.
-**URL :** https://www.lausanne.ch/agenda-et-actualites/agenda
-
-### 🎧 360° fever × DOCKS – Soirée club — 30 mai 2026
-**Lieu :** Les Docks, Av. de Sévelin 34, Lausanne
-**Détail :** Soirée électro/club, 18 ans et plus.
-**URL :** https://www.docks.ch/en/programme/
-
-### 👶 Musée Historique – Atelier famille 4–7 ans — dès le 31 mai 2026
-**Lieu :** Musée Historique de Lausanne, Pl. de la Cathédrale 4
-**Détail :** Activité ludique & éducative pour les tout-petits (4 à 7 ans) et leurs familles. Du 31 mai au 23 juillet 2026.
-**URL :** https://www.lausanne.ch/agenda-et-actualites/agenda
+**Événements trouvés :** 15 événements vérifiés (sources : docks.ch, vidy.ch, beaulieu-lausanne.com, philo-vaud.ch, tempslibre.ch)
 
 ---
 
-## 📅 Prochainement (juin 2026)
+## ⚡ Cette semaine (hot — dans les 7 jours)
 
-| Date | Catégorie | Titre | Lieu |
-|------|-----------|-------|------|
-| 03.06 | 🎤 Musique | Mané (proxima) – Concert in the Café | Les Docks, Lausanne |
-| 06.06 | 😂 Socio | Morges-sous-Rire Festival (6–13 juin) | Parc de l'Indépendance, Morges |
-| 07.06 | 🎪 Famille | Familles en fête – Beaulieu Lausanne (Gratuit) | Beaulieu, Av. des Bergières 10 |
-| 10.06 | 🏛️ Philo | Kiosque à Philosophes – GVP (18h) | Maison de Quartier Sous-Gare |
-| 10.06 | 🎼 Musique | Los Inescalables Alpes – Vidy La Passerelle (19h) | Théâtre Vidy-Lausanne |
-| 11.06 | 🖼️ Socio | Rencontre artiste Caroline Ventura – MHL | Musée Historique Lausanne |
-| 17.06 | 🎸 Musique | Sugar + J. Robbins (Jawbox) – Only Swiss Show | Les Docks, Lausanne |
-| 19.06 | 🎧 Musique | Cabaret Voltaire + Pest Modern – Only Swiss Show | Les Docks, Lausanne |
-| 21.06 | 🎵 Musique | Fête de la Musique – Lausanne (Gratuit) | Lausanne, plusieurs scènes |
+### 🎧 360° fever × DOCKS – Soirée club
+📅 Samedi 30 mai 2026 | Les Docks, Av. de Sévelin 34, Lausanne
+Soirée électro/club — 18 ans et plus
+🔗 https://www.docks.ch/en/programme/
+
+### 👶 Musée Historique – Atelier famille 4–7 ans
+📅 Dimanche 31 mai 2026 | Musée Historique, Pl. de la Cathédrale 4, Lausanne
+Activité ludique & éducative pour les tout-petits (récurrente mai–juillet)
+🔗 https://www.lausanne.ch/agenda-et-actualites/agenda
+
+### 🎤 Mané (proxima) – Les Docks
+📅 Mercredi 3 juin 2026 | Les Docks, Av. de Sévelin 34, Lausanne
+Concert in the Café — soirée intimiste
+🔗 https://www.docks.ch/en/programme/
+
+---
+
+## 📅 Prochainement
+
+### 🎸 16 Horsepower – Les Docks ⚠️ SOLD OUT
+📅 Jeudi 4 juin 2026 | No support act — complet
+🔗 https://www.docks.ch/en/programme/
+
+### 😂 Festival Morges-sous-Rire
+📅 6–13 juin 2026 | Parc de l'Indépendance, Morges
+Spectacles, concerts, food trucks sous les étoiles
+🔗 https://www.tempslibre.ch/vaud/festivals/443056-festival-morges-sous-rire
+
+### 🎪 Familles en fête – Beaulieu Lausanne
+📅 Dimanche 7 juin 2026 | Beaulieu Lausanne, Av. des Bergières 10
+5e édition — ateliers, animations, associations — GRATUIT
+🔗 https://www.lausanne.ch/vie-pratique/enfance-jeunesse-famille/bureau-lausannois-familles-blf/evenements-projets/familles-en-fete-accueil.html
+
+### 🏛️ Kiosque à Philosophes – Groupe Vaudois de Philosophie
+📅 Mercredi 10 juin 2026 à 18h | Casino de Montbenon, Allée Ernest-Ansermet, Lausanne
+Soirée philo ouverte au public — GRATUIT
+🔗 https://philo-vaud.ch/
+
+### 🎼 Los Inescalables Alpes – Vidy Passerelle
+📅 Mercredi 10 juin 2026 | Théâtre Vidy-Lausanne, Salle 76 La Passerelle
+Concert musique de chambre
+🔗 https://www.vidy.ch/en/calendar/
+
+### 🩰 Béjart Ballet – La Route de la Soie
+📅 11–14 juin 2026 | Théâtre de Beaulieu, Lausanne
+Fresque chorégraphique — voyage initiatique Orient-Occident avec Maurice Béjart
+🔗 https://beaulieu-lausanne.com/en/calendar/
+
+### 🌍 Le Bal de la Terre – Théâtre Vidy
+📅 Samedi 13 juin 2026 à 21h | Théâtre Vidy-Lausanne, Salle 17 Le Pavillon
+Danse, théâtre et célébration — imaginaires terrestres
+🔗 https://www.vidy.ch/en/calendar/
+
+### 🎸 Sugar + J. Robbins (Jawbox) – Les Docks
+📅 Mercredi 17 juin 2026 | Only Swiss Show — rock alternatif années 90
+🔗 https://www.docks.ch/en/programme/
+
+### 🎭 Mirlitons – Théâtre Vidy
+📅 Mercredi 17 juin 2026 à 19h | Théâtre Vidy-Lausanne
+Aymeric Hainaux (beatboxer) vs François Chaignaud (danseur) — face à face dans un ring
+🔗 https://www.vidy.ch/en/calendar/
+
+### 🎧 Cabaret Voltaire + Pest Modern – Les Docks
+📅 Vendredi 19 juin 2026 | Only Swiss Show — électro-rock expérimental
+🔗 https://www.docks.ch/en/programme/
+
+### 🎵 Fête de la Musique – Lausanne
+📅 Dimanche 21 juin 2026 | Lausanne (60 scènes, plein air)
+200+ concerts gratuits — Henri Dès aux Docks à 15h (petits et grands) — GRATUIT
+🔗 https://www.docks.ch/evenement/evenements/20260621/fete-de-la-musique-2026/
+
+### 🎶 Curtis Harding – Les Docks
+📅 Jeudi 25 juin 2026 | Les Docks, Av. de Sévelin 34, Lausanne
+Soul / R&B — concert live
+🔗 https://www.docks.ch/en/programme/
 
 ---
 
 ## 💡 Suggestions personnalisées pour Régis
 
-**1. Journées du Théâtre Suisse + Vidy (vendredi 29 mai) → objectif #19 Sorties culturelles**
-La journée lausannoise est ce vendredi à Vidy. Compatible avec ton agenda (fitness à 18h mais spectacles en journée). Une sortie = 1/12 sur l'objectif sorties culturelles, qui est à 0 en ce moment.
+**🏛️ Philosophie → Kiosque à Philosophes (10 juin, Casino de Montbenon, GRATUIT)**
+Exactement dans l'axe du projet Café Philo Picpic (Goal #23). Observer comment le GVP anime une soirée philo publique est une préparation directe. Date parfaite : mercredi soir, dans ton créneau habituel Café Philo Picpic.
 
-**2. Musée Historique famille 4–7 ans (dès dimanche 31 mai) → coparenting + Cléo**
-Démarre dimanche. Idéal pour une sortie avec Cléo lors du déjeuner du jeudi ou un prochain week-end. Bien dans la logique sorties famille Lausanne de l'objectif coparenting.
+**🎪 Famille → Familles en fête (7 juin, Beaulieu, GRATUIT)**
+Sortie idéale avec Cléo un dimanche. Ateliers, animations tous âges. À combiner avec une sortie Ouchy l'après-midi. Compte pour l'objectif Sorties (12 sorties 2026).
 
-**3. Kiosque à Philosophes GVP (10 juin, 18h) → Projet Café Philo Picpic**
-Occasion directe de réseau pour ton objectif #23 (Q2). Rencontrer les organisateurs du Groupe Vaudois de Philosophie avant de lancer ta propre soirée te donnera de la légitimité et des contacts dans la scène philo lausannoise.
-
----
-
-## 🛠️ Action requise
-
-**Déploiement Netlify manuel :** le réseau bash sandbox reste bloqué (curl HTTP 000). Le fichier `~/Downloads/deploy.zip` est prêt. Glisser-déposer sur https://app.netlify.com/sites/gilded-sunburst-623e60/deploys pour publier.
+**🎵 Fête de la Musique (21 juin, journée entière, GRATUIT)**
+Henri Dès aux Docks à 15h = sortie famille intergénérationnelle avec Cléo. Le soir, la ville entière est une scène — idéal pour croiser des gens et avancer sur Goal #24 (réseau, 12 nouvelles personnes).
 
 ---
 
-*Rapport généré automatiquement le 2026-05-25 par l'agent Sentinelle Lausanne.*
-*Sources : journees-theatre-suisse.ch · docks.ch · philo-vaud.ch · lausanne.ch/agenda · tempslibre.ch · vidy.ch · culturevevey.ch*
+## 🔧 Log technique
+
+| Étape | Statut |
+|-------|--------|
+| Lecture credentials Netlify | ✅ OK |
+| Recherche web (7 requêtes) | ✅ OK |
+| Vérification événements | ✅ 15 événements retenus |
+| Mise à jour EVENTS_DB | ✅ 2 événements passés supprimés, hot flags recalibrés, 4 nouveaux ajoutés |
+| Création ZIP deploy.zip | ✅ OK — ~/Downloads/deploy.zip |
+| Déploiement Netlify curl | ⚠️ Échec — HTTP 000 (réseau sandbox bloqué) |
+| Rapport Sentinelle_Lausanne.md | ✅ OK |
+
+**Action requise :** Déploiement manuel → drag & drop `deploy.zip` sur https://app.netlify.com/sites/gilded-sunburst-623e60/deploys
+
+---
+
+*Sentinelle Lausanne — exécution autonome du 2026-05-28*
