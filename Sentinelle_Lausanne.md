@@ -1,11 +1,11 @@
-# 🔭 Sentinelle Lausanne — Semaine du 28 mai 2026
+# 🔭 Sentinelle Lausanne — Semaine du 29 mai 2026
 
 **Déploiement Netlify :** ⚠️ Échec réseau sandbox (HTTP 000 — connexion bloquée)
 → Drag & drop manuel requis sur https://app.netlify.com/sites/gilded-sunburst-623e60/deploys
 → ZIP prêt : `~/Downloads/deploy.zip`
 → HTML à jour : `~/Downloads/REGIS_GOALS_APP_2026.html`
 
-**Événements trouvés :** 15 événements vérifiés (sources : docks.ch, vidy.ch, beaulieu-lausanne.com, philo-vaud.ch, tempslibre.ch)
+**Événements trouvés :** 15 événements vérifiés (sources : docks.ch, vidy.ch, beaulieu-lausanne.com, philo-vaud.ch, tempslibre.ch, morges-sous-rire.ch, vd.leprogramme.ch)
 
 ---
 
@@ -26,13 +26,14 @@ Activité ludique & éducative pour les tout-petits (récurrente mai–juillet)
 Concert in the Café — soirée intimiste
 🔗 https://www.docks.ch/en/programme/
 
+### 🎸 Festival de Blues de Crissier ✨ NOUVEAU
+📅 Vendredi 5 juin 2026 (2 jours) | Parc de Montassé, Crissier (Lausanne ouest)
+16e édition — concerts blues en plein air — GRATUIT
+🔗 https://vd.leprogramme.ch/
+
 ---
 
 ## 📅 Prochainement
-
-### 🎸 16 Horsepower – Les Docks ⚠️ SOLD OUT
-📅 Jeudi 4 juin 2026 | No support act — complet
-🔗 https://www.docks.ch/en/programme/
 
 ### 😂 Festival Morges-sous-Rire
 📅 6–13 juin 2026 | Parc de l'Indépendance, Morges
@@ -94,8 +95,8 @@ Soul / R&B — concert live
 **🏛️ Philosophie → Kiosque à Philosophes (10 juin, Casino de Montbenon, GRATUIT)**
 Exactement dans l'axe du projet Café Philo Picpic (Goal #23). Observer comment le GVP anime une soirée philo publique est une préparation directe. Date parfaite : mercredi soir, dans ton créneau habituel Café Philo Picpic.
 
-**🎪 Famille → Familles en fête (7 juin, Beaulieu, GRATUIT)**
-Sortie idéale avec Cléo un dimanche. Ateliers, animations tous âges. À combiner avec une sortie Ouchy l'après-midi. Compte pour l'objectif Sorties (12 sorties 2026).
+**🎸 Blues → Festival de Blues de Crissier (5–6 juin, GRATUIT) ✨ NOUVEAU**
+Remplace le concert 16 Horsepower (sold out, inutile). Concert en plein air gratuit à Crissier — accessible avec ou sans Cléo. Si elle est disponible vendredi soir ou samedi, c'est une sortie zéro friction. Compte pour l'objectif Sorties.
 
 **🎵 Fête de la Musique (21 juin, journée entière, GRATUIT)**
 Henri Dès aux Docks à 15h = sortie famille intergénérationnelle avec Cléo. Le soir, la ville entière est une scène — idéal pour croiser des gens et avancer sur Goal #24 (réseau, 12 nouvelles personnes).
@@ -109,8 +110,8 @@ Henri Dès aux Docks à 15h = sortie famille intergénérationnelle avec Cléo. 
 | Lecture credentials Netlify | ✅ OK |
 | Recherche web (7 requêtes) | ✅ OK |
 | Vérification événements | ✅ 15 événements retenus |
-| Mise à jour EVENTS_DB | ✅ 2 événements passés supprimés, hot flags recalibrés, 4 nouveaux ajoutés |
-| Création ZIP deploy.zip | ✅ OK — ~/Downloads/deploy.zip |
+| Modification EVENTS_DB | ✅ id:4 remplacé (16HP sold-out → Blues Crissier) · hot flags recorrigés · timestamp 2026-05-29 |
+| Création ZIP deploy.zip | ✅ OK — ~/Downloads/deploy.zip (18 Ko) |
 | Déploiement Netlify curl | ⚠️ Échec — HTTP 000 (réseau sandbox bloqué) |
 | Rapport Sentinelle_Lausanne.md | ✅ OK |
 
@@ -118,4 +119,4 @@ Henri Dès aux Docks à 15h = sortie famille intergénérationnelle avec Cléo. 
 
 ---
 
-*Sentinelle Lausanne — exécution autonome du 2026-05-28*
+*Sentinelle Lausanne — exécution autonome du 2026-05-29*
