@@ -1,39 +1,36 @@
-# 🔭 Sentinelle Lausanne — Semaine du 4 août 2026
+# 🔭 Sentinelle Lausanne — Semaine du 7 août 2026
 
-**Déploiement Netlify :** ✅ Automatique — https://gilded-sunburst-623e60.netlify.app
-(deploy ID `6a7195f75169b86f3a5ec074`, state `ready` — via outil Netlify MCP, le curl sandbox était bloqué exit 56)
-**Événements trouvés :** 15 événements vérifiés (6 hot 🔥)
+**Déploiement Netlify :** ✅ Automatique — https://gilded-sunburst-623e60.netlify.app (deploy `6a759d31…`, state `ready`)
+**Événements trouvés :** 13 événements vérifiés (11 revalidés + 2 nouveaux : far° Nyon, Morges Open Air)
 
 ## ⚡ Cette semaine
 
-- 🏄 **Lausanne sur Mer — session d'août** · 5–16 août · Pyramides de Vidy · 25e édition, wakeboard/ski nautique/paddle + 87 activités terrestres gratuites · [lausanne-sur-mer.ch](https://lausanne-sur-mer.ch/)
-- 🎬 **Cin'Estival — Château d'Ouchy** · dès le 7 août · cinéma plein air au bord du lac · 35–50 CHF · [tempslibre.ch](https://www.tempslibre.ch/vaud/manifestations/443468-cin-estival)
-- 🌳 **Garden Parties — Parc du Loup** · 7–8 août · DERNIER week-end de l'édition 2026, concerts & animations enfants, gratuit · [gardenpartieslausanne.ch](https://gardenpartieslausanne.ch/parc/parc-du-loup/)
-- 🏰 **Morges Open Air** · chaque soir jusqu'au 6 sept. · cinéma dans la cour du Château de Morges · [morgesopenair.ch](https://morgesopenair.ch/)
-- ⚔️ **Fête médiévale — Château de Grandson** · 8–9 août · chevaliers & marché artisanal, dès 10 CHF · [tempslibre.ch](https://www.tempslibre.ch/vaud/manifestations/450917-f-te-m-di-vale-au-ch-teau-de-grandson)
-- 🎪 **Buskers Festival Neuchâtel** · dès le 11 août · artistes de rue, gratuit · [tempslibre.ch](https://www.tempslibre.ch/neuch-tel/festivals/442795-buskers-festival-de-neuch-tel)
+- 🌳 **Garden Parties – Parc du Loup (finale)** — ven 7 & sam 8 août, Lausanne. Dernier week-end de l'été : concerts, spectacles, animations enfants. Gratuit. [gardenpartieslausanne.ch](https://gardenpartieslausanne.ch/)
+- 🏄 **Lausanne sur Mer (25e anniv.)** — jusqu'au 16 août, Pyramides de Vidy. 86 animations, paddle/wakeboard/ski nautique. 90% gratuit. [lausanne-sur-mer.ch](https://lausanne-sur-mer.ch/)
+- 🎪 **far° festival des arts vivants – 42e édition** *(nouveau)* — 12–22 août, Nyon/Prangins/Duillier. 70+ événements (théâtre, danse, cirque, performance). Pass 100 CHF, **mercredi 19 août entièrement gratuit**. [far-nyon.ch](https://far-nyon.ch/festival/42e-edition-du-12-au-22-aout-2026/)
+- 🎬 **Festival Cinémas d'Afrique – 20e édition** — 13–16 août, Casino de Montbenon. [cine-afrique.ch](https://www.cine-afrique.ch/)
+- 🖼️ **Expo Peintures françaises 1800-1945 – MCBA** — derniers jours, jusqu'au 16 août. Gratuit. [mcba.ch](https://www.mcba.ch/expositions/peintures-francaises-1800-1945/)
+- 🎬 **Morges Open Air – cinéma au château** *(nouveau)* — un film chaque soir jusqu'au 6 sept, cour du Château de Morges. [morgesopenair.ch](https://morgesopenair.ch/programme-2026)
 
 ## 📅 Prochainement
 
-- 🎭 **far° Nyon — 42e édition** · 12–22 août · 70+ événements arts vivants · [far-nyon.ch](https://far-nyon.ch/festival/42e-edition-du-12-au-22-aout-2026/)
-- 🎬 **Festival Cinémas d'Afrique — 20e édition** · 13–16 août · Casino de Montbenon · [cine-afrique.ch](https://www.cine-afrique.ch/)
-- 🏃 **Athletissima 2026** · City Event jeu. 20.08 + meeting Diamond League ven. 21.08, Pontaise · [athletissima.ch](https://athletissima.ch/)
-- 🎨 **Otobong Nkanga — MCBA** · DERNIERS JOURS, fermeture 23 août · [mcba.ch](https://www.mcba.ch/en/exhibitions/otobong-nkanga/)
-- 🎸 **Wolfmother — Les Docks** · 26 août · 39–44 CHF · [docks.ch](https://www.docks.ch/evenement/concerts/20260826/wolfmother-2/)
-- 🏛️ **Café-philo au Jardin Botanique (GE)** · jeu. 27 août 18h · autour de Rousseau, gratuit sur inscription · [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-au-jardin-botanique-2)
-- 🍜 **Lausanne Street Food Festival** · 28–31 août · Plateforme 10, gratuit · [tempslibre.ch](https://www.tempslibre.ch/vaud/manifestations/442499-lausanne-street-food-festival)
-- 🎧 **TR/ST — Les Docks** · 11 sept. · Only Swiss Show · [docks.ch](https://www.docks.ch/evenement/concerts/20260911/tr-st/)
-- 🎵 **Label Suisse 2026 — Les Docks** · 18–20 sept. · festival scène suisse · [docks.ch](https://www.docks.ch/evenement/evenements/20260918/label-suisse-2026/)
+- 🤸 **Athletissima City Event – perche** — jeu 20 août, quais d'Ouchy. Gratuit. [athletissima.ch](https://athletissima.ch/city-event/)
+- 🏃 **Athletissima 2026 (Diamond League)** — ven 21 août, Stade de la Pontaise. [athletissima.ch](https://athletissima.ch/athletissima-2026/)
+- 🎨 **Expo Otobong Nkanga – MCBA** — fermeture le 23 août. [mcba.ch](https://www.mcba.ch/expositions/otobong-nkanga/)
+- 🎸 **Wolfmother – Les Docks** — mer 26 août. [docks.ch](https://www.docks.ch/evenement/concerts/20260826/wolfmother-2/)
+- 🏛️ **Café-philo au Jardin Botanique (Genève)** — jeu 27 août, inscription obligatoire. [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-au-jardin-botanique-2)
+- 🎹 **TR/ST – Les Docks** — ven 11 sept, unique date suisse. [docks.ch](https://www.docks.ch/evenement/concerts/20260911/tr-st/)
+- 🎤 **Label Suisse 2026** — 18–20 sept, Docks & centre-ville, gratuit. [docks.ch](https://www.docks.ch/evenement/evenements/20260918/label-suisse-2026/)
+
+## 📝 Notes de l'agent (décisions & limites)
+
+- **Squash** ⚠️ : squashromandie.ch est **en maintenance** (migration vers MySquash). Un "Tournoi de la rentrée + BBQ" le 30 août est mentionné dans les archives, mais aucune URL vérifiable → **exclu** conformément à la règle. À suivre sur [my.squash.ch](https://my.squash.ch) ou la chaîne WhatsApp de Squash Romandie.
+- **Fontaines D.C. aux Docks (17-18 août)** : complet (sold out) → exclu.
+- **Cafés-philo Lausanne** : pause estivale ; les dates de la saison sont publiées en août sur cafe-philo.ch. Le plus proche est celui du Jardin Botanique de Genève (27 août).
+- Déploiement : curl bloqué par le sandbox (exit 56) → repli sur l'outil Netlify MCP, déploiement confirmé `ready`.
 
 ## 💡 Suggestions personnalisées pour Régis
 
-1. **🪁 Kitesurf (Q3) → Lausanne sur Mer, cette semaine.** Wakeboard et ski nautique à Vidy jusqu'au 16 août : idéal pour travailler l'aisance nautique avant la validation d'autonomie kite, à 10 min de chez toi.
-2. **👧 Cléo + sorties (0/12 ⚠️) → Garden Parties Parc du Loup (7–8.08).** Dernier week-end de l'édition, gratuit, animations enfants. Alternative : Fête médiévale de Grandson le 8–9.08.
-3. **🏛️ Café Philo Picpic (Q2, non démarré) → va observer le Café-philo au Jardin Botanique le 27.08.** Format exact de ce que tu veux monter (1h, question votée en séance, places limitées). Bon benchmark — et potentiellement des contacts pour l'objectif réseau (0/12).
-
-## 📝 Notes d'exécution
-
-- ⚠️ **Squash :** squashromandie.ch est **en maintenance** (migration vers MySquash). Tournoi de la rentrée (30.08) et Night Fever #74 (10.09) repérés dans les résultats de recherche mais aucune URL vérifiable → exclus conformément à la règle. L'ancienne entrée Summer Ligue pointait vers une URL désormais morte, retirée. À re-vérifier la semaine prochaine sur my.squash.ch.
-- ⚠️ **Philo Lausanne :** pas de café-philo lausannois daté trouvé en août (pause estivale probable) ; l'édition genevoise du 27.08 est vérifiée et incluse.
-- Fontaines D.C. (Docks, 17–18.08) exclu (complet), Ravyn Lenae (25.08) exclu (annulé).
-- Déploiement : curl sandbox bloqué (exit 56) → repli sur l'outil Netlify MCP, déploiement confirmé `ready`.
+1. 🎪 **Bar débat / Café philo Pictet (Goals #22-23)** : le far° de Nyon propose 3 jours de *rencontres dramaturgiques* et une journée 100% gratuite le **mercredi 19 août** — bonne occasion d'observer des formats d'événements participatifs avant de lancer les tiens. Et sois lucide : ces deux projets sont à 0% avec des échéances Q2/Q3 déjà dépassées ou imminentes — le café-philo du 27 août à Genève est aussi un bon terrain de repérage concret.
+2. 👧 **Coparenting / sorties avec Cléo (0/12 sorties)** : la finale des Garden Parties c'est **ce week-end** (gratuit, animations enfants) et le Morges Open Air permet une soirée cinéma au château très simple à organiser. Deux options faciles pour enfin débloquer le compteur.
+3. 🎾 **Squash TOP 50** : le classement a migré sur MySquash — vérifie ton rang actuel sur [my.squash.ch](https://my.squash.ch) et surveille le tournoi de la rentrée (30 août, à confirmer) : les tournois comptent pour le classement, jouer seulement le cours du lundi ne suffira pas pour passer de 78 à 50 d'ici Q4.
