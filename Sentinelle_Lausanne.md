@@ -1,39 +1,39 @@
-# 🔭 Sentinelle Lausanne — Semaine du 11 août 2026
+# 🔭 Sentinelle Lausanne — Semaine du 13 août 2026
 
-**Déploiement Netlify :** ✅ Automatique — https://gilded-sunburst-623e60.netlify.app (deploy `6a7ac991`, state: ready)
-**Événements trouvés :** 15 événements vérifiés (8 hot 🔥)
+**Déploiement Netlify :** ✅ Automatique — https://gilded-sunburst-623e60.netlify.app (deploy `6a7d64f1…`, state `ready`)
+**Événements trouvés :** 15 événements vérifiés (7 nouveaux cette semaine, 8 reconduits du run du 12.08 encore valides)
 
-## ⚡ Cette semaine
+## ⚡ Cette semaine (hot 🔥)
 
-- 🏄 **Lausanne sur Mer — derniers jours** · jusqu'au di 16.08, Pyramides de Vidy · activités terre gratuites, paddle/wakeboard 5-10 CHF · [lausanne-sur-mer.ch](https://lausanne-sur-mer.ch/)
-- 🎻 **« De père en fille » — Cie Contacordes** · me 12.08, Maison de quartier du Désert · conte musical dès 7 ans → parfait avec Cléo · [tempslibre.ch](https://www.tempslibre.ch/vaud/spectacles/450827-un-t-au-d-sert-12-ao-t-cie-contacordes-de-p-re-en-fille)
-- 🎪 **far° festival des arts vivants** · jusqu'au 22.08, Nyon · 70+ spectacles · [far-nyon.ch](https://far-nyon.ch/festival/42e-edition-du-12-au-22-aout-2026/)
-- 🎬 **Festival Cinémas d'Afrique — 20e édition** · je 13 → di 16.08, Casino de Montbenon · [cine-afrique.ch](https://www.cine-afrique.ch/)
-- 🎹 **Récital d'orgue Giulia Biagetti** · ve 14.08, Cathédrale de Lausanne · [tempslibre.ch](https://www.tempslibre.ch/vaud/concerts/452387-toccata-e-non-toccata-giulia-biagetti)
-- 😂 **Soirée Humour du FCAL — Christian Mukuna** · sa 15.08, Salle Paderewski · [tempslibre.ch](https://www.tempslibre.ch/vaud/spectacles/451143-soir-e-humour-au-festival-cin-mas-d-afrique-lausanne)
-- 🎤 **Babouinade #3 — Thomas Wiesel & co** · lu 17.08, Continuum, **gratuit** · [tempslibre.ch](https://www.tempslibre.ch/vaud/spectacles/452355-babouinade-3-plateau-de-stand-up)
-- 🎷 **Concert d'été JazzOnze+ — Arthur Donnot 5tet** · ma 18.08, 21h, Théâtre de Verdure Montbenon, gratuit · [jazzonzeplus.ch](https://jazzonzeplus.ch/programme/)
+- 🎬 **Festival Cinémas d'Afrique — 20e édition** · 13–16 août · Casino de Montbenon · films, débats, open air · [cine-afrique.ch](https://www.cine-afrique.ch/)
+- 🏄 **Lausanne sur Mer — derniers jours** · jusqu'au 16 août · Pyramides de Vidy · 86 activités, 90% gratuit · [lausanne-tourisme.ch](https://www.lausanne-tourisme.ch/fr/evenement/lausanne-sur-mer-aout/)
+- 🏀 **FIBA 3x3 World Tour Lausanne Masters** · ven 14–sam 15 août · Place de la Navigation, Ouchy · gratuit · [lausanne-tourisme.ch](https://www.lausanne-tourisme.ch/fr/evenement/fiba-33-world-tour-lausanne-masters/)
+- 🎪 **far° festival des arts vivants** · jusqu'au 22 août · Nyon · [far-nyon.ch](https://far-nyon.ch/festival/42e-edition-du-12-au-22-aout-2026/)
+- 😂 **Christian Mukuna — stand-up** · sam 15 août 21h · Salle Paderewski · dès 25 CHF
+- 🎤 **Babouinade #3 (Thomas Wiesel & co)** · lun 17 août 19h30 · Continuum · gratuit sur réservation
+- 🏃 **City Event d'Athletissima** · jeu 20 août · Place de la Navigation · gratuit
+- 🥁 **LAFF — Lausanne Afro Fusions Festival** · 20–23 août · Montbenon
 
 ## 📅 Prochainement
 
-- 🤸 **Athletissima City Event — perche** · je 20.08, 18h, Ouchy, gratuit · [athletissima.ch](https://athletissima.ch/en/city-event/)
-- 🏃 **Athletissima 2026 — Diamond League** · ve 21.08, Stade de la Pontaise · [athletissima.ch](https://athletissima.ch/)
-- 📚 **FILAA — Festival du Livre et Arts africains** · 20-23.08, Esplanade de Montbenon, gratuit · [tempslibre.ch](https://www.tempslibre.ch/vaud/festivals/452414-festival-international-du-livre-et-des-arts-africains)
-- 🎨 **Otobong Nkanga au MCBA — derniers jours** · fermeture di 23.08 · [mcba.ch](https://www.mcba.ch/en/exhibitions/otobong-nkanga/)
-- 🎸 **Wolfmother — Les Docks** · me 26.08, dès 40.20 CHF · [docks.ch](https://www.docks.ch/evenement/concerts/20260826/wolfmother-2/)
-- 🏛️ **Café-philo au Jardin Botanique** · je 27.08, Genève, gratuit sur inscription · [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-au-jardin-botanique-2)
-- 🎹 **TR/ST — Les Docks** · ve 11.09, unique date suisse · [docks.ch](https://www.docks.ch/evenement/concerts/20260911/tr-st/)
+- 🏟️ **Athletissima (Wanda Diamond League)** · ven 21 août · Pontaise
+- 🎨 **Expo Otobong Nkanga — MCBA** · derniers jours, ferme le 23 août
+- 🎸 **Wolfmother — Les Docks** · mer 26 août 20h30 · dès 40 CHF ([docks.ch](https://www.docks.ch/evenement/concerts/20260826/wolfmother-2/))
+- 🏛️ **Café-philo au Jardin Botanique (Genève)** · jeu 27 août · gratuit, inscription obligatoire
+- 🎶 **Lauz'One Festival** · 27–30 août · Place des Pionnières
+- 🥋 **Lausanne Judo Grand Slam** · 28–30 août · Vaudoise aréna — belle sortie possible avec Cléo
+- 🎾 **Summer Ligue Squash Romandie** · matchs jusqu'au 15 sept · [squashromandie.ch](https://squashromandie.ch/post/view/30162)
 
 ## 💡 Suggestions personnalisées pour Régis
 
-1. **Cléo cette semaine 👧** : le conte musical « De père en fille » (me 12.08, dès 7 ans) + Lausanne sur Mer avant sa clôture dimanche = deux sorties famille faciles, quasi gratuites, qui font avancer l'objectif 12 sorties (0/12 — il faut démarrer).
-2. **Café philo Pictet (Goal #23) 🏛️** : rentrée philo confirmée — le Groupe vaudois de philosophie lance son cycle « Communauté et autorité » le **me 16.09** ([philo-vaud.ch](https://philo-vaud.ch/)). Lieu pas encore annoncé, donc non ajouté à l'app. Y aller pour observer le format et recruter des participants pour ton propre café philo. En attendant, le café-philo du 27.08 à Genève est la seule séance d'ici là.
-3. **Babouinade #3 (lu 17.08, gratuit) 🎤** : soirée stand-up décontractée au Continuum — bon terrain pour l'objectif « 12 nouvelles personnes » (0/12), public local et ambiance propice aux rencontres.
+1. **Sortie Cléo ce week-end (Goal sorties 0/12 + coparenting) :** FIBA 3x3 sam 15 à Ouchy (gratuit) enchaîné avec Lausanne sur Mer à Vidy — dernier week-end de l'édition. Deux sorties en une, coût zéro.
+2. **Squash TOP 50 (rang 78) :** la Summer Ligue court jusqu'au 15 sept — vérifier ton classement et caler des matchs comptabilisés avant la reprise des interclubs. C'est le levier le plus direct pour gagner des places.
+3. **Café philo Pictet (Goal #23, échéance Q2 dépassée) :** le café-philo du 27 août au Jardin Botanique de Genève est une bonne occasion d'observer un format qui marche avant de lancer le tien. Franchement, ce goal stagne — y aller serait un premier pas concret.
 
 ## 📝 Notes d'exécution
 
-- Déploiement curl bloqué (HTTP 000, réseau sandbox) → repli réussi sur l'outil Netlify MCP. Deploy vérifié `state: ready`.
-- **Squash** : squashromandie.ch est **en maintenance** (refonte du site) — aucun tournoi vérifiable cette semaine. La Summer Ligue court jusqu'au 15.09 mais sans page événement datée. À revérifier la semaine prochaine via [my.squash.ch](https://my.squash.ch).
-- Philo-vaud en pause estivale jusqu'au 16.09 ; l'événement n'est pas dans EVENTS_DB faute de lieu précis (règle de vérification).
-- Fontaines D.C. aux Docks (17-18.08) exclu : complet.
-- 2 événements légèrement au-delà de la fenêtre de 2 semaines conservés (Wolfmother 26.08, TR/ST 11.09) : uniques dates suisses, pertinents pour l'objectif sorties.
+- Fenêtre couverte : 13–27 août (+ 3 événements majeurs juste après, gardés pour anticipation).
+- Aucune séance de café-philo **à Lausanne** avec date vérifiable en août — les sites (cafe-philo.ch, MdA Vaud) ne publient pas encore leurs dates de rentrée. Exclu conformément à la règle « pas d'URL vérifiable = pas d'événement ».
+- Théâtre Vidy : saison 26-27 ne reprend que fin septembre (En Sicile dès le 24.09) — rien dans la fenêtre.
+- Fontaines D.C. aux Docks (17–18 août) : **complet**, non listé dans l'app.
+- Déploiement : le curl direct vers l'API Netlify a échoué (réseau sandbox bloqué, exit 56) → bascule sur l'outil MCP Netlify, déploiement confirmé `ready` à 08h32.
