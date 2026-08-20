@@ -1,38 +1,38 @@
-# 🔭 Sentinelle Lausanne — Semaine du 17 août 2026
+# 🔭 Sentinelle Lausanne — Semaine du 20 août 2026
 
-**Déploiement Netlify :** ✅ Automatique — https://gilded-sunburst-623e60.netlify.app (deploy `6a82aab2`, état `ready`)
-**Événements trouvés :** 15 événements vérifiés (chaque entrée a date + lieu + URL officielle)
+**Déploiement Netlify :** ✅ Automatique — https://gilded-sunburst-623e60.netlify.app (deploy ID `6a871b605d4904cf22965f09`)
+**Événements trouvés :** 15 événements vérifiés (7 « hot » cette semaine)
 
-## ⚡ Cette semaine (hot)
+## ⚡ Cette semaine
 
-- 🥁 **Lausanne Afro Fusions Festival (LAFF)** — 20–23 août, Esplanade et Casino de Montbenon. Concerts, DJ sets & cuisines afro. [lausanne-tourisme.ch](https://www.lausanne-tourisme.ch/fr/evenement/lausanne-afro-fusions-festival-laff/)
-- 🏟️ **Athletissima 2026 – Wanda Diamond League** — ven 21 août, Stade de la Pontaise. [lausanne-tourisme.ch](https://www.lausanne-tourisme.ch/fr/evenement/athletissima/)
-- 🎪 **Festival des arts de rue, 6e édition** — sam 22 août 11h-18h30, Parc du Débarcadère, Saint-Sulpice. 6 spectacles gratuits (cirque, humour, théâtre, musique) — parfait avec Cléo. [lausanne-tourisme.ch](https://www.lausanne-tourisme.ch/fr/evenement/festival-des-arts-de-rue/)
-- 🎨 **Otobong Nkanga au MCBA — DERNIER WEEKEND** — fermeture dim 23 août. [mcba.ch](https://www.mcba.ch/expositions/otobong-nkanga/)
+- 📚 **FILAA – Festival Intl du Livre et des Arts africains** · 20–23 août · Esplanade de Montbenon, Lausanne · Gratuit — [tempslibre.ch](https://www.tempslibre.ch/vaud/festivals/452414-festival-international-du-livre-et-des-arts-africains)
+- 🏟️ **Athletissima 2026 – Wanda Diamond League** · ven 21 août · Stade de la Pontaise — [lausanne-tourisme.ch](https://www.lausanne-tourisme.ch/fr/evenement/athletissima/)
+- 🎪 **Festival des arts de rue** · sam 22 août 11h–18h30 · Parc du Débarcadère, Saint-Sulpice · Gratuit · 👧 idéal avec Cléo — [lausanne-tourisme.ch](https://www.lausanne-tourisme.ch/fr/evenement/festival-des-arts-de-rue/)
+- 🎨 **Otobong Nkanga – MCBA** · DERNIER WEEKEND, fermeture dim 23 août · Plateforme 10 — [mcba.ch](https://www.mcba.ch/expositions/otobong-nkanga/)
+- 🎸 **Wolfmother + Hey Satan** · mer 26 août 20h30 · Les Docks — [docks.ch](https://www.docks.ch/evenement/concerts/20260826/wolfmother-2/)
+- 🏛️ **Café-philo au Jardin Botanique** · jeu 27 août 18h · Genève · Gratuit, inscription obligatoire — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-au-jardin-botanique-2)
+- 🎶 **Lauz'One Festival** · 27–30 août · Place des Pionnières, Lausanne — [lausanne-tourisme.ch](https://www.lausanne-tourisme.ch/fr/evenement/lauzone-festival/)
 
 ## 📅 Prochainement
 
-- 🎸 **Wolfmother** — mer 26 août, Les Docks. [docks.ch](https://www.docks.ch/evenement/concerts/20260826/wolfmother-2/)
-- 🏛️ **Café-philo au Jardin Botanique** — jeu 27 août, Genève, gratuit sur inscription. [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-au-jardin-botanique-2)
-- 🎶 **Lauz'One Festival** — 27–30 août, Place des Pionnières. [lausanne-tourisme.ch](https://www.lausanne-tourisme.ch/fr/evenement/lauzone-festival/)
-- 🖼️ **Lucas Erin. La ronde (Prix Manor Vaud)** — dès le 28 août, MCBA, entrée gratuite. [mcba.ch](https://www.mcba.ch/expositions/lucas-erin/)
-- 🥋 **Lausanne Judo Grand Slam** — 28–30 août, Vaudoise aréna. [lausanne-tourisme.ch](https://www.lausanne-tourisme.ch/fr/evenement/lausanne-judo-grand-slam-2026/)
-- 🏊 **Triathlon de Lausanne** — 29–30 août, Bellerive. [lausanne-tourisme.ch](https://www.lausanne-tourisme.ch/fr/evenement/triathlon-de-lausanne/)
-- 🎻 **80e Septembre Musical Montreux-Vevey** — 9–18 sept (Capuçon, Trifonov, Viotti…). [septembremusical.ch](https://www.septembremusical.ch/)
-- 🏛️ **Cycle « Communauté et autorité », soirée 1** — mer 16 sept, Groupe vaudois de philosophie. [philo-vaud.ch](https://philo-vaud.ch/)
-- 🇨🇭 **Label Suisse Festival** — 18–20 sept, 65 concerts gratuits dans 10 lieux. Programme complet publié le 17 août (aujourd'hui). [labelsuisse.ch](https://labelsuisse.ch/)
-- 💬 **Café-philo Lausanne #30** — dim 20 sept, gratuit sur inscription (places limitées à 21). [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-lausanne-30)
-- 🎭 **« En Sicile » de Jeanne Balibar** — 24 sept–3 oct, ouverture de saison au Théâtre Vidy. [vidy.ch](https://www.vidy.ch/fr/production/en-sicile/)
+- 🥋 **Lausanne Judo Grand Slam** · 28–30 août · Vaudoise aréna · sortie possible avec Cléo — [lausanne-tourisme.ch](https://www.lausanne-tourisme.ch/fr/evenement/lausanne-judo-grand-slam-2026/)
+- 📖 **Le Livre sur les Quais, 17e édition** · 4–6 sept · Morges · 170 auteurs, Delphine de Vigan invitée d'honneur — [lelivresurlesquais.ch](https://lelivresurlesquais.ch/)
+- 🎈 **« Okilélé » (dès 4 ans)** · 5–13 sept · Le Petit Théâtre, Lausanne · 👧 avec Cléo — [lepetittheatre.ch](https://lepetittheatre.ch/spectacle/okilele/)
+- 🎻 **80e Septembre Musical Montreux-Vevey** · 9–18 sept · Riviera · dès 39 CHF — [septembremusical.ch](https://www.septembremusical.ch/)
+- 🎾 **Lausanne Night Fever #74** · jeu 10 sept · Squash Lausanne, Renens — [squashlausanne.ch](https://www.squashlausanne.ch/)
+- 🎹 **TR/ST** · ven 11 sept · Les Docks · unique date suisse — [docks.ch](https://www.docks.ch/evenement/concerts/20260911/tr-st/)
+- 🇨🇭 **Label Suisse Festival** · 18–20 sept · gratuit, toute la ville — [docks.ch](https://www.docks.ch/evenement/evenements/20260918/label-suisse-1-3/)
+- 💬 **Café-philo Lausanne #30** · dim 20 sept · Gratuit, inscription obligatoire — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-lausanne-30)
 
 ## 💡 Suggestions personnalisées pour Régis
 
-1. **Sortie Cléo samedi 22 août** 🎪 — le Festival des arts de rue de Saint-Sulpice coche toutes les cases : gratuit, en plein air, tout public, à 15 min de Lausanne. Ton objectif « 12 sorties » est à 0/12 : une sortie famille gratuite est le moyen le plus simple de démarrer.
-2. **Café-philo Lausanne #30 (20 sept)** 💬 — vas-y en observateur pour ton projet Café Philo Pictet (Goal #23, Q2 dépassé) : leur format (21 participants max, question votée en début de séance) est directement réutilisable. Le cycle philo-vaud du 16 sept est aussi une bonne rentrée pour rencontrer du monde (objectif réseau 0/12).
-3. **Squash** 🎾 — squashromandie.ch est **en maintenance** : impossible de vérifier le tournoi « Back to School » annoncé pour le 30 août (BBQ de rentrée). L'ancien lien Summer Ligue est mort, je l'ai retiré de l'app. Vérifie via leur canal WhatsApp ou my.squash.ch — un tournoi de rentrée est exactement ce qu'il faut pour ton objectif TOP 50 (rang 78).
+1. **Objectif sorties (0/12) — deux gratuités ce week-end.** FILAA à Montbenon (20–23 août) et le Festival des arts de rue à Saint-Sulpice samedi : la 2e coche à la fois « sortie » et « activité avec Cléo ». Zéro excuse budget, les deux sont gratuits.
+2. **Café philo Pictet (Goal #23) — va observer le format concurrent.** Le Café-philo au Jardin Botanique (jeu 27 août) puis le Café-philo Lausanne #30 (20 sept) sont de bons benchmarks concrets : format 1h45, 21 participants max, inscription obligatoire. Prends des notes sur l'animation — ton projet n'a toujours pas démarré et Q2 est passé.
+3. **Objectif 20 livres (1/20) — Le Livre sur les Quais (4–6 sept)** est l'occasion de repartir avec 2–3 livres et d'y croiser du monde (objectif réseau 0/12). Un samedi à Morges peut cocher trois objectifs d'un coup.
 
 ## 📝 Notes d'exécution
 
-- Déploiement : curl bloqué par le réseau sandbox (HTTP 000) → repli sur l'outil Netlify MCP, déploiement réussi (état `ready` confirmé).
-- Événements retirés faute d'URL vérifiable : tournoi squash « Back to School » 30.08 (site en maintenance), « JazzOnze+ 28-30 août » (mention evous non confirmée par une source officielle).
-- Le vernissage Lucas Erin est annoncé le 27.08 par Lausanne Tourisme mais le MCBA (source officielle) indique l'ouverture au 28.08 → date du 28.08 retenue.
-- Aucun événement kitesurf vérifiable dans la fenêtre.
+- Déploiement Netlify réussi via l'outil MCP (état `uploaded`, propagation automatique).
+- squashromandie.ch est **en maintenance** ("site temporairement indisponible") : impossible de vérifier les championnats suisses annoncés à Renens en septembre. Les 2 événements squash du club (Night Fever conservé, camp Masotti retiré) pointent vers squashlausanne.ch. À revérifier la semaine prochaine.
+- philo-vaud.ch n'affiche aucun événement à jour (dernière séance publiée : 2019) — aucun événement retenu de cette source.
+- Vidy : la saison 26-27 démarre fin septembre (« En Sicile » dès le 24 sept) — hors fenêtre de 2 semaines, non retenu cette semaine.
