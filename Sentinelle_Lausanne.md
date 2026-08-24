@@ -5,7 +5,6 @@
 
 ## ⚡ Cette semaine
 
-- 🎨 **Exposition Otobong Nkanga – MCBA** — *DERNIER JOUR aujourd'hui dim 23 août* — MCBA, Plateforme 10 — [mcba.ch](https://www.mcba.ch/expositions/otobong-nkanga/)
 - 🎸 **Wolfmother + Hey Satan – Les Docks** — mer 26 août — Les Docks — rock psychédélique australien — [docks.ch](https://www.docks.ch/evenement/concerts/20260826/wolfmother-2/)
 - 🎻 **Léman Virtuosi & solistes** — dès sam 29 août — Église St-Laurent — [tempslibre.ch](https://www.tempslibre.ch/vaud/concerts/451442-concert-l-man-virtuosi-et-solistes)
 
