@@ -5,17 +5,16 @@
 
 ## ⚡ Cette semaine
 
-- 🎹 **Le temps des cathédrales – Gabriele Studer** *(nouveau)* — dès sam 29 août — Église St-Laurent — [tempslibre.ch](https://www.tempslibre.ch/vaud/concerts/452390-le-temps-des-cath-drales-gabriele-studer)
 - 🎻 **Léman Virtuosi & solistes** *(nouveau)* — 2–5 sept — Temple de Lutry — pour tous les âges, idéal avec Cléo — [tempslibre.ch](https://www.tempslibre.ch/vaud/concerts/451442-concert-l-man-virtuosi-et-solistes)
 - 🐦 **Atelier de création d'origamis – mudac** *(nouveau)* — 5–13 sept — Le Petit Théâtre — dès 4 ans. ⚠️ Ça part vite : sam 5 et dim 6 matin déjà complets, dim 6 sept 15h encore dispo — [tempslibre.ch](https://www.tempslibre.ch/vaud/expositions/450416-atelier-de-cr-ation-d-origamis)
 - 🎨 **Funky Town – Festival d'art urbain** *(nouveau)* — sam 5 sept — gratuit — [tempslibre.ch](https://www.tempslibre.ch/vaud/manifestations/451593-funky-town-festival-d-art-urbain)
 - 🥁 **Pio Molina y La Junta – Pôle Sud** *(nouveau)* — mer 9 sept 18h30 — Les Docks — [tempslibre.ch](https://www.tempslibre.ch/vaud/concerts/451217-pio-molina-y-la-junta)
 - 🎤 **Babouinade #5 – Plateau de stand-up** *(nouveau)* — ven 11 sept — Les Docks — unique date suisse — [tempslibre.ch](https://www.tempslibre.ch/vaud/spectacles/452357-babouinade-5-plateau-de-stand-up)
 - 🎻 **Ladies First – Salle Paderewski** *(nouveau)* — sam 12 sept — Musée Historique — enquête parents-enfants, gratuit — [tempslibre.ch](https://www.tempslibre.ch/vaud/concerts/452653-ladies-first)
+- 🎷 **Jazz au Peuple – 12e édition** *(nouveau)* — mer 16 sept 20h — Maison de Quartier Sous-gare (Groupe vaudois de philosophie) — [jazzaupeuple.ch](https://jazzaupeuple.ch/)
 
 ## 📅 Prochainement
 
-- 🎷 **Jazz au Peuple – 12e édition** *(nouveau)* — mer 16 sept 20h — Maison de Quartier Sous-gare (Groupe vaudois de philosophie) — [jazzaupeuple.ch](https://jazzaupeuple.ch/)
 - 💭 **Atelier philo – à la rencontre d'Isao Takahata** *(nouveau)* — 18–20 sept — 60+ concerts 100% gratuits, Place des Pionnières & clubs — [tempslibre.ch](https://www.tempslibre.ch/vaud/expositions/452669-atelier-philo-la-rencontre-d-isao-taka-hata)
 - 📚 **Un humour de Proust – Denis Podalydès** *(nouveau)* — dim 20 sept — gratuit, inscription obligatoire (21 places) — [tempslibre.ch](https://www.tempslibre.ch/vaud/spectacles/452030-un-humour-de-proust)
 - 🕵️ **À la recherche du trésor de l'évêque** *(nouveau)* — dès mer 23 sept — Super Ligue / Ligue 1 / Ligue 2 — [tempslibre.ch](https://www.tempslibre.ch/vaud/juniors/451823-la-recherche-du-tr-sor-de-l-v-que)
