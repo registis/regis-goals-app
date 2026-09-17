@@ -5,7 +5,6 @@
 
 ## ⚡ Cette semaine
 
-- 🏛️ **Ivan Illich, une pensée radicale** *(nouveau)* — 25 sept–11 oct — 7e édition dédiée à l'Andalousie, flamenco contemporain — [philo-vaud.ch](https://philo-vaud.ch/ivan-illich-une-pensee-radicale/)
 - 🇨🇭 **Label Suisse #1 – Les Docks** *(nouveau)* — sam 26 sept, 14h–minuit — 29 musées — programme complet dévoilé le 3 sept — [docks.ch](https://www.docks.ch/evenement/evenements/20260918/label-suisse-1-3/)
 
 ## 📅 Prochainement
