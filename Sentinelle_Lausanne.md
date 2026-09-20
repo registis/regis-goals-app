@@ -1,13 +1,12 @@
-# 🔭 Sentinelle Lausanne — Mise à jour du 2026-09-19
+# 🔭 Sentinelle Lausanne — Mise à jour du 2026-09-20
 
 **Déploiement Netlify :** ⏳ En attente de push GitHub ou déploiement auto — https://regis-goals-app.netlify.app
-**Événements trouvés :** 204 événements à venir
+**Événements trouvés :** 203 événements à venir
 
 ## ⚡ Cette semaine
 
-- 🎵 **Label Suisse #2** — sam 19 sept — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/evenements/20260919/label-suisse-2-4/)
-- 🎭 **Passages** — jeu 10 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/passages/)
 - 🎵 **Label Suisse #3** — dim 20 sept — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/evenements/20260920/label-suisse-3-4/)
+- 🎭 **Passages** — jeu 10 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/passages/)
 - 🎭 **Visite commentée – Isao Takahata** — dim 20 sept — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/visite-commentee-isao-takahata/)
 - 🏛️ **Café-philo Fribourg #42** — dim 20 sept — Grand-Rue 67, 1700 Fribourg, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-fribourg-42-2)
 - 🏛️ **Café-philo Lausanne #30** — dim 20 sept — Rle du Lapin-Vert 2, 1005 Lausanne, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-lausanne-30)
@@ -21,12 +20,12 @@
 - 👧 **Lausanne au Moyen Âge – Visite guidée** — mer 23 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/lausanne-au-moyen-age-visite-guidee/)
 - 🎭 **Une vie** — mer 23 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/une-vie/)
 - 🎭 **Vernissage | Edouard Chapallaz** — jeu 24 sept — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/vernissage-edouard-chapallaz/)
-
-## 📅 Prochainement
-
 - 👧 **LA NUIT DES MUSEES** — sam 26 sept — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/nuit-des-musees-de-lausanne-et-pully/?date=2026-09-26)
 - 🎭 **Visite commentée – Journées du Matrimoine** — sam 26 sept — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/visite-commentee-journees-du-matrimoine/?date=2026-09-26)
 - 👧 **LA NUIT DES MUSEES** — sam 26 sept — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/nuit-des-musees-de-lausanne-et-pully/)
+
+## 📅 Prochainement
+
 - 👧 **Visite en famille – Et nous alors ?** — dim 27 sept — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/visite-en-famille-et-nous-alors/)
 - 🎾 **Soirée du club — Squash Lausanne** — dim 27 sept — Squash Lausanne · lieu et inscription sur le site — [squashlausanne.ch](https://www.squashlausanne.ch/activit%C3%A9s)
 - 👥 **Faire alliance : antiracisme et amitié** — mar 29 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/faire-alliance-antiracisme-et-amitie/)
