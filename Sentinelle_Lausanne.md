@@ -1,18 +1,13 @@
-# 🔭 Sentinelle Lausanne — Mise à jour du 2026-09-23
+# 🔭 Sentinelle Lausanne — Mise à jour du 2026-09-27
 
 **Déploiement Netlify :** ⏳ En attente de push GitHub ou déploiement auto — https://regis-goals-app.netlify.app
-**Événements trouvés :** 197 événements à venir
+**Événements trouvés :** 195 événements à venir
 
 ## ⚡ Cette semaine
 
 - 👧 **Ateliers « Graines d’entrepreneurs »** *(nouveau)* — mer 23 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/ateliers-graines-dentrepreneurs-2026-2027/)
-- 👧 **Lausanne au Moyen Âge – Visite guidée** — mer 23 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/lausanne-au-moyen-age-visite-guidee/)
 - 🎭 **Passages** — jeu 10 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/passages/)
 - 🎭 **Une vie** — mer 23 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/une-vie/)
-- 🎭 **Vernissage | Edouard Chapallaz** — jeu 24 sept — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/vernissage-edouard-chapallaz/)
-- 👧 **LA NUIT DES MUSEES** — sam 26 sept — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/nuit-des-musees-de-lausanne-et-pully/?date=2026-09-26)
-- 🎭 **Visite commentée – Journées du Matrimoine** — sam 26 sept — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/visite-commentee-journees-du-matrimoine/?date=2026-09-26)
-- 👧 **LA NUIT DES MUSEES** — sam 26 sept — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/nuit-des-musees-de-lausanne-et-pully/)
 - 👧 **Visite en famille – Et nous alors ?** — dim 27 sept — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/visite-en-famille-et-nous-alors/)
 - 🎾 **Soirée du club — Squash Lausanne** — dim 27 sept — Squash Lausanne · lieu et inscription sur le site — [squashlausanne.ch](https://www.squashlausanne.ch/activit%C3%A9s)
 - 👥 **Faire alliance : antiracisme et amitié** — mar 29 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/faire-alliance-antiracisme-et-amitie/)
@@ -21,15 +16,15 @@
 - 🗼 **La scène artistique au XXIe siècle** — mar 29 sept — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/la-scene-artistique-au-xxie-siecle)
 - 🗼 **Le sacré, le pouvoir et le mythe** — mar 29 sept — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/le-sacre-le-pouvoir-et-le-mythe)
 - 🗼 **Retrouver la morale** — mar 29 sept — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/retrouver-la-morale)
-
-## 📅 Prochainement
-
 - 👥 **Table ronde – (Ré)apprendre à voir** — jeu 1 oct — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/table-ronde-reapprendre-a-voir/?date=2026-10-01)
 - 👥 **(Anti)racisme, grandes et petites histoires** — jeu 1 oct — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/antiracisme-grandes-et-petites-histoires/)
 - 🎵 **Courtney Barnett** — ven 2 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261002/courtney-barnett-2/)
 - 🎭 **Atelier adultes – Atelier d'écriture** — sam 3 oct — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/atelier-adultes-atelier-decriture-avec-poulpe-fiction/?date=2026-10-03)
 - 🎵 **Astéréotypie** — sam 3 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261003/astereotypie/)
 - 🎭 **Sur les traces d’Edouard Chapallaz à l’EPFL** — sam 3 oct — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/sur-les-traces-dedouard-chapallaz-a-lepfl/)
+
+## 📅 Prochainement
+
 - 👧 **Un dimanche dans les égouts** — dim 4 oct — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/un-dimanche-dans-les-egouts/)
 - 🏛️ **Café-philo Bulle #10** — dim 4 oct — Grand-Rue 65, 1630 Bulle, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-bulle-10)
 - 🎾 **Soirée du club — Squash Lausanne** — dim 4 oct — Squash Lausanne · lieu et inscription sur le site — [squashlausanne.ch](https://www.squashlausanne.ch/activit%C3%A9s)
@@ -55,6 +50,8 @@
 - 🎾 **Soirée du club — Squash Lausanne** — dim 18 oct — Squash Lausanne · lieu et inscription sur le site — [squashlausanne.ch](https://www.squashlausanne.ch/activit%C3%A9s)
 - 🎭 **Atelier – Draw & Drink spécial Ella Maillart** — jeu 22 oct — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/atelier-draw-drink-x-photo-elysee/?date=2026-10-22)
 - 🎵 **Cat Power** — ven 23 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261023/cat-power-3/)
+- 🎭 **Atelier – Wikipédia avec les sans pagEs** — dim 25 oct — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/atelier-wikipedia-avec-les-sans-pages/?date=2026-10-25)
+- 🎭 **Visite commentée – Hannah Darabi. Why Don't You Dance?** — dim 25 oct — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/visite-commentee-hannah-darabi-why-dont-you-dance/?date=2026-10-25)
 - 🎵 **Sleaford Mods** — dim 25 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261025/sleaford-mods/)
 - 🏛️ **Café-philo Genève #39** — dim 25 oct — Grand-Rue 40, 1204 Genève, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-geneve-39)
 - 🎵 **Ghinzu** — mer 28 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261028/ghinzu/)
@@ -202,6 +199,7 @@
 - 🗼 **Philosophie de la monnaie : l’origine des espèces !** — mar 20 avr — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/philosophie-de-la-monnaie)
 - 👧 **Sport et égalité : amis ou ennemis ?** — mer 28 avr — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/sport-et-egalite-amis-ou-ennemis-programme-plus/)
 - 🎵 **RODRIGO Y GABRIELA** — jeu 29 avr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270429/rodrigo-y-gabriela-3/)
+- 🎵 **DragonForce** — mar 4 mai — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270504/dragonforce-2/)
 - 👧 **À l’eau ! On se mouille pour nos cours d’eau** — mer 12 mai — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/a-leau-on-se-mouille-pour-nos-cours-deau-2/)
 - 🎵 **Lambrini Girls** — sam 22 mai — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270522/lambrini-girls/)
 - 🎵 **The Lottery Winners** — sam 30 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20271030/the-lottery-winners/)
