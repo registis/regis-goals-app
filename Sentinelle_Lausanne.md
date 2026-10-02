@@ -1,37 +1,31 @@
-# 🔭 Sentinelle Lausanne — Mise à jour du 2026-09-27
+# 🔭 Sentinelle Lausanne — Mise à jour du 2026-10-02
 
 **Déploiement Netlify :** ⏳ En attente de push GitHub ou déploiement auto — https://regis-goals-app.netlify.app
-**Événements trouvés :** 195 événements à venir
+**Événements trouvés :** 194 événements à venir
 
 ## ⚡ Cette semaine
 
+- 🎵 **Courtney Barnett** — ven 2 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261002/courtney-barnett-2/)
 - 👧 **Ateliers « Graines d’entrepreneurs »** *(nouveau)* — mer 23 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/ateliers-graines-dentrepreneurs-2026-2027/)
-- 🎭 **Passages** — jeu 10 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/passages/)
-- 🎭 **Une vie** — mer 23 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/une-vie/)
-- 👧 **Visite en famille – Et nous alors ?** — dim 27 sept — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/visite-en-famille-et-nous-alors/)
-- 🎾 **Soirée du club — Squash Lausanne** — dim 27 sept — Squash Lausanne · lieu et inscription sur le site — [squashlausanne.ch](https://www.squashlausanne.ch/activit%C3%A9s)
 - 👥 **Faire alliance : antiracisme et amitié** — mar 29 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/faire-alliance-antiracisme-et-amitie/)
 - 🎭 **Friendship letters – L’exposition** — mar 29 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/friendship-letters-lexposition/)
 - 👥 **Jusque dans nos bras** — mar 29 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/jusque-dans-nos-bras/)
-- 🗼 **La scène artistique au XXIe siècle** — mar 29 sept — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/la-scene-artistique-au-xxie-siecle)
-- 🗼 **Le sacré, le pouvoir et le mythe** — mar 29 sept — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/le-sacre-le-pouvoir-et-le-mythe)
-- 🗼 **Retrouver la morale** — mar 29 sept — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/retrouver-la-morale)
-- 👥 **Table ronde – (Ré)apprendre à voir** — jeu 1 oct — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/table-ronde-reapprendre-a-voir/?date=2026-10-01)
-- 👥 **(Anti)racisme, grandes et petites histoires** — jeu 1 oct — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/antiracisme-grandes-et-petites-histoires/)
-- 🎵 **Courtney Barnett** — ven 2 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261002/courtney-barnett-2/)
+- 🎭 **Passages** — jeu 10 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/passages/)
+- 🎭 **Une vie** — mer 23 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/une-vie/)
 - 🎭 **Atelier adultes – Atelier d'écriture** — sam 3 oct — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/atelier-adultes-atelier-decriture-avec-poulpe-fiction/?date=2026-10-03)
 - 🎵 **Astéréotypie** — sam 3 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261003/astereotypie/)
 - 🎭 **Sur les traces d’Edouard Chapallaz à l’EPFL** — sam 3 oct — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/sur-les-traces-dedouard-chapallaz-a-lepfl/)
-
-## 📅 Prochainement
-
 - 👧 **Un dimanche dans les égouts** — dim 4 oct — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/un-dimanche-dans-les-egouts/)
 - 🏛️ **Café-philo Bulle #10** — dim 4 oct — Grand-Rue 65, 1630 Bulle, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-bulle-10)
 - 🎾 **Soirée du club — Squash Lausanne** — dim 4 oct — Squash Lausanne · lieu et inscription sur le site — [squashlausanne.ch](https://www.squashlausanne.ch/activit%C3%A9s)
 - 🎭 **Conférence – Alfredo Jaar** — lun 5 oct — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/conference-alfredo-jaar/?date=2026-10-05)
+- 🎭 **Conférence – Alfredo Jaar** — lun 5 oct — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/conference-alfredo-jaar/)
 - 🗼 **Foucault aujourd’hui** — mar 6 oct — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/foucault-aujourdhui)
 - 🗼 **Le temps et les mots pour le dire (ou pas)** — mar 6 oct — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/le-temps-et-les-mots-pour-le-dire-ou-pas)
 - 🗼 **Penser d’ailleurs** — mar 6 oct — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/penser-dailleurs)
+
+## 📅 Prochainement
+
 - 🎵 **Tif** — ven 9 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261009/tif/)
 - 🏛️ **Café-philo Neuchâtel #12** — dim 11 oct — Rue Abram-Louis-Breguet 13, 2000 Neuchâtel, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-neuchatel-12)
 - 🏛️ **Café-philo Fribourg #43** — dim 11 oct — Grand-Rue 67, 1700 Fribourg, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-fribourg-43-1)
@@ -54,9 +48,12 @@
 - 🎭 **Visite commentée – Hannah Darabi. Why Don't You Dance?** — dim 25 oct — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/visite-commentee-hannah-darabi-why-dont-you-dance/?date=2026-10-25)
 - 🎵 **Sleaford Mods** — dim 25 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261025/sleaford-mods/)
 - 🏛️ **Café-philo Genève #39** — dim 25 oct — Grand-Rue 40, 1204 Genève, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-geneve-39)
+- 🎾 **Soirée du club — Squash Lausanne** — dim 25 oct — Squash Lausanne · lieu et inscription sur le site — [squashlausanne.ch](https://www.squashlausanne.ch/activit%C3%A9s)
 - 🎵 **Ghinzu** — mer 28 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261028/ghinzu/)
 - 👧 **À l’école des Anciens – Kaléidosciences** — mer 28 oct — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/a-lecole-des-anciens-kaleidosciences/)
+- 🎭 **Rencontre – Ella Maillart. récit dessiné** — jeu 29 oct — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/rencontre-ella-maillart-recit-dessine/?date=2026-10-29)
 - 🎵 **Michelle Gurevich** — jeu 29 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261029/michelle-gurevich/)
+- 🎭 **Finissage – Echoes of Tehran (poésie, performance, DJ set)** — ven 30 oct — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/finissage-echoes-of-tehran-poesie-performance-dj-set/?date=2026-10-30)
 - 🎵 **So La Lune** — ven 30 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261030/so-la-lune-2/)
 - 👧 **La chasse aux sorcières** — ven 30 oct — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/la-chasse-aux-sorcieres-programme-plus-dgeo/)
 - 🎵 **Walk off the Earth** — dim 1 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261101/walk-off-the-earth-2/)
@@ -156,6 +153,7 @@
 - 🗼 **Philosopher avec Cyrano** — mar 2 févr — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/philosopher-avec-cyrano)
 - 🗼 **Platon** — mar 2 févr — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/platon)
 - 🎵 **Laibach** — sam 13 févr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270213/laibach-4/)
+- 🎵 **EIHWAR** — mer 17 févr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270217/eihwar/)
 - 🎵 **Cage the Elephant** — jeu 18 févr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270218/cage-the-elephant/)
 - 🗼 **La rhétorique : savoir convaincre et décrypter les discours** — mar 23 févr — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/la-rhetorique-savoir-convaincre-et-decrypter-les-discours)
 - 🗼 **L’humanisme hypermoderne** — mar 23 févr — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/lhumanisme-hypermoderne)
@@ -191,6 +189,7 @@
 - 🗼 **Philosopher avec Cyrano** — mar 30 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/philosopher-avec-cyrano)
 - 🗼 **Platon** — mar 30 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/platon)
 - 🎵 **French 79** — ven 2 avr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270402/french-79-2/)
+- 🎵 **The Stranglers** — ven 9 avr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270409/the-stranglers-2/)
 - 🎵 **Zélie** — sam 10 avr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270410/zelie/)
 - 👧 **Mille et une fourmis** — mer 14 avr — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/mille-et-une-fourmis/)
 - 🎵 **Ministry** — sam 17 avr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270417/ministry/)
