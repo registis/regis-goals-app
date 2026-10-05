@@ -1,15 +1,13 @@
-# 🔭 Sentinelle Lausanne — Mise à jour du 2026-10-05
+# 🔭 Sentinelle Lausanne — Mise à jour du 2026-10-06
 
 **Déploiement Netlify :** ⏳ En attente de push GitHub ou déploiement auto — https://regis-goals-app.netlify.app
-**Événements trouvés :** 184 événements à venir
+**Événements trouvés :** 187 événements à venir
 
 ## ⚡ Cette semaine
 
-- 🎭 **Conférence – Alfredo Jaar** — lun 5 oct — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/conference-alfredo-jaar/?date=2026-10-05)
 - 👧 **Ateliers « Graines d’entrepreneurs »** *(nouveau)* — mer 23 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/ateliers-graines-dentrepreneurs-2026-2027/)
 - 🎭 **Passages** — jeu 10 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/passages/)
 - 🎭 **Une vie** — mer 23 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/une-vie/)
-- 🎭 **Conférence – Alfredo Jaar** — lun 5 oct — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/conference-alfredo-jaar/)
 - 🗼 **Foucault aujourd’hui** — mar 6 oct — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/foucault-aujourdhui)
 - 🗼 **Le temps et les mots pour le dire (ou pas)** — mar 6 oct — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/le-temps-et-les-mots-pour-le-dire-ou-pas)
 - 🗼 **Penser d’ailleurs** — mar 6 oct — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/penser-dailleurs)
@@ -37,6 +35,7 @@
 - 🎭 **Atelier – Wikipédia avec les sans pagEs** — dim 25 oct — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/atelier-wikipedia-avec-les-sans-pages/?date=2026-10-25)
 - 🎭 **Visite commentée – Hannah Darabi. Why Don't You Dance?** — dim 25 oct — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/visite-commentee-hannah-darabi-why-dont-you-dance/?date=2026-10-25)
 - 🎵 **Sleaford Mods** — dim 25 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261025/sleaford-mods/)
+- 🏛️ **Café-philo au Musée d'art et d'histoire de Neuchâtel** — dim 25 oct — Neuchâtel, Esplanade Léopold - Robert 1, 2000 Neuchâtel — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-au-musee-dart-et-dhistoire-de-neuchatel)
 - 🏛️ **Café-philo Genève #39** — dim 25 oct — Grand-Rue 40, 1204 Genève, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-geneve-39)
 - 🎾 **Soirée du club — Squash Lausanne** — dim 25 oct — Squash Lausanne · lieu et inscription sur le site — [squashlausanne.ch](https://www.squashlausanne.ch/activit%C3%A9s)
 - 🎵 **Ghinzu** — mer 28 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261028/ghinzu/)
@@ -50,12 +49,15 @@
 - 👧 **Un dimanche de mystérieuses enquêtes souterraines** — dim 1 nov — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/un-dimanche-de-mysterieuses-enquetes-souterraines/)
 - 🏛️ **Café-philo Bulle #11** — dim 1 nov — Grand-Rue 65, 1630 Bulle, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-bulle-11)
 - 🏛️ **Café-philo Genève #40** — dim 1 nov — Grand-Rue 40, 1204 Genève, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-geneve-40)
+- 🎾 **Soirée du club — Squash Lausanne** — dim 1 nov — Squash Lausanne · lieu et inscription sur le site — [squashlausanne.ch](https://www.squashlausanne.ch/activit%C3%A9s)
 - 🎵 **Mike D 5D** — mar 3 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261103/mike-d/)
 - 🗼 **Foucault aujourd’hui** — mar 3 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/foucault-aujourdhui)
 - 🗼 **Le corps dans tous ses états** — mar 3 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/le-corps-dans-tous-ses-etats)
 - 🗼 **Le temps et les mots pour le dire (ou pas)** — mar 3 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/le-temps-et-les-mots-pour-le-dire-ou-pas)
 - 🗼 **Penser d’ailleurs** — mar 3 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/penser-dailleurs)
+- 🎭 **Festival Interstices - musiques pour piano et claviers** — mer 4 nov — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/festival-interstices-musiques-pour-piano-et-claviers/?date=2026-11-04)
 - 👧 **Les robots dans les films d’animation – Kaléidosciences** — mer 4 nov — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/les-robots-dans-les-films-danimation/)
+- 🎭 **Festival Interstices - musiques pour piano et claviers** — mer 4 nov — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/festival-interstices-musiques-pour-piano-et-claviers/)
 - 🎵 **NNAVY** — jeu 5 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261105/nnavy-2/)
 - 🏛️ **Café-philo x La Pépite** — jeu 5 nov — Pl. de la Gare 10, 1003 Lausanne, Switzerland — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-x-la-pepite)
 - 🎵 **Alela Diane** — sam 7 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261107/alela-diane-2/)
@@ -162,6 +164,7 @@
 - 🗼 **Penser la condition historique** — mar 9 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/penser-la-condition-historique)
 - 🗼 **Philosophie de la monnaie : l’origine des espèces !** — mar 9 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/philosophie-de-la-monnaie)
 - 👧 **Sur les traces de la police scientifique** — mer 10 mars — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/sur-les-traces-de-la-police-scientifique-2/)
+- 🎵 **Loïc Nottet** — jeu 11 mars — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270311/loic-nottet/)
 - 🎵 **Kemmler** — ven 12 mars — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270312/kemmler/)
 - 🎵 **Pomme** — sam 13 mars — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270313/pomme-3/)
 - 🗼 **À quoi bon la littérature ?** — mar 16 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/a-quoi-bon-la-litterature)
