@@ -1,23 +1,11 @@
-# 🔭 Sentinelle Lausanne — Mise à jour du 2026-10-14
+# 🔭 Sentinelle Lausanne — Mise à jour du 2026-10-20
 
 **Déploiement Netlify :** ⏳ En attente de push GitHub ou déploiement auto — https://regis-goals-app.netlify.app
-**Événements trouvés :** 191 événements à venir
+**Événements trouvés :** 187 événements à venir
 
 ## ⚡ Cette semaine
 
 - 👧 **Ateliers « Graines d’entrepreneurs »** *(nouveau)* — mer 23 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/ateliers-graines-dentrepreneurs-2026-2027/)
-- 🎭 **Passages** — jeu 10 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/passages/)
-- 🎭 **Une vie** — mer 23 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/une-vie/)
-- 🎭 **Rencontre – vernissage du livre In Jesus' Name (resurrected)** — ven 16 oct — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/rencontre-vernissage-du-livre-in-jesus-name-resurrected/?date=2026-10-16)
-- 🎵 **Yard Act** — ven 16 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261016/yard-act/)
-- 🎭 **HELGA 2026** *(nouveau)* — ven 16 oct — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/helga-2026-agenda/)
-- 🎵 **The Valentino Vivace Experience** — sam 17 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261017/the-valentino-vivace-experience/)
-- 🎵 **Temples** — dim 18 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261018/temples-3/)
-- 🏛️ **Café-philo Genève #38** — dim 18 oct — Grand-Rue 40, 1204 Genève, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-geneve-38)
-- 🎾 **Soirée du club — Squash Lausanne** — dim 18 oct — Squash Lausanne · lieu et inscription sur le site — [squashlausanne.ch](https://www.squashlausanne.ch/activit%C3%A9s)
-
-## 📅 Prochainement
-
 - 🎭 **Atelier – Draw & Drink spécial Ella Maillart** — jeu 22 oct — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/atelier-draw-drink-x-photo-elysee/?date=2026-10-22)
 - 🎵 **Cat Power** — ven 23 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261023/cat-power-3/)
 - 🎭 **Atelier – Wikipédia avec les sans pagEs** — dim 25 oct — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/atelier-wikipedia-avec-les-sans-pages/?date=2026-10-25)
@@ -26,6 +14,9 @@
 - 🏛️ **Café-philo au Musée d'art et d'histoire de Neuchâtel** — dim 25 oct — Neuchâtel, Esplanade Léopold - Robert 1, 2000 Neuchâtel — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-au-musee-dart-et-dhistoire-de-neuchatel)
 - 🏛️ **Café-philo Genève #39** — dim 25 oct — Grand-Rue 40, 1204 Genève, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-geneve-39)
 - 🎾 **Soirée du club — Squash Lausanne** — dim 25 oct — Squash Lausanne · lieu et inscription sur le site — [squashlausanne.ch](https://www.squashlausanne.ch/activit%C3%A9s)
+
+## 📅 Prochainement
+
 - 🎵 **Ghinzu** — mer 28 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261028/ghinzu/)
 - 👧 **À l’école des Anciens – Kaléidosciences** — mer 28 oct — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/a-lecole-des-anciens-kaleidosciences/)
 - 🎭 **Rencontre – Ella Maillart. récit dessiné** — jeu 29 oct — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/rencontre-ella-maillart-recit-dessine/?date=2026-10-29)
@@ -71,8 +62,11 @@
 - 🎵 **Psychedelic Porn Crumpets** — ven 13 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261113/psychedelic-porn-crumpets/)
 - 🎵 **Wallace Cleaver** — sam 14 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261114/wallace-cleaver/)
 - 👧 **L’histoire cachée de l’informatique et des jeux vidéo** — sam 14 nov — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/lhistoire-cachee-de-linformatique-et-des-jeux-video-programme-plus/)
+- 🎭 **Visite commentée – Magie et Design** — dim 15 nov — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/visite-commentee-magie-et-design/)
+- 🎭 **Atelier films magiques en stop motion – Magie et Design** — dim 15 nov — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/atelier-films-magiques-en-stop-motion-magie-et-design/)
 - 🏛️ **Café-philo Neuchâtel #13** — dim 15 nov — Rue Abram-Louis-Breguet 13, 2000 Neuchâtel, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-neuchatel-13)
 - 🏛️ **Café-philo Fribourg #44** — dim 15 nov — Grand-Rue 67, 1700 Fribourg, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-fribourg-44)
+- 🎾 **Soirée du club — Squash Lausanne** — dim 15 nov — Squash Lausanne · lieu et inscription sur le site — [squashlausanne.ch](https://www.squashlausanne.ch/activit%C3%A9s)
 - 🎵 **Portugal. The Man** — mar 17 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261117/portugal-the-man-2/)
 - 🗼 **Foucault aujourd’hui** — mar 17 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/foucault-aujourdhui)
 - 🗼 **Le corps dans tous ses états** — mar 17 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/le-corps-dans-tous-ses-etats)
@@ -80,6 +74,8 @@
 - 🗼 **Penser d’ailleurs** — mar 17 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/penser-dailleurs)
 - 🎵 **Boy Harsher** — mer 18 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/evenements/20261118/boy-harsher-2/)
 - 👧 **Préaux en tous genres – Kaléidosciences** — mer 18 nov — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/preaux-en-tous-genres-kaleidosciences-2/)
+- 🎭 **Parcours immersif : quand la magie tourne mal** — jeu 19 nov — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/parcours-immersif-quand-la-magie-tourne-mal/)
+- 🎭 **Micro-visite – Magie et Design** — jeu 19 nov — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/parcours-immersif-quand-la-magie-tourne-mal-4/)
 - 🎵 **Piche** — ven 20 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261120/piche/)
 - 🎵 **Kneecap** — sam 21 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261121/kneecap/)
 - 🏛️ **Café-philo Lausanne #32** — dim 22 nov — Rle du Lapin-Vert 2, 1005 Lausanne, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-lausanne-32)
