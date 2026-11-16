@@ -1,185 +1,70 @@
-# 🔭 Sentinelle Lausanne — Mise à jour du 2026-11-16
+# 🔭 Sentinelle Lausanne — Semaine du 25 août 2026
 
-**Déploiement Netlify :** ⏳ En attente de push GitHub ou déploiement auto — https://regis-goals-app.netlify.app
-**Événements trouvés :** 166 événements à venir
+**Déploiement Netlify :** ✅ Automatique — https://gilded-sunburst-623e60.netlify.app
+(deploy ID `6a8d5b39107857c4ef738cb6`, state `ready`)
+**Événements trouvés :** 15 événements vérifiés (8 dans les 7 prochains jours)
 
-## ⚡ Cette semaine
+---
 
-- 👧 **Ateliers « Graines d’entrepreneurs »** *(nouveau)* — mer 23 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/ateliers-graines-dentrepreneurs-2026-2027/)
-- 🎵 **Portugal. The Man** — mar 17 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261117/portugal-the-man-2/)
-- 🗼 **Foucault aujourd’hui** — mar 17 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/foucault-aujourdhui)
-- 🗼 **Le corps dans tous ses états** — mar 17 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/le-corps-dans-tous-ses-etats)
-- 🗼 **L’historien face à l’animal : l’exemple du Moyen Âge** — mar 17 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/lhistorien-face-a-lanimal-lexemple-du-moyen-age)
-- 🗼 **Penser d’ailleurs** — mar 17 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/penser-dailleurs)
-- 🎵 **Boy Harsher** — mer 18 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/evenements/20261118/boy-harsher-2/)
-- 🎭 **Parcours immersif : quand la magie tourne mal** *(nouveau)* — jeu 19 nov — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/parcours-immersif-quand-la-magie-tourne-mal/)
-- 🎭 **Micro-visite – Magie et Design** — jeu 19 nov — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/parcours-immersif-quand-la-magie-tourne-mal-4/)
-- 🎵 **Piche** — ven 20 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261120/piche/)
-- 🎵 **Kneecap** — sam 21 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261121/kneecap/)
-- 🎭 **Visite commentée – Magie et Design** — dim 22 nov — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/visite-commentee-magie-et-design/)
-- 🎭 **Atelier impression monotype – Magie et Design** — dim 22 nov — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/atelier-impression-monotype-magie-et-design/)
-- 🏛️ **Café-philo Lausanne #32** — dim 22 nov — Rle du Lapin-Vert 2, 1005 Lausanne, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-lausanne-32)
-- 🎾 **Soirée du club — Squash Lausanne** — dim 22 nov — Squash Lausanne · lieu et inscription sur le site — [squashlausanne.ch](https://www.squashlausanne.ch/activit%C3%A9s)
+## ⚡ Cette semaine (26 août – 1er septembre)
+
+**🎸 Wolfmother + Hey Satan** — mer 26 août, Les Docks, Av. de Sévelin 34
+Rock psychédélique australien. Billetterie. → [docks.ch](https://www.docks.ch/evenement/concerts/20260826/wolfmother-2/)
+
+**🏺 Visite guidée « Un soir aux Prés-de-Vidy »** — jeu 27 août, Musée romain de Lausanne-Vidy
+Gratuit, tout public. Format court en soirée, facile à caser. → [tempslibre.ch](https://www.tempslibre.ch/vaud/expositions/450678-visite-guid-e-un-soir-aux-pr-s-de-vidy)
+
+**🎹 Le temps des cathédrales — Gabriele Studer** — ven 28 août, Cathédrale de Lausanne
+Récital d'orgue, 7e Festival international d'orgue. → [tempslibre.ch](https://www.tempslibre.ch/vaud/concerts/452390-le-temps-des-cath-drales-gabriele-studer)
+
+**🎻 Léman Virtuosi & solistes** — dès le 29 août (jusqu'au 6 sept), Église St-Laurent
+Plusieurs dates : la plus flexible de la semaine. → [tempslibre.ch](https://www.tempslibre.ch/vaud/concerts/451442-concert-l-man-virtuosi-et-solistes)
+
+**🐦 Atelier de création d'origamis — mudac** — sam 29 août, Plateforme 10
+Dans le cadre de l'expo Isao Takahata (Ghibli). Pile pour Cléo. → [tempslibre.ch](https://www.tempslibre.ch/vaud/expositions/450416-atelier-de-cr-ation-d-origamis)
+
+**🎨 Funky Town — Festival d'art urbain** — 29 & 30 août, Passage des Saugettes
+Gratuit, en plein air, sans engagement d'horaire. → [tempslibre.ch](https://www.tempslibre.ch/vaud/manifestations/451593-funky-town-festival-d-art-urbain)
+
+**🥁 Pio Molina y La Junta** — sam 29 août, Pôle Sud
+Bullerengue des Caraïbes colombiennes. → [tempslibre.ch](https://www.tempslibre.ch/vaud/concerts/451217-pio-molina-y-la-junta)
+
+**🎤 Babouinade #5 — plateau stand-up** — lun 31 août, Continuum
+Entrée libre. Format soirée courte après le squash du lundi. → [tempslibre.ch](https://www.tempslibre.ch/vaud/spectacles/452357-babouinade-5-plateau-de-stand-up)
+
+---
 
 ## 📅 Prochainement
 
-- 🎵 **Tori Kelly** — mar 24 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261124/tori-kelly/)
-- 🗼 **Arts et représentation** — mar 24 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/arts-et-representation)
-- 🗼 **Qui est l’ennemi ?** — mar 24 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/qui-est-lennemi)
-- 🗼 **Retrouver la morale** — mar 24 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/retrouver-la-morale)
-- 🗼 **Sait-on encore parler ? Pour une philosophie de la parole** — mar 24 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/sait-on-encore-parler)
-- 👧 **Sur les traces de la police scientifique** — mer 25 nov — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/sur-les-traces-de-la-police-scientifique-2/)
-- 🎵 **Kid Francescoli** — jeu 26 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261126/kid-francescoli-3/)
-- 🎵 **Sam Sauvage** — ven 27 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261127/sam-sauvage/)
-- 🎵 **Zamdane** — sam 28 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261128/zamdane/)
-- 👧 **Un dimanche au royaume des chats** — dim 29 nov — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/un-dimanche-au-royaume-des-chats/)
-- 👧 **Visite en famille – Magie et Design** — dim 29 nov — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/visite-en-famille-magie-et-design/)
-- 🎭 **Atelier films magiques en stop motion – Magie et Design** — dim 29 nov — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/atelier-films-magiques-en-stop-motion-magie-et-design/)
-- 🏛️ **Café-philo Genève #41** — dim 29 nov — Grand-Rue 40, 1204 Genève, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-geneve-41)
-- 🎾 **Soirée du club — Squash Lausanne** — dim 29 nov — Squash Lausanne · lieu et inscription sur le site — [squashlausanne.ch](https://www.squashlausanne.ch/activit%C3%A9s)
-- 👧 **Visite Relax – Magie et Design** — lun 30 nov — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/visite-relax-magie-et-design/)
-- 🗼 **Foucault aujourd’hui** — mar 1 déc — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/foucault-aujourdhui)
-- 🗼 **Le corps dans tous ses états** — mar 1 déc — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/le-corps-dans-tous-ses-etats)
-- 🗼 **L’historien face à l’animal : l’exemple du Moyen Âge** — mar 1 déc — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/lhistorien-face-a-lanimal-lexemple-du-moyen-age)
-- 🗼 **Penser d’ailleurs** — mar 1 déc — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/penser-dailleurs)
-- 🎭 **Intolérances&Paralysie** — mer 2 déc — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/intolerancesparalysie/)
-- 👧 **Les minus au musée – Magie et Design** — mer 2 déc — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/les-minus-au-musee-magie-et-design/)
-- 🎭 **Projections XXL – Photo Elysée × ECAL** — jeu 3 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/projections-xxl-photo-elysee-x-ecal-5/?date=2026-12-03)
-- 🎭 **Vernissage public – Modèle animal. 200 ans de photographie** — jeu 3 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/vernissage-public-modele-animal-200-ans-de-photographie/?date=2026-12-03)
-- 👥 **Les erreurs médicales, en parler pour mieux soigner** — jeu 3 déc — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/les-erreurs-medicales-en-parler-pour-mieux-soigner/)
-- 🎭 **Projections XXL – Photo Elysée × ECAL** — ven 4 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/projections-xxl-photo-elysee-x-ecal-5/?date=2026-12-04)
-- 🎵 **Lebanon Hanover** — ven 4 déc — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261204/lebanon-hanover-2/)
-- 🎭 **Projections XXL – Photo Elysée × ECAL** — sam 5 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/projections-xxl-photo-elysee-x-ecal-5/?date=2026-12-05)
-- 🎵 **Paris Paloma** — sam 5 déc — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261205/paris-paloma/)
-- 👧 **Du mudac à Las Vegas : initiation à la magie** — sam 5 déc — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/du-mudac-a-las-vegas-initiation-a-la-magie-4/)
-- 🎭 **Du mudac à Las Vegas : initiation à la magie** — sam 5 déc — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/du-mudac-a-las-vegas-initiation-a-la-magie/)
-- 👧 **Dimanche en famille – Les animaux au musée !** — dim 6 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/dimanche-en-famille-les-animaux-au-musee/?date=2026-12-06)
-- 🎭 **Projections XXL – Photo Elysée × ECAL** — dim 6 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/projections-xxl-photo-elysee-x-ecal-5/?date=2026-12-06)
-- 👧 **Un dimanche avec les dieux de l’Olympe** — dim 6 déc — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/un-dimanche-avec-les-dieux-de-lolympe/)
-- 🎭 **Visite commentée – Magie et Design** — dim 6 déc — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/visite-commentee-magie-et-design/)
-- 🏛️ **Café-philo Bulle #12** — dim 6 déc — Grand-Rue 65, 1630 Bulle, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-bulle-12)
-- 🎭 **Atelier impression monotype – Magie et Design** — dim 6 déc — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/atelier-impression-monotype-magie-et-design/)
-- 🏛️ **Café-philo Genève #42** — dim 6 déc — Grand-Rue 40, 1204 Genève, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-geneve-42)
-- 🏛️ **Café-philo Neuchâtel #14** — dim 6 déc — Rue Abram-Louis-Breguet 13, 2000 Neuchâtel, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-neuchatel-14)
-- 🏛️ **Café-philo Lausanne #33** — dim 6 déc — Rle du Lapin-Vert 2, 1005 Lausanne, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-lausanne-33)
-- 🎾 **Soirée du club — Squash Lausanne** — dim 6 déc — Squash Lausanne · lieu et inscription sur le site — [squashlausanne.ch](https://www.squashlausanne.ch/activit%C3%A9s)
-- 🎭 **Projections XXL – Photo Elysée × ECAL** — lun 7 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/projections-xxl-photo-elysee-x-ecal-5/?date=2026-12-07)
-- 🎭 **Projections XXL – Photo Elysée × ECAL** — mar 8 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/projections-xxl-photo-elysee-x-ecal-5/?date=2026-12-08)
-- 🎵 **CORY WONG** — mar 8 déc — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261208/cory-wong/)
-- 🗼 **Arts et représentation** — mar 8 déc — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/arts-et-representation)
-- 🗼 **Qu’est-ce qu’un patrimoine ?** — mar 8 déc — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/quest-ce-quun-patrimoine)
-- 🗼 **Qui est l’ennemi ?** — mar 8 déc — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/qui-est-lennemi)
-- 🗼 **Retrouver la morale** — mar 8 déc — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/retrouver-la-morale)
-- 🎭 **Projections XXL – Photo Elysée × ECAL** — mer 9 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/projections-xxl-photo-elysee-x-ecal-5/?date=2026-12-09)
-- 🎭 **Visite commentée – Visite pour les enseignant·e·s** — mer 9 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/visite-commentee-visite-pour-les-enseignant%c2%b7e%c2%b7s/?date=2026-12-09)
-- 👧 **L’art d’être un parasite – Kaléidosciences** — mer 9 déc — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/lart-detre-un-parasite-kaleidosciences/)
-- 🎭 **Projections XXL – Photo Elysée × ECAL** — jeu 10 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/projections-xxl-photo-elysee-x-ecal-5/?date=2026-12-10)
-- 🎵 **BEN plg** — jeu 10 déc — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261210/ben-plg/)
-- 🎭 **Visite commentée - Magie et Design x Opéra de Lausanne** — jeu 10 déc — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/visite-commentee-magie-et-design-x-opera-de-lausanne/)
-- 🎭 **Projections XXL – Photo Elysée × ECAL** — ven 11 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/projections-xxl-photo-elysee-x-ecal-5/?date=2026-12-11)
-- 🎵 **Ibeyi** — ven 11 déc — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261211/ibeyi-2/)
-- 🎭 **Projections XXL – Photo Elysée × ECAL** — sam 12 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/projections-xxl-photo-elysee-x-ecal-5/?date=2026-12-12)
-- 🎵 **Eluveitie** — sam 12 déc — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/evenements/20261212/eluveitie-4/)
-- 🎭 **Projections XXL – Photo Elysée × ECAL** — dim 13 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/projections-xxl-photo-elysee-x-ecal-5/?date=2026-12-13)
-- 🎭 **Visite commentée – Modèle animal. 200 ans de photographie** — dim 13 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/visite-commentee-modele-animal-200-ans-de-photographie/?date=2026-12-13)
-- 🎵 **Sébastien Tellier** — dim 13 déc — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261213/sebastien-tellier-2/)
-- 🎭 **Visite commentée – Magie et Design** — dim 13 déc — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/visite-commentee-magie-et-design/)
-- 🏛️ **Café-philo Fribourg #45** — dim 13 déc — Grand-Rue 67, 1700 Fribourg, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-fribourg-45)
-- 🎾 **Soirée du club — Squash Lausanne** — dim 13 déc — Squash Lausanne · lieu et inscription sur le site — [squashlausanne.ch](https://www.squashlausanne.ch/activit%C3%A9s)
-- 🎭 **Projections XXL – Photo Elysée × ECAL** — lun 14 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/projections-xxl-photo-elysee-x-ecal-5/?date=2026-12-14)
-- 🎭 **Projections XXL – Photo Elysée × ECAL** — mar 15 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/projections-xxl-photo-elysee-x-ecal-5/?date=2026-12-15)
-- 🗼 **Foucault aujourd’hui** — mar 15 déc — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/foucault-aujourdhui)
-- 🗼 **Le corps dans tous ses états** — mar 15 déc — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/le-corps-dans-tous-ses-etats)
-- 🗼 **L’historien face à l’animal : l’exemple du Moyen Âge** — mar 15 déc — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/lhistorien-face-a-lanimal-lexemple-du-moyen-age)
-- 🗼 **Penser d’ailleurs** — mar 15 déc — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/penser-dailleurs)
-- 🎵 **Alex Breahna** — mer 16 déc — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261216/alex-breahna/)
-- 🎵 **The Black Silk Burlesque Show 2026** — sam 19 déc — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/evenements/20261219/the-black-silk-burlesque-show-2026/)
-- 🗼 **À quoi bon la littérature ?** — mar 5 janv — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/a-quoi-bon-la-litterature)
-- 🗼 **Du génie à l’algorithme : les métamorphoses de l’artiste** — mar 5 janv — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/du-genie-a-lalgorithme)
-- 🗼 **Philosopher avec Cyrano** — mar 5 janv — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/philosopher-avec-cyrano)
-- 🗼 **Platon** — mar 5 janv — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/platon)
-- 🗼 **La rhétorique : savoir convaincre et décrypter les discours** — mar 12 janv — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/la-rhetorique-savoir-convaincre-et-decrypter-les-discours)
-- 🗼 **L’humanisme hypermoderne** — mar 12 janv — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/lhumanisme-hypermoderne)
-- 🗼 **Penser la condition historique** — mar 12 janv — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/penser-la-condition-historique)
-- 🗼 **Philosophie de la monnaie : l’origine des espèces !** — mar 12 janv — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/philosophie-de-la-monnaie)
-- 🎵 **Marguerite** — sam 16 janv — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270116/marguerite/)
-- 🎭 **Ada Lovelace, le soulèvement des machines** — mar 19 janv — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/ada-lovelace-le-soulevement-des-machines/)
-- 🗼 **À quoi bon la littérature ?** — mar 19 janv — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/a-quoi-bon-la-litterature)
-- 🗼 **Du génie à l’algorithme : les métamorphoses de l’artiste** — mar 19 janv — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/du-genie-a-lalgorithme)
-- 🗼 **Philosopher avec Cyrano** — mar 19 janv — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/philosopher-avec-cyrano)
-- 🗼 **Platon** — mar 19 janv — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/platon)
-- 🎵 **Altın Gün** — dim 24 janv — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270124/altin-gun-2/)
-- 🗼 **La rhétorique : savoir convaincre et décrypter les discours** — mar 26 janv — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/la-rhetorique-savoir-convaincre-et-decrypter-les-discours)
-- 🗼 **L’humanisme hypermoderne** — mar 26 janv — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/lhumanisme-hypermoderne)
-- 🗼 **Penser la condition historique** — mar 26 janv — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/penser-la-condition-historique)
-- 🗼 **Philosophie de la monnaie : l’origine des espèces !** — mar 26 janv — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/philosophie-de-la-monnaie)
-- 🗼 **À quoi bon la littérature ?** — mar 2 févr — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/a-quoi-bon-la-litterature)
-- 🗼 **Du génie à l’algorithme : les métamorphoses de l’artiste** — mar 2 févr — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/du-genie-a-lalgorithme)
-- 🗼 **Philosopher avec Cyrano** — mar 2 févr — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/philosopher-avec-cyrano)
-- 🗼 **Platon** — mar 2 févr — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/platon)
-- 🎵 **Jesse Welles** — mer 3 févr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270203/jesse-welles/)
-- 🎵 **Laibach** — sam 13 févr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270213/laibach-4/)
-- 🎵 **YEИDRY** — mar 16 févr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270216/ye%d0%b8dry/)
-- 🎵 **EIHWAR** — mer 17 févr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270217/eihwar/)
-- 🎵 **Cage the Elephant** — jeu 18 févr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270218/cage-the-elephant/)
-- 🗼 **La rhétorique : savoir convaincre et décrypter les discours** — mar 23 févr — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/la-rhetorique-savoir-convaincre-et-decrypter-les-discours)
-- 🗼 **L’humanisme hypermoderne** — mar 23 févr — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/lhumanisme-hypermoderne)
-- 🗼 **Penser la condition historique** — mar 23 févr — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/penser-la-condition-historique)
-- 🗼 **Philosophie de la monnaie : l’origine des espèces !** — mar 23 févr — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/philosophie-de-la-monnaie)
-- 🎵 **Los Bitchos & friends** — mer 24 févr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270224/los-bitchos-friends/)
-- 👧 **Le suisse allemand… c’est pas sorcier !** — mer 24 févr — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/le-suisse-allemand-cest-pas-sorcier/)
-- 🎵 **Cult of Luna** — ven 26 févr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/evenements/20270226/cult-of-luna-2/)
-- 🎵 **Acid Arab** — sam 27 févr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270227/acid-arab/)
-- 🗼 **À quoi bon la littérature ?** — mar 2 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/a-quoi-bon-la-litterature)
-- 🗼 **Du génie à l’algorithme : les métamorphoses de l’artiste** — mar 2 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/du-genie-a-lalgorithme)
-- 🗼 **Philosopher avec Cyrano** — mar 2 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/philosopher-avec-cyrano)
-- 🗼 **Platon** — mar 2 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/platon)
-- 🎵 **Léman** — ven 5 mars — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270305/leman/)
-- 🎵 **Royal Blood** — sam 6 mars — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270306/royal-blood-2/)
-- 🗼 **L’humanisme hypermoderne** — mar 9 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/lhumanisme-hypermoderne)
-- 🗼 **Penser la condition historique** — mar 9 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/penser-la-condition-historique)
-- 🗼 **Philosophie de la monnaie : l’origine des espèces !** — mar 9 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/philosophie-de-la-monnaie)
-- 👧 **Sur les traces de la police scientifique** — mer 10 mars — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/sur-les-traces-de-la-police-scientifique-2/)
-- 🎵 **Loïc Nottet** — jeu 11 mars — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270311/loic-nottet/)
-- 🎵 **Kemmler** — ven 12 mars — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270312/kemmler/)
-- 🎵 **Pomme** — sam 13 mars — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270313/pomme-3/)
-- 🗼 **À quoi bon la littérature ?** — mar 16 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/a-quoi-bon-la-litterature)
-- 🗼 **Du génie à l’algorithme : les métamorphoses de l’artiste** — mar 16 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/du-genie-a-lalgorithme)
-- 🗼 **Philosopher avec Cyrano** — mar 16 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/philosopher-avec-cyrano)
-- 🗼 **Platon** — mar 16 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/platon)
-- 🎵 **Isaac Delusion** — mer 17 mars — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270317/isaac-delusion-3/)
-- 🎵 **KMFDM** — jeu 18 mars — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270318/kmfdm/)
-- 🎵 **Nuit Incolore** — ven 19 mars — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270319/nuit-incolore-2/)
-- 🗼 **L’humanisme hypermoderne** — mar 23 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/lhumanisme-hypermoderne)
-- 🗼 **Penser la condition historique** — mar 23 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/penser-la-condition-historique)
-- 🗼 **Philosophie de la monnaie : l’origine des espèces !** — mar 23 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/philosophie-de-la-monnaie)
-- 🎵 **aupinard** — jeu 25 mars — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270325/aupinard/)
-- 🗼 **À quoi bon la littérature ?** — mar 30 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/a-quoi-bon-la-litterature)
-- 🗼 **Du génie à l’algorithme : les métamorphoses de l’artiste** — mar 30 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/du-genie-a-lalgorithme)
-- 🗼 **Philosopher avec Cyrano** — mar 30 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/philosopher-avec-cyrano)
-- 🗼 **Platon** — mar 30 mars — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/platon)
-- 🎵 **French 79** — ven 2 avr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270402/french-79-2/)
-- 🎵 **The Stranglers** — ven 9 avr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270409/the-stranglers-2/)
-- 🎵 **Zélie** — sam 10 avr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270410/zelie/)
-- 👧 **Mille et une fourmis** — mer 14 avr — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/mille-et-une-fourmis/)
-- 🎵 **Ministry** — sam 17 avr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270417/ministry/)
-- 🗼 **L’humanisme hypermoderne** — mar 20 avr — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/lhumanisme-hypermoderne)
-- 🗼 **Penser la condition historique** — mar 20 avr — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/penser-la-condition-historique)
-- 🗼 **Philosophie de la monnaie : l’origine des espèces !** — mar 20 avr — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/philosophie-de-la-monnaie)
-- 🎵 **Metallikids** — dim 25 avr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270425/metallikids/)
-- 👧 **Sport et égalité : amis ou ennemis ?** — mer 28 avr — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/sport-et-egalite-amis-ou-ennemis-programme-plus/)
-- 🎵 **RODRIGO Y GABRIELA** — jeu 29 avr — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270429/rodrigo-y-gabriela-3/)
-- 🎵 **Oh Wonder** — sam 1 mai — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270501/oh-wonder-2/)
-- 🎵 **DragonForce** — mar 4 mai — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270504/dragonforce-2/)
-- 👧 **À l’eau ! On se mouille pour nos cours d’eau** — mer 12 mai — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/a-leau-on-se-mouille-pour-nos-cours-deau-2/)
-- 🎵 **Lambrini Girls** — sam 22 mai — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20270522/lambrini-girls/)
-- 🎵 **The Lottery Winners** — sam 30 oct — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20271030/the-lottery-winners/)
+**🎻 Ladies First** — mer 2 sept, Salle Paderewski (Montbenon). Duo violon-piano, compositrices à l'honneur. → [tempslibre.ch](https://www.tempslibre.ch/vaud/concerts/452653-ladies-first)
 
-## 💡 Suggestions personnalisées pour Régis
+**🎷 Jazz au Peuple, 12e édition** — 4 & 5 sept, Parc du Conservatoire, Nyon. L'Orage, Manon Mullener & Yuri Hernández, Bureau Bureau, divr, Vincent Courtois & Colin Vallon, ARBRE. Prix libre, pas de réservation. → [jazzaupeuple.ch](https://jazzaupeuple.ch/)
 
+**💭 Atelier philo « à la rencontre d'Isao Takahata »** — sam 5 sept, mudac. Philo pour enfants autour des studios Ghibli. → [tempslibre.ch](https://www.tempslibre.ch/vaud/expositions/452669-atelier-philo-la-rencontre-d-isao-taka-hata)
 
-## 📝 Décisions & notes d'exécution
+**📚 Un humour de Proust — Denis Podalydès** — ven 11 sept 19h30, Chapelle de Champittet, Pully. Avec Jean-Philippe Collard au piano. 40.- / 20.-, réservation obligatoire. → [tempslibre.ch](https://www.tempslibre.ch/vaud/spectacles/452030-un-humour-de-proust)
 
-- Sources officielles : Docks, Café-philo Romandie, mudac, Photo Elysée, UNIL, Squash Lausanne et Mardis de la Philo.
-- Vérifier les places et horaires sur la fiche organisateur. Les soirées squash suivent le rendez-vous hebdomadaire annoncé, sous réserve de confirmation.
-- Généré automatiquement depuis la source locale `sentinelle_relay/source.json`.
+**🕵️ À la recherche du trésor de l'évêque** — sam 12 sept 15h, Musée Historique Lausanne. Chasse au trésor 6-10 ans, Journées européennes du patrimoine. Gratuit sur inscription (musee.historique@lausanne.ch), goûter offert. → [tempslibre.ch](https://www.tempslibre.ch/vaud/juniors/451823-la-recherche-du-tr-sor-de-l-v-que)
+
+**🏛️ Ivan Illich, une pensée radicale** — mer 16 sept 20h, Maison de Quartier Sous-gare. Conférence de Thierry Paquot, Groupe vaudois de philosophie. Entrée libre. → [philo-vaud.ch](https://philo-vaud.ch/ivan-illich-une-pensee-radicale/)
+
+**🇨🇭 Label Suisse #1** — ven 18 sept dès 19h, Les Docks. Eckhart, Crimer, Lone Assembly. Entrée libre (festival 18–20 sept). → [docks.ch](https://www.docks.ch/evenement/evenements/20260918/label-suisse-1-3/)
+
+---
+
+## 💡 Suggestions personnalisées
+
+**1. Le trésor de l'évêque, c'est le meilleur coup famille du mois.** Gratuit, 1h30, chasse au trésor calibrée 6-10 ans, avec goûter. Mais l'inscription se fait par mail et les places partent : à écrire cette semaine, pas le 10 septembre. C'est aussi la seule sortie « Cléo » du lot qui coche à la fois culture et coparenting sans logistique lourde.
+
+**2. Objectif sorties (0/12) : trois soirées gratuites dans les 10 jours.** Prés-de-Vidy jeudi, Funky Town le week-end, Babouinade lundi. Aucune ne coûte rien et aucune ne dure plus de deux heures. Si l'objectif « 12 sorties » reste à zéro fin août alors qu'on est à quatre mois de la fin d'année, ce n'est plus un problème de programmation mais de décision : il faut en bloquer deux dans l'agenda maintenant.
+
+**3. Ivan Illich le 16 septembre est un vrai repérage pour le Café philo Pictet.** Thierry Paquot est un intervenant reconnu et le format Groupe vaudois de philosophie (Maison de quartier, entrée libre, conférence + discussion) est exactement le modèle que le projet Goal #23 pourrait copier. Y aller en observateur — organisation de la salle, gestion de la parole, taille du public — vaut plus que trois heures de réflexion théorique sur le format.
+
+---
+
+## ⚠️ Notes d'exécution
+
+- **Squash : aucun événement retenu.** squashromandie.ch est en maintenance complète (« Nous préparons une toute nouvelle version du site »), les anciennes URLs de calendrier renvoient une page vide. L'ancienne entrée « Interclubs 1er tour du 23 septembre » a donc été retirée de l'app — la date circulait mais l'URL n'est plus vérifiable, et la règle est stricte. Le calendrier interclubs est désormais sur [my.squash.ch](https://my.squash.ch) (accès licencié) : à vérifier depuis ton compte.
+- **Déploiement :** le `curl` direct vers l'API Netlify a échoué (HTTP 000, réseau du bac à sable bloqué). Bascule automatique sur le connecteur MCP Netlify — déploiement réussi, `state: ready`.
+- **ZIP :** le chemin de travail indiqué dans le fichier de tâche (`/sessions/zen-exciting-mccarthy/`) n'existe plus (session périmée). ZIP construit dans `/tmp` puis copié vers `~/Downloads/deploy.zip`. Contenu vérifié : `index.html` à la racine.
+- **Kitesurf :** aucune sortie ou stage vérifié trouvé cette semaine sur la région lémanique.
