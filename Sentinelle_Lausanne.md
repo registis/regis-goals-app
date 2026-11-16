@@ -1,30 +1,17 @@
-# 🔭 Sentinelle Lausanne — Mise à jour du 2026-11-12
+# 🔭 Sentinelle Lausanne — Mise à jour du 2026-11-16
 
 **Déploiement Netlify :** ⏳ En attente de push GitHub ou déploiement auto — https://regis-goals-app.netlify.app
-**Événements trouvés :** 169 événements à venir
+**Événements trouvés :** 166 événements à venir
 
 ## ⚡ Cette semaine
 
-- 🎵 **MICHAEL SCHENKER GROUP** — jeu 12 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261112/michael-schenker-group/)
 - 👧 **Ateliers « Graines d’entrepreneurs »** *(nouveau)* — mer 23 sept — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/ateliers-graines-dentrepreneurs-2026-2027/)
-- 👥 **Entre guerre et paix : quel rôle pour l’économie et la géopolitique ?** — jeu 12 nov — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/entre-guerre-et-paix-quel-role-pour-leconomie-et-la-geopolitique/)
-- 🎵 **Psychedelic Porn Crumpets** — ven 13 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261113/psychedelic-porn-crumpets/)
-- 🎵 **Wallace Cleaver** — sam 14 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261114/wallace-cleaver/)
-- 👧 **L’histoire cachée de l’informatique et des jeux vidéo** — sam 14 nov — UNIL / Lausanne · lieu précis sur la fiche — [explore-unil.ch](https://www.explore-unil.ch/evenement/lhistoire-cachee-de-linformatique-et-des-jeux-video-programme-plus/)
-- 🎭 **Visite commentée – Magie et Design** — dim 15 nov — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/visite-commentee-magie-et-design/)
-- 🎭 **Atelier films magiques en stop motion – Magie et Design** — dim 15 nov — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/atelier-films-magiques-en-stop-motion-magie-et-design/)
-- 🏛️ **Café-philo Neuchâtel #13** — dim 15 nov — Rue Abram-Louis-Breguet 13, 2000 Neuchâtel, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-neuchatel-13)
-- 🏛️ **Café-philo Fribourg #44** — dim 15 nov — Grand-Rue 67, 1700 Fribourg, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-fribourg-44)
-- 🎾 **Soirée du club — Squash Lausanne** — dim 15 nov — Squash Lausanne · lieu et inscription sur le site — [squashlausanne.ch](https://www.squashlausanne.ch/activit%C3%A9s)
 - 🎵 **Portugal. The Man** — mar 17 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261117/portugal-the-man-2/)
 - 🗼 **Foucault aujourd’hui** — mar 17 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/foucault-aujourdhui)
 - 🗼 **Le corps dans tous ses états** — mar 17 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/le-corps-dans-tous-ses-etats)
 - 🗼 **L’historien face à l’animal : l’exemple du Moyen Âge** — mar 17 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/lhistorien-face-a-lanimal-lexemple-du-moyen-age)
 - 🗼 **Penser d’ailleurs** — mar 17 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/penser-dailleurs)
 - 🎵 **Boy Harsher** — mer 18 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/evenements/20261118/boy-harsher-2/)
-
-## 📅 Prochainement
-
 - 🎭 **Parcours immersif : quand la magie tourne mal** *(nouveau)* — jeu 19 nov — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/parcours-immersif-quand-la-magie-tourne-mal/)
 - 🎭 **Micro-visite – Magie et Design** — jeu 19 nov — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/parcours-immersif-quand-la-magie-tourne-mal-4/)
 - 🎵 **Piche** — ven 20 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261120/piche/)
@@ -33,6 +20,9 @@
 - 🎭 **Atelier impression monotype – Magie et Design** — dim 22 nov — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/atelier-impression-monotype-magie-et-design/)
 - 🏛️ **Café-philo Lausanne #32** — dim 22 nov — Rle du Lapin-Vert 2, 1005 Lausanne, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-lausanne-32)
 - 🎾 **Soirée du club — Squash Lausanne** — dim 22 nov — Squash Lausanne · lieu et inscription sur le site — [squashlausanne.ch](https://www.squashlausanne.ch/activit%C3%A9s)
+
+## 📅 Prochainement
+
 - 🎵 **Tori Kelly** — mar 24 nov — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261124/tori-kelly/)
 - 🗼 **Arts et représentation** — mar 24 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/arts-et-representation)
 - 🗼 **Qui est l’ennemi ?** — mar 24 nov — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/qui-est-lennemi)
@@ -88,9 +78,16 @@
 - 🎭 **Visite commentée - Magie et Design x Opéra de Lausanne** — jeu 10 déc — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/visite-commentee-magie-et-design-x-opera-de-lausanne/)
 - 🎭 **Projections XXL – Photo Elysée × ECAL** — ven 11 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/projections-xxl-photo-elysee-x-ecal-5/?date=2026-12-11)
 - 🎵 **Ibeyi** — ven 11 déc — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261211/ibeyi-2/)
+- 🎭 **Projections XXL – Photo Elysée × ECAL** — sam 12 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/projections-xxl-photo-elysee-x-ecal-5/?date=2026-12-12)
 - 🎵 **Eluveitie** — sam 12 déc — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/evenements/20261212/eluveitie-4/)
+- 🎭 **Projections XXL – Photo Elysée × ECAL** — dim 13 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/projections-xxl-photo-elysee-x-ecal-5/?date=2026-12-13)
+- 🎭 **Visite commentée – Modèle animal. 200 ans de photographie** — dim 13 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/visite-commentee-modele-animal-200-ans-de-photographie/?date=2026-12-13)
 - 🎵 **Sébastien Tellier** — dim 13 déc — Les Docks, Lausanne — [docks.ch](https://www.docks.ch/evenement/concerts/20261213/sebastien-tellier-2/)
+- 🎭 **Visite commentée – Magie et Design** — dim 13 déc — mudac, Plateforme 10, Lausanne — [mudac.ch](https://mudac.ch/events/visite-commentee-magie-et-design/)
 - 🏛️ **Café-philo Fribourg #45** — dim 13 déc — Grand-Rue 67, 1700 Fribourg, Suisse — [cafe-philo.ch](https://www.cafe-philo.ch/event-details/cafe-philo-fribourg-45)
+- 🎾 **Soirée du club — Squash Lausanne** — dim 13 déc — Squash Lausanne · lieu et inscription sur le site — [squashlausanne.ch](https://www.squashlausanne.ch/activit%C3%A9s)
+- 🎭 **Projections XXL – Photo Elysée × ECAL** — lun 14 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/projections-xxl-photo-elysee-x-ecal-5/?date=2026-12-14)
+- 🎭 **Projections XXL – Photo Elysée × ECAL** — mar 15 déc — Photo Elysée, Plateforme 10, Lausanne — [elysee.ch](https://elysee.ch/evenements/projections-xxl-photo-elysee-x-ecal-5/?date=2026-12-15)
 - 🗼 **Foucault aujourd’hui** — mar 15 déc — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/foucault-aujourdhui)
 - 🗼 **Le corps dans tous ses états** — mar 15 déc — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/le-corps-dans-tous-ses-etats)
 - 🗼 **L’historien face à l’animal : l’exemple du Moyen Âge** — mar 15 déc — 35 bis rue de Sèvres, Paris 6e / Zoom — [lesmardisdelaphilo.com](https://www.lesmardisdelaphilo.com/cycle-de-conference/lhistorien-face-a-lanimal-lexemple-du-moyen-age)
